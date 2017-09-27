@@ -1,0 +1,102 @@
+.main-box {
+    background: url("../img/4.png") no-repeat left top , url("../img/3.png") no-repeat right top ;
+    background-color: #101115;
+    background-size: auto 90% , auto 90%;
+}
+
+.main-box:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 2px #000;
+    background-color: #ffffff1a;
+}
+
+#welcome {
+    font-family: "tob";
+    color: #CE1B42;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 1px 2px 5px #000;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+}
+
+.welcome-anim {
+    transform: scale(1.5);
+    transition: transform 2s ;
+}
+
+
+@font-face {
+    font-family: "tob";
+    src: url("../fonts/Thinking_of_Betty.ttf");
+}
+
+.acs-btn-box {
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 60px;
+    /*outline: 1px solid white;*/
+    text-align: center;
+}
+
+.acs-btn {
+    background-color: #CE1B42;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px #000;
+    font-size: 27px;
+    font-weight: bold;
+    position: relative;
+    margin: 0px 5px;
+    opacity: 0.5;
+    color: #101115;
+}
+
+.access-anim {
+    transform: perspective(10px) rotateX(2deg);
+    transition: transform 0.5s;
+
+}
+
+.active {
+    color: #EAC784;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.active::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    z-index: 1;
+    box-shadow: inset 0 0 0 3px #EAC784;
+    animation: clip-anim 1s linear infinite;
+}
+
+@keyframes clip-anim {
+    0%,100% {
+        clip: rect(-0px 200px 0px 0px);
+    }
+    25% {
+        clip: rect(0px 0px 60px -0px);
+    }
+    50% {
+        clip: rect(60px 200px 60px 0px);
+    }
+    75% {
+        clip: rect(0px 200px 60px 200px);
+    }
+}

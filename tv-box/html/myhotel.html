@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/myhotel.css">
+    <title>MYHOTEL</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-box">
+            <div class="ht-left">
+                <ul class="ht-l-ul">
+                    <li class="ht-l-li"><span>酒店介绍</span></li>
+                    <li class="ht-l-li"><span>客房信息</span></li>
+                </ul>
+            </div>
+            <div class="ht-right">
+                <div class="ht-right-item">
+                    <ul class="ht-r-ul">
+                        <li class="ht-r-li">
+                            <h1 class="ht-r-h">北京天泰宾馆</h1>
+                            <p class="ht-r-p">
+                                北京天泰宾馆是以会议、宴会、住宿为主的五星级标配宾馆，酒店位于北京市西城区，繁华中地段，毗邻长安街。东连北京国际金融街、西单商业圈等繁华商业区。西邻国家纪委、工商总局、广电总局等多个国家部委机关，与天安门、首都博物馆、军事博物馆等名胜风景不过咫尺之遥。距北京站、北京西站、北京北站、北京南站都仅十几分钟车程，距首都国际机场仅40分钟车程，一号线地铁及多条公交线路都经过于此，交通四通八达。地理位置优越，是旅游和商务人士的首选。
+                            </p>
+                        </li>
+                        <li class="ht-r-li">
+                            <h1 class="ht-r-h">北京天泰宾馆</h1>
+                            <p class="ht-r-p">
+                                <img class="ht-r-img" src="../img/tiantai.png" height="198" width="555" alt="天泰宾馆">
+                            </p>
+                        </li>
+                    </ul>
+                    <ol class="ht-r-ol">
+                        <!-- 预留结构 动态生成
+                        <li class="active"></li>
+                        <li></li>
+                         -->
+                    </ol>
+                </div>
+                <div class="ht-right-item">
+                    <ul class="ht-r-ul">
+                        <li class="ht-r-li">
+                            <h1 class="ht-r-h">豪华套房</h1>
+                            <p class="ht-r-p">
+                                <img class="ht-r-img" src="../img/hhtf.jpg" height="250" width="45%" style="display: inline-block" alt="">
+                                <span style="display: inline-block; vertical-align: 100%; width: 45%; padding-left: 2em;line-height: 1.8em;">风格独特的单卧室套房位于较高楼层，是娱乐和举家畅游的理想下榻之所。宽敞舒适的起居室/餐厅，餐桌最多可容纳六位客人。厨房包含咖啡机，冰箱，水槽，微波炉。卧室有大型步入式衣帽间。</span>
+                            </p>
+                        </li>
+                        <li class="ht-r-li">
+                            <h1 class="ht-r-h">简约双人间</h1>
+                            <p class="ht-r-p">
+                                <img class="ht-r-img" src="../img/srj.png" height="250" width="600" alt="">
+                            </p>
+                        </li>
+                        <li class="ht-r-li">
+                            <h1 class="ht-r-h">单人间</h1>
+                            <p class="ht-r-p">
+                                <img class="ht-r-img" src="../img/drj.png" height="250" width="600" alt="">
+                            </p>
+                        </li>
+                    </ul>
+                    <ol class="ht-r-ol">
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            var obj = {
+                "init": function() {
+                    $(".ht-l-li").eq(0).addClass('active');
+                    this.addActive(0);
+                },
+                "addActive": function(index) {
+                    $(".ht-right-item").eq(index).addClass("active").find(".ht-r-li").eq(0).addClass("active");
+                    this.btActive(index);
+                    this.changePage(index);
+                },
+                "btActive": function(index) {
+                    $(".ht-right-item").eq(index).find(".ht-r-ol").html("");
+                    for (var i = 0; i < $(".ht-right-item").eq(index).find(".ht-r-li").length; i++) {
+                        $("<li></li>").appendTo($(".ht-right-item").eq(index).find(".ht-r-ol"));
+                        $($(".ht-right-item").eq(index).find(".ht-r-ol")).find("li").eq(0).addClass("active");
+                    };
+                },
+                "changePage": function(index) {
+                    $(".ht-right-item").eq(index).siblings().find(".ht-r-li").removeClass("active");
+                    $($(".ht-right-item").eq(index).find(".ht-r-ol")).find("li").on("click", function() {
+                        $($(".ht-right-item").eq(index).find(".ht-r-ol")).find("li").removeClass("active");
+                        $(this).addClass("active");
+                        var pageIndex = $(this).index();
+                        $(".ht-right-item").eq(index).find(".ht-r-li").removeClass("active");
+                        $(".ht-right-item").eq(index).find(".ht-r-li").eq(pageIndex).addClass("active");
+                    });
+                }
+
+            };
+
+            obj.init();
+            $(".ht-l-li").on("click", function() {
+                $(".ht-l-li").removeClass("active");
+                $(".ht-r-li").removeClass("active");
+                $(this).addClass("active");
+                var indexN = $(".ht-l-li.active").index();
+                $(".ht-right-item").removeClass("active");
+                obj.addActive(indexN);
+            });
+        });
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <title>LIST</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-box">
+            <div class="ls-left"></div>
+            <div class="ls-item">
+                <ul class="ls-item-ul">
+                    <li class="ls-item-li active" data-name="myhotel"><span>我的酒店</span><i></i></li>
+                    <li class="ls-item-li" data-name="entertainment"><span>客房娱乐</span><i></i></li>
+                    <li class="ls-item-li" data-name="service"><span>酒店服务</span><i></i></li>
+                    <li class="ls-item-li" data-name="assistant"><span>旅行助手</span><i></i></li>
+                    <li class="ls-item-li" data-name="setting"><span>更多设置</span><i></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".ls-item-li").hover(function() {
+            $(".ls-item-li").removeClass("active");
+            $(this).addClass("active");
+            var dataName = $(this).data("name");
+            $(this).click(function() {
+                location = "../html/" + dataName + ".html";
+                // location = "http://htmlpreview.github.io/?https://github.com/zxs0827/tv-box/blob/master/html/" + dataName + ".html";
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>

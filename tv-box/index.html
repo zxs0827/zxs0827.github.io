@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/star.css">
+    <title>index</title>
+</head>
+
+<body>
+    <div class="star-box" id="star-night"></div>
+    <div class="wrapper">
+        <div class="main-box">
+            <div id="welcome">Welcome</div>
+            <div class="acs-btn-box">
+                <div class="acs-btn active" id="ch-btn">中文</div>
+                <div class="acs-btn" id="en-btn">English</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/star.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".acs-btn ").hover(function() {
+            $(".acs-btn").removeClass("active");
+            $(this).addClass("active");
+
+            $(".active").click(function(event) {
+                $(this).siblings().css("display", "none").end().addClass("access-anim");
+                $("#welcome").addClass("welcome-anim");
+
+                $(".main-box").animate({opacity: 0},2000);
+
+                setTimeout(function(){
+                	// location = "http://htmlpreview.github.io/?https://github.com/zxs0827/tv-box/blob/master/html/list.html"; 展示使用
+                    location = "./html/list.html";
+                },2000);
+            });
+        });
+
+
+    });
+    </script>
+</body>
+
+</html>

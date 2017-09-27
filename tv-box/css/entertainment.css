@@ -1,0 +1,188 @@
+body {
+    counter-reset: ci;
+}
+
+.music-box {
+    width: 70%;
+    height: 100%;
+    float: left;
+    /*outline: 1px dashed #fff;*/
+    position: relative;
+    background-image: url("../img/5.png");
+    background-repeat: no-repeat;
+    background-position: left -60px center;
+    background-size: 20%;
+}
+
+.music-list {
+    width: 30%;
+    height: 100%;
+    float: left;
+    /*outline: 1px dashed #fff;*/
+    box-shadow: 0px 0px 10px #000;
+    position: relative;
+}
+
+.music-list ul {
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    /*background-image: url("../img/noise.png");*/
+}
+
+.music-list ul::after {
+    content: "";
+    width: 100%;
+    height: 10px;
+    /*background-color: #EAC784;*/
+    background-image: linear-gradient(#101111 0%, #EAC78499 100%);
+    border-radius: 0px 0px 5px 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.music-list ul li {
+    text-align: left;
+    font-size: 20px;
+    text-indent: 2em;
+    line-height: 50px;
+    cursor: pointer;
+    text-shadow: 1px 0px 1px #000;
+}
+
+.music-list ul li::before {
+    content: counter(ci) " . ";
+    counter-increment: ci;
+}
+
+.music-list ul li.active {
+    background-color: #EAC784CC;
+    background-image: url("../img/noise.png");
+    color: #101111;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    position: relative;
+}
+
+li.active div.current {
+    width: 20px;
+    height: 20px;
+    background-color: #BEA26E;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    border-radius: 2px;
+    margin: 0px 5px;
+    box-shadow: 0px 0px 3px #101115;
+    background-image: url("../img/noise.png");
+}
+
+div.current::after {
+    content: "";
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.active.play .current::after {
+    border-left: 2px solid #222;
+    border-right: 2px solid #222;
+}
+
+.active.pause .current::after {
+    width: 0px;
+    height: 0px;
+    border-left: 6px solid #222;
+    border-right: none;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.music-card {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #101111;
+    background-image: linear-gradient(#181818 0%, #323232 50%, #171717 100%);
+    box-shadow: 0px 0px 20px 2px #000 inset, 0px 0px 10px #000;
+    border-radius: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    top: -20px;
+    /*animation: rotate-card 4s linear infinite;*/
+}
+
+.card-animation {
+    animation: rotate-card 4s linear infinite;
+}
+
+@keyframes rotate-card {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.music-card::before {
+    content: "";
+    width: 20%;
+    height: 20%;
+    background-color: #F2F1EC;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    box-shadow: 2px 2px 20px #000 inset, 0px 0px 5px #000;
+}
+
+.music-card::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    box-shadow: 1px 1px 2px #000 inset;
+}
+
+.music-point {
+    background-image: url("../img/musci-p.png");
+    width: 173px;
+    height: 300px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    z-index: 5;
+    transform-origin: 17.341% 89.3333% 0px;
+    /*transform: rotate(50deg);*/
+    /*transition: transform 2s;*/
+}
+
+.poin-animtion {
+    animation: rotate-point 2s linear forwards;
+}
+
+@keyframes rotate-point {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(50deg);
+    }
+}

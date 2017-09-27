@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/entertainment.css">
+    <title>MUSIC</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-box">
+            <div class="music-box">
+                <div class="music-point"></div>
+                <div class="music-card"></div>
+                <video id="music" src=""></video>
+            </div>
+            <div class="music-list">
+                <ul>
+                    MUSIC .
+                    <li><span>再次见到你</span></li>
+                    <li><span>背叛情歌</span></li>
+                    <li><span>你怎么舍得我难过</span></li>
+                    <li><span>我好想你</span></li>
+                    <li><span>有没有人告诉你</span></li>
+                    <li><span>这一分钟</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".music-list ul li").click(function() {
+            if ($(this).hasClass("active")) {
+                if ($(this).hasClass("play")) {
+                    $(this).removeClass("play").addClass("pause");
+                    musicAnimtion("pause");
+                    musicContorl("pause");
+                } else {
+                    $(this).removeClass("pause").addClass("play");
+                    musicAnimtion("play");
+                    musicContorl("play");
+                }
+            } else {
+                $(".music-list ul li").attr("class", "");;
+                $(this).addClass("active play");
+                $(".music-list").find(".current").remove();
+                $(".active").append("<div class='current'></div>");
+
+                musicAnimtion("restart");
+                musicContorl("restart");
+            }
+
+
+        });
+
+        //音乐动画
+        function musicAnimtion(state) {
+
+            if (state == "play") {
+                $(".music-point").css({
+                    "transform": "rotate(50deg)",
+                    "animation-play-state": "running"
+                });
+
+                $(".music-card").css({
+                    "animation": "rotate-card 4s linear infinite running"
+                });
+            } else if (state == "pause") {
+                $(".music-point").css({
+                    "animation-play-state": "paused"
+                });
+
+                $(".music-card").css({
+                    "animation-play-state": "paused"
+                });
+            } else if (state == "restart") {
+                $(".music-point").removeClass("poin-animtion");
+                setTimeout(function() {
+                    $(".music-point").addClass("poin-animtion");
+                }, 20);
+
+                $(".music-card").removeClass("card-animation");
+                setTimeout(function() {
+                    $(".music-card").addClass("card-animation");
+                }, 20);
+            }
+
+        }
+
+        //音乐播放
+        function musicContorl(state) {
+            var music = $("#music");
+            // var music = document.querySelector("#music");
+            var currentMusic = $(".active");
+            if (state == "restart") {
+                var musicName = currentMusic.children("span").html(); // 音乐名称
+
+                music.attr("src", "../media/" + musicName + ".mp3");
+                music[0].play();
+
+                // 可以播放
+                music[0].oncanplay = function() {
+                    var musicTime = this.duration; // 音乐时长
+                    var minutes = parseInt(musicTime / 60, 10) < 10 ? "0" + parseInt(musicTime / 60, 10) : "" + parseInt(musicTime / 60, 10);
+                    var seconds = parseInt(musicTime % 60, 10);
+                    var currentTime;
+                    var position; //滑块位置
+
+                    //时时
+                    music[0].addEventListener("timeupdate", function() {
+                        currentTime = music[0].currentTime;
+                        position = parseInt(parseFloat(currentTime / musicTime) * 90);
+
+                        $(".current").css("left", position + "%");
+                    });
+
+                    // 播放结束
+                    music[0].addEventListener("ended",function(){
+                    	musicAnimtion("pause");
+                    	$("li.active").removeClass("play").addClass("pause");
+                    });
+                };
+
+            } else if (state == "play") {
+                music[0].play();
+            } else if (state == "pause") {
+                music[0].pause();
+            }
+        }
+    });
+    </script>
+</body>
+
+</html>
