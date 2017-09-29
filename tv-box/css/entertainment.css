@@ -183,3 +183,11 @@ div.current::after {
         transform: rotate(50deg);
     }
 }
+
+#music {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
