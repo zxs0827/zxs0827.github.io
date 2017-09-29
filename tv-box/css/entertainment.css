@@ -6,7 +6,6 @@ body {
     width: 70%;
     height: 100%;
     float: left;
-    /*outline: 1px dashed #fff;*/
     position: relative;
     background-image: url("../img/5.png");
     background-repeat: no-repeat;
@@ -18,7 +17,6 @@ body {
     width: 30%;
     height: 100%;
     float: left;
-    /*outline: 1px dashed #fff;*/
     box-shadow: 0px 0px 10px #000;
     position: relative;
 }
@@ -27,15 +25,13 @@ body {
     font-size: 30px;
     text-align: center;
     line-height: 100px;
-    /*background-image: url("../img/noise.png");*/
 }
 
 .music-list ul::after {
     content: "";
     width: 100%;
     height: 10px;
-    /*background-color: #EAC784;*/
-    background-image: linear-gradient(#101111 0%, #EAC78499 100%);
+    background-image: linear-gradient(#101111 0%, #EAC784 100%);
     border-radius: 0px 0px 5px 0px;
     position: absolute;
     bottom: 0px;
@@ -57,10 +53,11 @@ body {
 }
 
 .music-list ul li.active {
-    background-color: #EAC784CC;
+    background-color: rgba(234, 199, 132, 0.8);
     background-image: url("../img/noise.png");
     color: #101111;
     height: 60px;
+    line-height: 60px;
     margin-bottom: 10px;
     border-radius: 2px;
     position: relative;

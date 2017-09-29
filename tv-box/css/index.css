@@ -12,7 +12,7 @@
     top: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 10px 2px #000;
-    background-color: #ffffff1a;
+    background-color: rgba(255,255,255,0.1);
 }
 
 #welcome {
