@@ -184,10 +184,21 @@ div.current::after {
     }
 }
 
-#music {
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+/*video 默认按钮禁用*/
+
+video::-webkit-media-controls-play-button {
+    display: none;
+}
+
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); 
 }
