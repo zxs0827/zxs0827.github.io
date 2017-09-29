@@ -191,6 +191,7 @@ div.current::after {
 .poin-animtion {
     -webkit-animation: rotate-point 2s linear forwards;
             animation: rotate-point 2s linear forwards;
+            
 }
 
 @-webkit-keyframes rotate-point {

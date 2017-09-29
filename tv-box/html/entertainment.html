@@ -62,19 +62,24 @@
             if (state == "play") {
                 $(".music-point").css({
                     "transform": "rotate(50deg)",
-                    "animation-play-state": "running"
+                    "-webkit-transform": "rotate(50deg)",
+                    "animation-play-state": "running",
+                    "-webkit-animation-play-state": "running"
                 });
 
                 $(".music-card").css({
-                    "animation": "rotate-card 4s linear infinite running"
+                    "animation": "rotate-card 4s linear infinite running",
+                    "-webkit-animation": "rotate-card 4s linear infinite running"
                 });
             } else if (state == "pause") {
                 $(".music-point").css({
                     "animation-play-state": "paused"
+                    "-webkit-animation-play-state": "paused"
                 });
 
                 $(".music-card").css({
                     "animation-play-state": "paused"
+                    "-webkit-animation-play-state": "paused"
                 });
             } else if (state == "restart") {
                 $(".music-point").removeClass("poin-animtion");
