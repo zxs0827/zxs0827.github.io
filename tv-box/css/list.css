@@ -65,8 +65,8 @@
 }
 
 .ls-item-li {
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.05))), url("../img/2.png") bottom center;
-    background: linear-gradient( #fff0, #ffffff1a), url("../img/2.png") bottom center;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.1))), url("../img/2.png") bottom center;
+    background: linear-gradient( #fff0, #rgba(255, 255, 255, 0.1)), url("../img/2.png") bottom center;
     display: block;
     width: 20%;
     float: left;
@@ -111,8 +111,8 @@
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
     transition: transform 0.3s, -webkit-transform 0.3s;
-    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.05))), url("../img/1.png") bottom center;
-    background: linear-gradient( #fff0, #ffffff1a), url("../img/1.png") bottom center;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.1))), url("../img/1.png") bottom center;
+    background: linear-gradient( #fff0, #rgba(255, 255, 255, 0.1)), url("../img/1.png") bottom center;
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: auto auto, 120% auto;

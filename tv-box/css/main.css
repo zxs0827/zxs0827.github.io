@@ -45,18 +45,24 @@ ul {
 }
 
 
+
 /*阴影样式*/
+
 .box-shadow {
     box-shadow: 0 4px 10px #000;
 }
 
 
+
 /*二级黑色*/
+
 .bk-s-color {
-    background-color: #ffffff1a;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
+
 /*字体颜色*/
+
 .font-color {
     color: #EAC784;
 }
