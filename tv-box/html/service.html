@@ -95,7 +95,15 @@
                 </path>
                 <!-- 波浪 -->
                 <path id="wave" d="M35 80 Q 52.75 100 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z ">
-                    <animate dur="5s" repeatCount="indefinite" attributeName="d" attributeType="XML" values="M35 80 Q 52.75 100 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z ;M35 80 Q 52.75 60 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z ;M35 80 Q 52.75 100 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z " calcMode="spline" keyTimes="0 ;0.5; 1" keySplines=".5 0 .1 1;.5 0 .1 1"></animate>
+                    <!-- 存在兼容问题 -->
+                    <!-- <animate dur="5s" repeatCount="indefinite" attributeName="d" attributeType="XML" values="M35 80 Q 52.75 100 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z ;M35 80 Q 52.75 60 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z ;M35 80 Q 52.75 100 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z " calcMode="spline" keyTimes="0 ;0.5; 1" keySplines=".5 0 .1 1;.5 0 .1 1"></animate> -->
+                    <animate 
+                        attributeName="d"
+                        attributeType ="XML"
+                        dur = "3s"
+                        repeatCount = "indefinite"
+                        values="M35 80 Q 52.75 100 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z ;M35 80 Q 52.75 60 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z ;M35 80 Q 52.75 100 , 71.5 80 T 109 80 A 37.5 37.5 0 0 1 35 80 z "
+                        />
                 </path>
                 <!-- M: move to 移动画笔 但不会划线-->
                 <!-- 能划线的命令有三个 -->
@@ -127,7 +135,7 @@
     <script type="text/javascript" src="../js/vivus.js"></script>
     <script type="text/javascript">
     new Vivus('xiyiji', { type: 'oneByOne', duration: 150 }, function() {
-        $('#wave').css({ 'stroke-opacity': '0', 'fill': '#0f515a' });
+        $('#wave').css({ 'stroke-opacity': '0', 'fill': 'rgb(225, 227, 225)' });
         $('#swich').css({ 'fill': '#db5110', 'stroke-opacity': '0' });
         $('#bar').css({'opacity': '1'});
     });
