@@ -5,95 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <style type="text/css">
-    .main-box {
-        width: 150px;
-        height: 155px;
-    }
-
-    svg#xiyiji {
-        width: 150px;
-        height: auto;
-    }
-
-    path {
-        fill: none;
-        stroke: #fff;
-        stroke-width: 2px;
-        stroke-opacity: 0.7;
-    }
-
-    #bar {
-        stroke-dasharray: 26, 28;
-        stroke-dashoffset: 0;
-        stroke: orange;
-        stroke-linecap: round;
-        stroke-width: 5;
-        opacity: 0;
-    }
-
-    #bk-pp {
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        /*outline: 1px solid white;*/
-        /*background-color: red;*/
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-
-    #paopao path {
-        fill: white;
-        /*opacity: 0.2;*/
-        filter: blur(1px);
-    }
-
-    #p1 {
-        -webkit-animation: pp-anim 5s ease-out infinite;
-                animation: pp-anim 5s ease-out infinite;
-    }
-
-    @-webkit-keyframes pp-anim {
-        0% {
-            opacity: 1;
-        }
-
-        80% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 0;
-        }
-    }
-
-    @keyframes pp-anim {
-        0% {
-            opacity: 1;
-        }
-
-        80% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 0;
-        }
-    }
-
-    .paixian path {
-        fill: #fff;
-        stroke-width: 0.5px;
-    }
-
-    #r-1 {
-        stroke-opacity: 0;
-        /*fill: url('#linear');*/
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="../css/service.css">
     <title>service</title>
 </head>
 
@@ -244,6 +156,10 @@
                 </path>
             </svg>
         </div>
+
+        <div>
+            <svg id="svg"></svg>
+        </div>
     </div>
     <script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="../js/vivus.js"></script>
@@ -254,6 +170,77 @@
         $('#r-1').css({ 'fill': 'url("#linear")', 'stroke-opacity': '0' });
         $('#bar').css({ 'opacity': '1' });
     });
+    </script>
+
+    <script type="text/javascript">
+    var svgns = "http://www.w3.org/2000/svg";
+
+    var groups = null;
+
+    function makeSVG(tag, attributes) {
+        var elems = document.createElementNS(svgns, tag);
+        for (var attribute in attributes) {
+            var name = attribute;
+            var value = attributes[attribute];
+
+            elems.setAttribute(name, value);
+        }
+
+        return elems;
+    }
+
+
+
+    function createBubble(id, transform) {
+        var d = "M148.214,75.357c0,40.238-32.619,72.857-72.857,72.857c-40.238,0-72.857-32.619-72.857-72.857C2.5,35.119,35.119,2.5,75.357,2.5C115.595,2.5,148.214,35.119,148.214,75.357z M82.833,14.423c-12.354,0-23.821,3.842-33.247,10.41c7.041-3.024,14.804-4.696,22.957-4.696c32.2,0,58.303,26.102,58.303,58.302c0,19.813-9.883,37.313-24.982,47.853c20.741-8.931,35.265-29.553,35.265-53.566C141.128,40.525,115.034,14.423,82.833,14.423z";
+
+        var g = makeSVG("g", { "id": "g-" + id ,"class" : "gg"});
+        g.vTransform = transform.translate;
+        g.vScale = transform.scale;
+        g.vDelta = transform.delta;
+
+        var path = makeSVG('path', { "d": d});
+
+        var svgdoc = document.getElementById("svg");
+
+        svgdoc.appendChild(g);
+        g.appendChild(path);
+    }
+
+    function setBuddle() {
+        for (var i = 0; i < 5; i++) {
+
+            var transform = {};
+            transform.translate = [10 + Math.random() * 500 + (i % 3) * 250, 10 + Math.random() * 50 + (i / 3) * 28];
+            transform.scale = Math.random() + 0.2;
+            transform.delta = [Math.random() * 2.5 - 1, Math.random() * 2.5];
+
+            createBubble(i, transform);
+        }
+
+        groups = document.getElementsByClassName("gg");
+
+
+        setInterval(doMove, 1);
+    }
+
+    setBuddle();
+
+
+    function doMove() {
+        for (var i = 0; i < groups.length; i++) {
+            var group = groups[i];
+            var pos = group.vTransform;
+            group.vTransform = [pos[0] + group.vDelta[0], pos[1] + group.vDelta[1]];
+
+            if (group.vTransform[0] > 1000 || group.vTransform[0] < -200 || group.vTransform[1] > 400)
+                group.vTransform = [10 + Math.random() * 500 + (i % 3) * 250, -50];
+
+            group.setAttribute("transform", "translate(" + group.vTransform[0] + "," + group.vTransform[1] + ") scale(" + group.vScale + "," + group.vScale + ")");
+        }
+
+
+    }
     </script>
 </body>
 
