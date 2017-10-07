@@ -156,10 +156,9 @@
                 </path>
             </svg>
         </div>
-
-        <div>
+        <!-- <div>
             <svg id="svg"></svg>
-        </div>
+        </div> -->
     </div>
     <script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="../js/vivus.js"></script>
@@ -170,78 +169,83 @@
         $('#r-1').css({ 'fill': 'url("#linear")', 'stroke-opacity': '0' });
         $('#bar').css({ 'opacity': '1' });
     });
-    </script>
 
-    <script type="text/javascript">
+
     var svgns = "http://www.w3.org/2000/svg";
-
-    var groups = null;
+    //路径数组
+    var _arr = ["M 410 900 C 410 900 , 160 700 , 400 610 S 360 420 , 350 300 S 500 115 , 500 115 ", "M 670 920 C 670 920 , 918 798 , 690 605 S 718 175 , 718 175", "M200 800 Q 400 800 , 200 600 T 200 -200"];
+    //path id 显示控制
+    var ii = 2;
 
     function makeSVG(tag, attributes) {
-        var elems = document.createElementNS(svgns, tag);
+        var elem = document.createElementNS(svgns, tag);
+
         for (var attribute in attributes) {
-            var name = attribute;
-            var value = attributes[attribute];
-
-            elems.setAttribute(name, value);
+            elem.setAttribute(attribute, attributes[attribute]);
         }
 
-        return elems;
+        var random = Math.floor(Math.random()*100)/100;
+        elem.setAttribute("transform", "scale(" + random + ","+random + ")");
+        elem.setAttribute("opacity", random + 0.1);
+        return elem;
     }
 
 
 
-    function createBubble(id, transform) {
-        var d = "M148.214,75.357c0,40.238-32.619,72.857-72.857,72.857c-40.238,0-72.857-32.619-72.857-72.857C2.5,35.119,35.119,2.5,75.357,2.5C115.595,2.5,148.214,35.119,148.214,75.357z M82.833,14.423c-12.354,0-23.821,3.842-33.247,10.41c7.041-3.024,14.804-4.696,22.957-4.696c32.2,0,58.303,26.102,58.303,58.302c0,19.813-9.883,37.313-24.982,47.853c20.741-8.931,35.265-29.553,35.265-53.566C141.128,40.525,115.034,14.423,82.833,14.423z";
-
-        var g = makeSVG("g", { "id": "g-" + id ,"class" : "gg"});
-        g.vTransform = transform.translate;
-        g.vScale = transform.scale;
-        g.vDelta = transform.delta;
-
-        var path = makeSVG('path', { "d": d});
-
-        var svgdoc = document.getElementById("svg");
-
-        svgdoc.appendChild(g);
-        g.appendChild(path);
-    }
-
-    function setBuddle() {
-        for (var i = 0; i < 5; i++) {
-
-            var transform = {};
-            transform.translate = [10 + Math.random() * 500 + (i % 3) * 250, 10 + Math.random() * 50 + (i / 3) * 28];
-            transform.scale = Math.random() + 0.2;
-            transform.delta = [Math.random() * 2.5 - 1, Math.random() * 2.5];
-
-            createBubble(i, transform);
+    function creatSVG() {
+        // Bubbles SVG 路径
+        var path = {
+            tag: "path",
+            attr: {
+                id: "id_" + ii,
+                d: "M148.214,75.357c0,40.238-32.619,72.857-72.857,72.857c-40.238,0-72.857-32.619-72.857-72.857C2.5,35.119,35.119,2.5,75.357,2.5C115.595,2.5,148.214,35.119,148.214,75.357z M82.833,14.423c-12.354,0-23.821,3.842-33.247,10.41c7.041-3.024,14.804-4.696,22.957-4.696c32.2,0,58.303,26.102,58.303,58.302c0,19.813-9.883,37.313-24.982,47.853c20.741-8.931,35.265-29.553,35.265-53.566C141.128,40.525,115.034,14.423,82.833,14.423z",
+            }
+        }
+        // 动画轨迹
+        var animateMotion = {
+            tag: "animateMotion",
+            attr: {
+                // 路径
+                path: (function(){
+                    var random = Math.floor(Math.random() * 3);
+                    return _arr[random];
+                })(),  
+                // 时间
+                dur: (function(){
+                    var random = Math.floor(Math.random() * 5) + 3;
+                    return random + "s";
+                })(),
+                // 重复次数
+                repeatCount: "indefinite"
+            }
         }
 
-        groups = document.getElementsByClassName("gg");
+        var svgAnimateMotion = makeSVG(animateMotion.tag, animateMotion.attr);
+        var svgPath = makeSVG(path.tag, path.attr);
 
+        var svgPaopao = document.getElementById("paopao");
 
-        setInterval(doMove, 1);
-    }
+        var svgChild = svgPaopao.getElementsByTagNameNS(svgns , "path");
 
-    setBuddle();
-
-
-    function doMove() {
-        for (var i = 0; i < groups.length; i++) {
-            var group = groups[i];
-            var pos = group.vTransform;
-            group.vTransform = [pos[0] + group.vDelta[0], pos[1] + group.vDelta[1]];
-
-            if (group.vTransform[0] > 1000 || group.vTransform[0] < -200 || group.vTransform[1] > 400)
-                group.vTransform = [10 + Math.random() * 500 + (i % 3) * 250, -50];
-
-            group.setAttribute("transform", "translate(" + group.vTransform[0] + "," + group.vTransform[1] + ") scale(" + group.vScale + "," + group.vScale + ")");
+        //控制页面内泡泡个数及刷新
+        if ( svgChild.length >= 5) {
+            svgPaopao.removeChild(svgChild[1]);
         }
 
+        svgPaopao.appendChild(svgPath);
+        svgPath.appendChild(svgAnimateMotion);
+
+        ii++;
 
     }
+
+    setInterval(creatSVG , 3000);
     </script>
+    
+<!-- 全屏 Bubble 代码 -->
+<!-- var svgns = "http://www.w3.org/2000/svg"; var groups = null; function makeSVG(tag, attributes) { var elems = document.createElementNS(svgns, tag); for (var attribute in attributes) { var name = attribute; var value = attributes[attribute]; elems.setAttribute(name, value); } return elems; } function createBubble(id, transform) { var d = "M148.214,75.357c0,40.238-32.619,72.857-72.857,72.857c-40.238,0-72.857-32.619-72.857-72.857C2.5,35.119,35.119,2.5,75.357,2.5C115.595,2.5,148.214,35.119,148.214,75.357z M82.833,14.423c-12.354,0-23.821,3.842-33.247,10.41c7.041-3.024,14.804-4.696,22.957-4.696c32.2,0,58.303,26.102,58.303,58.302c0,19.813-9.883,37.313-24.982,47.853c20.741-8.931,35.265-29.553,35.265-53.566C141.128,40.525,115.034,14.423,82.833,14.423z"; var g = makeSVG("g", { "id": "g-" + id ,"class" : "gg"}); g.vTransform = transform.translate; g.vScale = transform.scale; g.vDelta = transform.delta; var path = makeSVG('path', { "d": d}); var svgdoc = document.getElementById("svg"); svgdoc.appendChild(g); g.appendChild(path); } function setBuddle() { for (var i = 0; i
+< 5; i++) { var transform={ }; transform.translate=[ 10 + Math.random() * 500 + (i % 3) * 250, 10 + Math.random() * 50 + (i / 3) * 28]; transform.scale=M ath.random() + 0.2; transform.delta=[ Math.random() * 2.5 - 1, Math.random() * 2.5]; createBubble(i, transform); } groups=d ocument.getElementsByClassName( "gg"); setInterval(doMove, 1); } setBuddle(); function doMove() { for (var i=0 ; i < groups.length; i++) { var group=g roups[i]; var pos=g roup.vTransform; group.vTransform=[ pos[0] + group.vDelta[0], pos[1] + group.vDelta[1]]; if (group.vTransform[0]> 1000 || group.vTransform[0]
+    < -200 || group.vTransform[1]> 400) group.vTransform = [10 + Math.random() * 500 + (i % 3) * 250, -50]; group.setAttribute("transform", "translate(" + group.vTransform[0] + "," + group.vTransform[1] + ") scale(" + group.vScale + "," + group.vScale + ")"); } } -->
 </body>
 
 </html>
