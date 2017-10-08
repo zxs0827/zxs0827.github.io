@@ -1,11 +1,15 @@
-.main-box {
-    width: 150px;
-    height: 155px;
-}
-
-svg#xiyiji {
+#xiyiji {
     width: 150px;
     height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 5px black;
+            box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    background-color: #0c0c0c;
+    z-index: 1;
 }
 
 path {
@@ -28,8 +32,6 @@ path {
     position: absolute;
     width: 200px;
     height: 200px;
-    /*outline: 1px solid white;*/
-    /*background-color: red;*/
     left: 0;
     top: 0;
     right: 0;
@@ -37,10 +39,20 @@ path {
     margin: auto;
 }
 
+#paopao {
+    width: 170px;
+    height: 200px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
 #paopao path {
     fill: white;
     /*opacity: 0.2;*/
-    filter: blur(1px);
+    -webkit-filter: blur(1px);
+            filter: blur(1px);
 }
 
 #p1 {
@@ -83,7 +95,6 @@ path {
 
 #r-1 {
     stroke-opacity: 0;
-    /*fill: url('#linear');*/
 }
 
 #svg {
@@ -98,5 +109,49 @@ path {
     fill: #fff;
     opacity: 0.1;
     stroke-opacity: 0;
-    filter: blur(1px);
+    -webkit-filter: blur(1px);
+            filter: blur(1px);
 }
+
+#_svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#heart {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 3;
+    -webkit-transform: rotate(24deg);
+            transform: rotate(24deg);
+}
+
+#heart path:nth-child(1) {
+    stroke-width: 10px;
+    /*fill: rgba(255,255,255,0.05);*/
+}
+
+#heart-bottom {
+    fill: #9f013e;
+    stroke-opacity: 0;
+}
+
+/*
+剪切路径
+#clip-path {
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1000px;
+    height: 450px;
+    border-radius: 5px;
+    background-color: #101115;
+    box-shadow: 0 4px 10px #000;
+    clip-path: url("#svg-clippath");
+}
+*/
