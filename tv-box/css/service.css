@@ -120,12 +120,14 @@ path {
 }
 
 #heart {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     z-index: 3;
     -webkit-transform: rotate(24deg);
             transform: rotate(24deg);
+	top: 0;
+	right: 0;
 }
 
 #heart path:nth-child(1) {
@@ -155,3 +157,17 @@ path {
     clip-path: url("#svg-clippath");
 }
 */
+
+#_clothes {
+	width: 370px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	cursor: pointer;
+	/*background-image: url("../img/clothes.png");	*/
+}
+
+#svg-clothes path{
+	stroke-opacity: 0;
+}
