@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style type="text/css">
+
+    	* {
+    		/*outline: 1px solid red;*/
+    	}
+
+    	body {
+			position: relative;
+    	}
+
+        #main-content {
+			width: 420px;
+			min-height: 420px;
+			border-radius: 4px;
+			box-shadow: 0 1px 5px rgb(115, 115, 115);
+			margin: 0 auto;
+			/*margin-top: 100px;*/
+			position: relative;
+			top: 100px;
+			padding: 50px 40px 40px 40px;
+			
+			/*center : absolute*/
+			position: absolute;
+			margin: auto;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+        }
+
+
+		#signin-header {
+			text-align: center;
+			margin: 0;
+			margin-bottom: 20px;
+		}
+
+		.input-row {
+			margin-bottom: 12px;
+			position: relative;
+		}
+
+		.input-row input {
+			padding: 0 0 0 20px;
+			border-radius: 4px;
+			font-size: 18px;
+			height: 45px;
+
+			-webkit-appearance: none;
+			-moz-appearance: textfield;
+			background-color: rgb(255, 255, 255);
+			border: 1px solid rgb(115, 115, 115);
+			box-shadow: inset 0 1px 1px rgb(249, 249, 250);
+			color: rgb(12, 12, 13);
+			outline: 0;
+			position: relative;
+			transition-duration: 150ms;
+			transition-property: border-color;
+			width: 100%;
+			z-index: 2;
+		}
+
+		.input-row input[type="password"] {
+			padding-right: 75px;
+		}
+
+		.input-row input:hover {
+			border-color: rgb(12, 12, 13);
+		}
+
+		.input-row input:focus {
+			border-color: rgb(10, 132, 255);
+			box-shadow: 0 0 0 2px rgba(189,217,255,.75);
+		}
+
+		input.input-invaild {
+			border-color: rgb(215, 0, 34);
+			box-shadow: 0 0 0 2px rgba(255,37,71,.75);
+		}
+
+		.show-password-lable {
+			position: absolute;
+			right: 0;
+			min-width: 55px;
+			height: 43px;
+			text-align: center;
+			z-index: 3;
+			line-height: 42px;
+			background-color: white;
+			padding: 0px 7px;
+			top: 1px;
+			right: 1px;
+			border-left: 1px solid rgb(115, 115, 115);
+			border-radius: 0 2px 2px 0;
+			font-size: 14px;
+		}
+
+		.show-password-lable:active {
+			cursor: pointer;
+			color: #fff;
+			background-color: rgb(0, 96, 223);
+		}
+
+		.password:focus ~ .show-password-lable {
+			color: rgb(10, 132, 255);;
+			border-left-color: rgb(10, 132, 255);
+		}
+
+		.tooltip {
+			background-color: rgb(215, 0, 34);
+			background: rgb(215, 0, 34);
+			border-radius: 2px;
+			color: rgb(255, 255, 255);
+			padding: 5px 12px;
+			position: absolute;
+			border-radius: 2px;
+			top: -31px;
+			left: 12px;
+			z-index: 4;
+			-webkit-animation: fade-down-tt 450ms;
+			animation: fade-down-tt 450ms;
+		}
+
+		.tooltip:before {
+			background: rgb(215, 0, 34);
+			bottom: -8px;
+			content: '.';
+			height: 16px;
+			position: absolute;
+			text-indent: -999px;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+			white-space: nowrap;
+			width: 16px;
+			z-index: -1;
+		}
+
+		.button-row {
+			margin: 20px 0;
+		}
+
+		.button-row button {
+			border-radius: 4px;
+			font-size: 24px;
+			height: 65px;
+			padding: 15px 0;
+		}
+
+		.button-row button:active {
+			background-color: rgb(0, 62, 170);
+		}
+
+		@keyframes fade-down-tt {
+			0% {
+			    opacity: 0;
+			    -webkit-transform: translateY(-15px);
+			    transform: translateY(-15px);
+			}
+			100% {
+			    opacity: 1;
+			    -webkit-transform: translateY(0);
+			    transform: translateY(0);
+			}
+		}
+
+		.error {
+			background: rgb(215, 0, 34);
+			border-radius: 2px;
+			color: rgb(255, 255, 255);
+			/*display: none;*/
+			margin-bottom: 5px;
+			padding: 5px;
+			position: relative;
+			top: 10px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+
+
+		#submit-btn.disabled {
+			background: rgb(249, 249, 250);
+			border: 2px solid rgb(177, 177, 179);
+			color: rgb(177, 177, 179);
+			cursor: auto;
+			opacity: .5;
+		}
+
+		#logo {
+			background-image: url("img/logo.png");
+			position: relative;
+			height: 100px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-bottom: 40px;
+		}
+
+    </style>
+    <title>login</title>
+</head>
+<body>
+
+<div id="main-content">
+	<div id="logo"></div>
+
+    <header>
+    	<h1 id="signin-header">登录</h1>
+    </header>
+
+    <section>
+    	<form>
+    		<div class="input-row">
+    			<input class="" name="user" placeholder="用户名" value="" spell-check="false" autofocus="" type="text">
+    			<aside class="tooltip">用户名错误！</aside>
+    		</div>
+    		<div class="input-row password-row">
+    			<input class="password" id="password" placeholder="密码" pattern=".{6,}" type="password">
+    			<label class="show-password-lable">显示</label>
+    			<div class="error">密码输入错误，请重新输入。</div>
+    		</div>
+    		<div class="button-row">
+    			<button id="submit-btn" class="disabled" type="submit">登录</button>
+    		</div>
+    	</form>
+    </section>
+</div>
+
+</body>
+</html>
