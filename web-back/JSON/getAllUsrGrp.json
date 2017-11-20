@@ -1,0 +1,46 @@
+{
+    "code": 0,
+    "data": [
+    {
+        "debugMode": 0,
+        "guiAccess": 0,
+        "name": "Zabbix administrators",
+        "usersStatus": 0,
+        "usrgrpid": 7
+    },
+    {
+        "debugMode": 0,
+        "guiAccess": 0,
+        "name": "Guests",
+        "usersStatus": 0,
+        "usrgrpid": 8
+    },
+    {
+        "debugMode": 0,
+        "guiAccess": 0,
+        "name": "Disabled",
+        "usersStatus": 0,
+        "usrgrpid": 9
+    },
+    {
+        "debugMode": 1,
+        "guiAccess": 0,
+        "name": "Enabled debug mode",
+        "usersStatus": 0,
+        "usrgrpid": 11
+    },
+    {
+        "debugMode": 0,
+        "guiAccess": 2,
+        "name": "No access to the frontend",
+        "usersStatus": 0,
+        "usrgrpid": 12
+    },
+    {
+        "debugMode": 0,
+        "guiAccess": 0,
+        "name": "cscscscscs",
+        "usersStatus": 0,
+        "usrgrpid": 13
+    }]
+}
