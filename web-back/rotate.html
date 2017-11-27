@@ -30,11 +30,11 @@
         }
 
         ._ball-left {
-            background-color: pink;
+            /*background-color: pink;*/
         }
         
         ._ball-right {
-            background-color: black;
+            /*background-color: black;*/
         }
         
         ._ball-left , ._ball-right{
@@ -69,30 +69,32 @@
             font-size: 30px;
             font-size: 0;
             background-size: 100% 100%;
+            background-image: url("img/ball-1.png");
+            opacity: 0.5;
         }
     
 
         /*translateZ : 控制球体距离平面的距离*/
         .ball-1 {
-            background-color: red;
+            /*background-color: red;*/
             transform: translateZ(360px) rotateY(0deg);
             animation: anim-rotate-self-13 5s infinite linear;
         }
 
         .ball-2 {
-            background-color: green;
+            /*background-color: green;*/
             transform: translateZ(-360px) rotateY(0deg);
             animation: anim-rotate-self-24 5s infinite linear;
         }
 
         .ball-3 {
-            background-color: blue;
+            /*background-color: blue;*/
             transform: translateZ(360px) rotateY(0deg);
             animation: anim-rotate-self-13 5s infinite linear;
         }
 
         .ball-4 {
-            background-color: yellow;
+            /*background-color: yellow;*/
             transform: translateZ(-360px) rotateY(0deg);
             animation: anim-rotate-self-24 5s infinite linear;
         }
@@ -112,7 +114,8 @@
         }
 
         ._star {
-            width: 750px;
+            /*width: 750px;*/
+            width: 50%;
             height: 100%;
             position: absolute;
             overflow: hidden;
@@ -135,6 +138,74 @@
            z-index: 2;
            opacity: 0.5;
        }
+
+       /* login : 登录框 */
+ /*       ._login {
+      background-image: url("img/login-box.png");
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: center center;
+      mix-blend-mode: screen;
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 300px;
+ }
+ 
+ ._login form {
+  position: relative;
+  padding: 0px 35px;
+ }
+  
+  input {
+      outline: none;
+      border: none;
+      background-color: transparent;
+      color: #fff;
+      padding-left: 44px;
+      padding-right: 3px;
+      width: 100%;
+  }
+ 
+  form div {
+      background-size: 100% 100%;
+  }
+ 
+  .user {
+      background-image: url("img/user.png");
+  }
+ 
+  .password {
+      background-image: url("img/pass.png");
+  }
+ 
+  .jiaoyanma {
+      background-image: url("img/jiaoyanma.png");
+  } */
+
+  ._login {
+    width: 50%;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    right: 0;
+  }
+
+
+  .login-form {
+    width: 100%;
+    height: 250px;
+    background-color: red;
+    background-image: url("img/ll.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+
 
     </style>
 
@@ -162,6 +233,20 @@
         <!-- center : ball -->
         <div class="_center"></div>
     </div>
+
+<!--     <div class="_login">
+    <form class="login-form">
+        <div class="user">
+            <input type="text" name="user" id="user">
+        </div>
+        <div class="password">
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="jiaoyanma">
+            <input type="text" name="jiaoyanma" id="jiaoyanma">
+        </div>
+    </form>
+</div> -->
     
 </div>
 
