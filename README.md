@@ -13,3 +13,7 @@
 		* [toSystemIndex.json](https://zxs0827.github.io/web-back/JSON/toSystemIndex.json)
 		* [userInfor.json](https://zxs0827.github.io/web-back/JSON/userInfor.json)
 		* [queryMaintenances.json](https://zxs0827.github.io/web-back/JSON/queryMaintenances.json)
+		* [queryApplicationAndItems.json](https://zxs0827.github.io/web-back/JSON/queryApplicationAndItems.json)
+		* [addActionHX.json](https://zxs0827.github.io/web-back/JSON/addActionHX.json)
+		
+		
