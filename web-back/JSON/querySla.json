@@ -1,0 +1,33 @@
+{
+    "code": 0,
+    "data": [
+    {
+        "cdate": 1510213941000,
+        "limitValue": 4.0,
+        "note": "紧急",
+        "priority": 5,
+        "zaEventSlaConfigId": 1
+    },
+    {
+        "cdate": 1510213941000,
+        "limitValue": 8.0,
+        "note": "重要",
+        "priority": 4,
+        "zaEventSlaConfigId": 2
+    },
+    {
+        "cdate": 1510213941000,
+        "limitValue": 24.0,
+        "note": "一般",
+        "priority": 3,
+        "zaEventSlaConfigId": 3
+    },
+    {
+        "cdate": 1510213941000,
+        "limitValue": 48.0,
+        "note": "轻微",
+        "priority": 2,
+        "zaEventSlaConfigId": 4
+    }],
+    "info": "获取成功！"
+}
