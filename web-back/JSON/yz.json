@@ -4,13 +4,13 @@
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "IAAS×ÊÔ´³ØÎ¬»¤Òà×¯",
+            "sys_name": "IAASèµ„æºæ± ç»´æŠ¤äº¦åº„",
             "za_system_id": 55
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ITÍø¹Ü¼à¿Ø",
+            "sys_name": "ITç½‘ç®¡ç›‘æ§",
             "za_system_id": 56
         },
         {
@@ -28,121 +28,121 @@
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "°²È«·şÎñ¹ÜÀí",
+            "sys_name": "å®‰å…¨æœåŠ¡ç®¡ç†",
             "za_system_id": 61
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "°²È«Éó¼ÆÆ½Ì¨",
+            "sys_name": "å®‰å…¨å®¡è®¡å¹³å°",
             "za_system_id": 62
         },
         {
             "count": 10,
             "priority": 2,
-            "sys_name": "´óERPÍ³Ò»¹¤×÷Æ½Ì¨",
+            "sys_name": "å¤§ERPç»Ÿä¸€å·¥ä½œå¹³å°",
             "za_system_id": 63
         },
         {
             "count": 10,
             "priority": 3,
-            "sys_name": "´óÊı¾İÆ½Ì¨",
+            "sys_name": "å¤§æ•°æ®å¹³å°",
             "za_system_id": 64
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "¼¯ÖĞÕËºÅÈ¨ÏŞ¹ÜÀíÓëÉó¼ÆÏµÍ³",
+            "sys_name": "é›†ä¸­è´¦å·æƒé™ç®¡ç†ä¸å®¡è®¡ç³»ç»Ÿ",
             "za_system_id": 65
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "¿Æ¼¼ÆÀ½±ÏµÍ³",
+            "sys_name": "ç§‘æŠ€è¯„å¥–ç³»ç»Ÿ",
             "za_system_id": 66
         },
         {
             "count": 10,
             "priority": 1,
-            "sys_name": "ÁªÍ¨·şÎñÔÆÃÅ»§",
+            "sys_name": "è”é€šæœåŠ¡äº‘é—¨æˆ·",
             "za_system_id": 67
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÁªÍ¨ÄÚ²¿ÉÌ³Ç",
+            "sys_name": "è”é€šå†…éƒ¨å•†åŸ",
             "za_system_id": 68
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÁªÍ¨ÉÌ³Ç",
+            "sys_name": "è”é€šå•†åŸ",
             "za_system_id": 69
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "Å£ÈË²¿Âä",
+            "sys_name": "ç‰›äººéƒ¨è½",
             "za_system_id": 70
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÆóÒµ¼¶GISÆ½Ì¨",
+            "sys_name": "ä¼ä¸šçº§GISå¹³å°",
             "za_system_id": 71
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÈËÁ¦×ÊÔ´¹ÜÀíÏµÍ³",
+            "sys_name": "äººåŠ›èµ„æºç®¡ç†ç³»ç»Ÿ",
             "za_system_id": 72
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "Éó¼ÆÏµÍ³",
+            "sys_name": "å®¡è®¡ç³»ç»Ÿ",
             "za_system_id": 73
         },
         {
             "count": 10,
             "priority": 2,
-            "sys_name": "ËæÎÖĞĞ(ÒÆ¶¯ĞÅÏ¢»¯¿ª·ÅÆ½Ì¨)",
+            "sys_name": "éšæ²ƒè¡Œ(ç§»åŠ¨ä¿¡æ¯åŒ–å¼€æ”¾å¹³å°)",
             "za_system_id": 75
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÒµÎñÔËÓªÓëĞèÇó¹ÜÀíÆ½Ì¨",
+            "sys_name": "ä¸šåŠ¡è¿è¥ä¸éœ€æ±‚ç®¡ç†å¹³å°",
             "za_system_id": 76
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÒÆ¶¯ĞÅÏ¢»¯",
+            "sys_name": "ç§»åŠ¨ä¿¡æ¯åŒ–",
             "za_system_id": 77
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÔÆÃÅ»§",
+            "sys_name": "äº‘é—¨æˆ·",
             "za_system_id": 79
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "ÖĞ¹úÁªÍ¨ĞÅÏ¢°²È«×ÛºÏ¹ÜÀí",
+            "sys_name": "ä¸­å›½è”é€šä¿¡æ¯å®‰å…¨ç»¼åˆç®¡ç†",
             "za_system_id": 80
         },
         {
             "count": 10,
             "priority": 3,
-            "sys_name": "ÉÏÍø¼ÇÂ¼²éÑ¯¼°IPËİÔ´ÏµÍ³",
+            "sys_name": "ä¸Šç½‘è®°å½•æŸ¥è¯¢åŠIPæº¯æºç³»ç»Ÿ",
             "za_system_id": 82
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "Í³Ò»Êı¾İ·ÖÎö",
+            "sys_name": "ç»Ÿä¸€æ•°æ®åˆ†æ",
             "za_system_id": 83
         },
         {
@@ -154,15 +154,15 @@
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "¹²ÓÃ¿Í»§¶Ë²âÊÔ×é",
+            "sys_name": "å…±ç”¨å®¢æˆ·ç«¯æµ‹è¯•ç»„",
             "za_system_id": 85
         },
         {
             "count": 10,
             "priority": 0,
-            "sys_name": "Ë½ÓĞÔÆ¼à¿ØÆ½Ì¨",
+            "sys_name": "ç§æœ‰äº‘ç›‘æ§å¹³å°",
             "za_system_id": 86
         }
     ],
-    "info": "²éÑ¯³É¹¦!"
+    "info": "æŸ¥è¯¢æˆåŠŸ!"
 }
