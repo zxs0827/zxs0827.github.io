@@ -1,0 +1,168 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "IAAS资源池维护亦庄",
+            "za_system_id": 55
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "IT网管监控",
+            "za_system_id": 56
+        },
+        {
+            "count": 10,
+            "priority": 2,
+            "sys_name": "OSS2.0",
+            "za_system_id": 59
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "PMS3.0",
+            "za_system_id": 60
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "安全服务管理",
+            "za_system_id": 61
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "安全审计平台",
+            "za_system_id": 62
+        },
+        {
+            "count": 10,
+            "priority": 2,
+            "sys_name": "大ERP统一工作平台",
+            "za_system_id": 63
+        },
+        {
+            "count": 10,
+            "priority": 3,
+            "sys_name": "大数据平台",
+            "za_system_id": 64
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "集中账号权限管理与审计系统",
+            "za_system_id": 65
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "科技评奖系统",
+            "za_system_id": 66
+        },
+        {
+            "count": 10,
+            "priority": 1,
+            "sys_name": "联通服务云门户",
+            "za_system_id": 67
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "联通内部商城",
+            "za_system_id": 68
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "联通商城",
+            "za_system_id": 69
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "牛人部落",
+            "za_system_id": 70
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "企业级GIS平台",
+            "za_system_id": 71
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "人力资源管理系统",
+            "za_system_id": 72
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "审计系统",
+            "za_system_id": 73
+        },
+        {
+            "count": 10,
+            "priority": 2,
+            "sys_name": "随沃行(移动信息化开放平台)",
+            "za_system_id": 75
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "业务运营与需求管理平台",
+            "za_system_id": 76
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "移动信息化",
+            "za_system_id": 77
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "云门户",
+            "za_system_id": 79
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "中国联通信息安全综合管理",
+            "za_system_id": 80
+        },
+        {
+            "count": 10,
+            "priority": 3,
+            "sys_name": "上网记录查询及IP溯源系统",
+            "za_system_id": 82
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "统一数据分析",
+            "za_system_id": 83
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "ODS",
+            "za_system_id": 84
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "共用客户端测试组",
+            "za_system_id": 85
+        },
+        {
+            "count": 10,
+            "priority": 0,
+            "sys_name": "私有云监控平台",
+            "za_system_id": 86
+        }
+    ],
+    "info": "查询成功!"
+}

@@ -16,4 +16,11 @@
 		* [queryApplicationAndItems.json](https://zxs0827.github.io/web-back/JSON/queryApplicationAndItems.json)
 		* [addActionHX.json](https://zxs0827.github.io/web-back/JSON/addActionHX.json)
 		* [querySla.json](https://zxs0827.github.io/web-back/JSON/querySla.json)
+
+		* [addItemHX.json](https://zxs0827.github.io/web-back/JSON/addItemHX.json)
+		* [getMenuByUsrGrpId.json](https://zxs0827.github.io/web-back/JSON/getMenuByUsrGrpId.json)
+		* [selDevice.json](https://zxs0827.github.io/web-back/JSON/selDevice.json)
+		* [toIndex.json](https://zxs0827.github.io/web-back/JSON/toIndex.json)
+		* [lf.json](https://zxs0827.github.io/web-back/JSON/lf.json)
+		* [yz.json](https://zxs0827.github.io/web-back/JSON/yz.json)
 		
