@@ -24,3 +24,5 @@
 		* [lf.json](https://zxs0827.github.io/web-back/JSON/lf.json)
 		* [yz.json](https://zxs0827.github.io/web-back/JSON/yz.json)
 		
+		* [status.json](https://zxs0827.github.io/web-back/JSON/status.json)
+		
