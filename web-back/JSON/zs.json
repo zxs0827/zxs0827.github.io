@@ -1,0 +1,13 @@
+{
+    "code": 0,
+    "data":
+    {
+        "count": 10,
+        "host": 8074,
+        "jifang": 12,
+        "system": 63,
+        "wuhost": 6019,
+        "xnhost": 2055
+    },
+    "info": "查询成功!"
+}
