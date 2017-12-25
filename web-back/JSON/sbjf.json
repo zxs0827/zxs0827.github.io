@@ -1,0 +1,77 @@
+{
+    "code": 0,
+    "data": [
+    {
+        "cons": 1380,
+        "count": 10,
+        "jifangname": "亦庄301机房",
+        "shujuk": 1
+    },
+    {
+        "cons": 1146,
+        "count": 10,
+        "jifangname": "亦庄302机房",
+        "shujuk": 1
+    },
+    {
+        "cons": 516,
+        "count": 10,
+        "jifangname": "亦庄402机房",
+        "shujuk": 1
+    },
+    {
+        "cons": 51,
+        "count": 10,
+        "jifangname": "亦庄4M1-A",
+        "shujuk": 1
+    },
+    {
+        "cons": 39,
+        "count": 10,
+        "jifangname": "廊坊219机房",
+        "shujuk": 2
+    },
+    {
+        "cons": 41,
+        "count": 10,
+        "jifangname": "廊坊221机房",
+        "shujuk": 2
+    },
+    {
+        "cons": 2722,
+        "count": 10,
+        "jifangname": "廊坊224机房",
+        "shujuk": 2
+    },
+    {
+        "cons": 2,
+        "count": 10,
+        "jifangname": "廊坊225机房",
+        "shujuk": 2
+    },
+    {
+        "cons": 1696,
+        "count": 10,
+        "jifangname": "廊坊324机房",
+        "shujuk": 2
+    },
+    {
+        "cons": 1089,
+        "count": 10,
+        "jifangname": "廊坊419机房",
+        "shujuk": 2
+    },
+    {
+        "cons": 150,
+        "count": 10,
+        "jifangname": "廊坊420机房",
+        "shujuk": 2
+    },
+    {
+        "cons": 504,
+        "count": 10,
+        "jifangname": "廊坊423机房",
+        "shujuk": 2
+    }],
+    "info": "查询成功!"
+}
