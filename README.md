@@ -26,4 +26,7 @@
 		
 		* [status.json](https://zxs0827.github.io/web-back/JSON/status.json)
 		* [zs.json](https://zxs0827.github.io/web-back/JSON/zs.json)
+
+		* [gaojing-lf.json](https://zxs0827.github.io/web-back/JSON/gaojing-lf.json)
+		* [gaojing-yz.json](https://zxs0827.github.io/web-back/JSON/gaojing-yz.json)
 		

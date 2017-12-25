@@ -1,0 +1,66 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "count": 10,
+            "jifang": 20,
+            "jifangname": "亦庄302机房"
+        },
+        {
+            "count": 10,
+            "jifang": 14,
+            "jifangname": "亦庄301机房"
+        },
+        {
+            "count": 10,
+            "jifang": 12,
+            "jifangname": "亦庄402机房"
+        },
+        {
+            "count": 10,
+            "jifang": 0,
+            "jifangname": "亦庄4M1-A"
+        },
+        {
+            "count": 10,
+            "jifang": 45,
+            "jifangname": "廊坊419机房"
+        },
+        {
+            "count": 10,
+            "jifang": 39,
+            "jifangname": "廊坊324机房"
+        },
+        {
+            "count": 10,
+            "jifang": 29,
+            "jifangname": "廊坊224机房"
+        },
+        {
+            "count": 10,
+            "jifang": 3,
+            "jifangname": "廊坊423机房"
+        },
+        {
+            "count": 10,
+            "jifang": 1,
+            "jifangname": "廊坊221机房"
+        },
+        {
+            "count": 10,
+            "jifang": 1,
+            "jifangname": "廊坊420机房"
+        },
+        {
+            "count": 10,
+            "jifang": 0,
+            "jifangname": "廊坊219机房"
+        },
+        {
+            "count": 10,
+            "jifang": 0,
+            "jifangname": "廊坊225机房"
+        }
+    ],
+    "info": "查询成功!"
+}
