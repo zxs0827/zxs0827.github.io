@@ -32,4 +32,7 @@
 		
 		* [sbjf.json](https://zxs0827.github.io/web-back/JSON/sbjf.json)
 		* [sbfl.json](https://zxs0827.github.io/web-back/JSON/sbfl.json)
+
+		* [alert.json](https://zxs0827.github.io/web-back/JSON/alert.json)
+		* [djfb.json](https://zxs0827.github.io/web-back/JSON/djfb.json)
 		
