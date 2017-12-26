@@ -37,8 +37,11 @@
 		* [djfb.json](https://zxs0827.github.io/web-back/JSON/djfb.json)
 
 		* [cpu.json](https://zxs0827.github.io/web-back/JSON/cpu.json)
+		* [cpu-old.json](https://zxs0827.github.io/web-back/JSON/cpu-old.json)
 
 		* [jfgj.json](https://zxs0827.github.io/web-back/JSON/jfgj.json)
+
+		
 
 
 		
