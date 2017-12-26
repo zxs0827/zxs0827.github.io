@@ -1,0 +1,454 @@
+{
+    "code": 0,
+    "name": "机房告警",
+    "data":
+    {
+        "lfgaojing": [
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊324机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊324机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊324机房",
+                "priority": 3
+            },
+            {
+                "cons": 12,
+                "count": 10,
+                "jifangname": "廊坊324机房",
+                "priority": 2
+            },
+            {
+                "cons": 38,
+                "count": 10,
+                "jifangname": "廊坊324机房",
+                "priority": 1
+            }],
+            "jifang": 51,
+            "jifangname": "廊坊324机房",
+            "shujuk": 2
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊419机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊419机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊419机房",
+                "priority": 3
+            },
+            {
+                "cons": 1,
+                "count": 10,
+                "jifangname": "廊坊419机房",
+                "priority": 2
+            },
+            {
+                "cons": 30,
+                "count": 10,
+                "jifangname": "廊坊419机房",
+                "priority": 1
+            }],
+            "jifang": 31,
+            "jifangname": "廊坊419机房",
+            "shujuk": 2
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊224机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊224机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊224机房",
+                "priority": 3
+            },
+            {
+                "cons": 13,
+                "count": 10,
+                "jifangname": "廊坊224机房",
+                "priority": 2
+            },
+            {
+                "cons": 16,
+                "count": 10,
+                "jifangname": "廊坊224机房",
+                "priority": 1
+            }],
+            "jifang": 29,
+            "jifangname": "廊坊224机房",
+            "shujuk": 2
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊423机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊423机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊423机房",
+                "priority": 3
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊423机房",
+                "priority": 2
+            },
+            {
+                "cons": 3,
+                "count": 10,
+                "jifangname": "廊坊423机房",
+                "priority": 1
+            }],
+            "jifang": 3,
+            "jifangname": "廊坊423机房",
+            "shujuk": 2
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊221机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊221机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊221机房",
+                "priority": 3
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊221机房",
+                "priority": 2
+            },
+            {
+                "cons": 1,
+                "count": 10,
+                "jifangname": "廊坊221机房",
+                "priority": 1
+            }],
+            "jifang": 1,
+            "jifangname": "廊坊221机房",
+            "shujuk": 2
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊219机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊219机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊219机房",
+                "priority": 3
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊219机房",
+                "priority": 2
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊219机房",
+                "priority": 1
+            }],
+            "jifang": 0,
+            "jifangname": "廊坊219机房",
+            "shujuk": 2
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊420机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊420机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊420机房",
+                "priority": 3
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊420机房",
+                "priority": 2
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊420机房",
+                "priority": 1
+            }],
+            "jifang": 0,
+            "jifangname": "廊坊420机房",
+            "shujuk": 2
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊225机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊225机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊225机房",
+                "priority": 3
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊225机房",
+                "priority": 2
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "廊坊225机房",
+                "priority": 1
+            }],
+            "jifang": 0,
+            "jifangname": "廊坊225机房",
+            "shujuk": 2
+        }],
+        "yzgaojing": [
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄302机房",
+                "priority": 5
+            },
+            {
+                "cons": 1,
+                "count": 10,
+                "jifangname": "亦庄302机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄302机房",
+                "priority": 3
+            },
+            {
+                "cons": 14,
+                "count": 10,
+                "jifangname": "亦庄302机房",
+                "priority": 2
+            },
+            {
+                "cons": 8,
+                "count": 10,
+                "jifangname": "亦庄302机房",
+                "priority": 1
+            }],
+            "jifang": 23,
+            "jifangname": "亦庄302机房",
+            "shujuk": 1
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄301机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄301机房",
+                "priority": 4
+            },
+            {
+                "cons": 9,
+                "count": 10,
+                "jifangname": "亦庄301机房",
+                "priority": 3
+            },
+            {
+                "cons": 3,
+                "count": 10,
+                "jifangname": "亦庄301机房",
+                "priority": 2
+            },
+            {
+                "cons": 6,
+                "count": 10,
+                "jifangname": "亦庄301机房",
+                "priority": 1
+            }],
+            "jifang": 18,
+            "jifangname": "亦庄301机房",
+            "shujuk": 1
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄402机房",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄402机房",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄402机房",
+                "priority": 3
+            },
+            {
+                "cons": 7,
+                "count": 10,
+                "jifangname": "亦庄402机房",
+                "priority": 2
+            },
+            {
+                "cons": 6,
+                "count": 10,
+                "jifangname": "亦庄402机房",
+                "priority": 1
+            }],
+            "jifang": 13,
+            "jifangname": "亦庄402机房",
+            "shujuk": 1
+        },
+        {
+            "count": 10,
+            "data": [
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄4M1-A",
+                "priority": 5
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄4M1-A",
+                "priority": 4
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄4M1-A",
+                "priority": 3
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄4M1-A",
+                "priority": 2
+            },
+            {
+                "cons": 0,
+                "count": 10,
+                "jifangname": "亦庄4M1-A",
+                "priority": 1
+            }],
+            "jifang": 0,
+            "jifangname": "亦庄4M1-A",
+            "shujuk": 1
+        }]
+    },
+    "info": "查询成功!"
+}

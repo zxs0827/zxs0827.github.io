@@ -38,4 +38,7 @@
 
 		* [cpu.json](https://zxs0827.github.io/web-back/JSON/cpu.json)
 
+		* [jfgj.json](https://zxs0827.github.io/web-back/JSON/jfgj.json)
+
+
 		
