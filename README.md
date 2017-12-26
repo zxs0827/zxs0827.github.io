@@ -35,4 +35,7 @@
 
 		* [alert.json](https://zxs0827.github.io/web-back/JSON/alert.json)
 		* [djfb.json](https://zxs0827.github.io/web-back/JSON/djfb.json)
+
+		* [cpu.json](https://zxs0827.github.io/web-back/JSON/cpu.json)
+
 		
