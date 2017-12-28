@@ -36,52 +36,52 @@
     l-54.667,22l64,24.667l-142,62l56.667,25.334L500,475.667L410,441l178-76.667l-256.667-122" id="path-7" />
             <!--  -->
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="1s" repeatCount="indefinite">
+                <animateMotion dur="2s" repeatCount="indefinite">
                     <mpath xlink:href="#path-1" />
-                </animateMotion>
-            </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="2s" begin="0.5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-1" />
-                </animateMotion>
-            </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="1.5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-2" />
                 </animateMotion>
             </circle>
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
                 <animateMotion dur="3s" begin="0.5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-1" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="2.5s" repeatCount="indefinite">
                     <mpath xlink:href="#path-2" />
                 </animateMotion>
             </circle>
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="3s" repeatCount="indefinite">
+                <animateMotion dur="4s" begin="0.5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-2" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="5s" repeatCount="indefinite">
                     <mpath xlink:href="#path-3" />
                 </animateMotion>
             </circle>
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="3s" begin="2s" repeatCount="indefinite">
+                <animateMotion dur="4s" begin="2s" repeatCount="indefinite">
                     <mpath xlink:href="#path-3" />
                 </animateMotion>
             </circle>
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="5s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+                <animateMotion dur="6s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
                     <mpath xlink:href="#path-4" />
                 </animateMotion>
             </circle>
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="4s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+                <animateMotion dur="5s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
                     <mpath xlink:href="#path-5" />
                 </animateMotion>
             </circle>
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="5s" repeatCount="indefinite">
+                <animateMotion dur="7s" repeatCount="indefinite">
                     <mpath xlink:href="#path-6" />
                 </animateMotion>
             </circle>
             <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="6s" begin="1s" repeatCount="indefinite">
+                <animateMotion dur="7s" begin="1s" repeatCount="indefinite">
                     <mpath xlink:href="#path-7" />
                 </animateMotion>
             </circle>
@@ -96,7 +96,7 @@
             <h3 id="lf-t">廊坊数据中心</h3>
             <div id="score"></div>
             <div id="infomation">
-                <div><span class="static-0"></span>待定</div>
+                <div><span class="static-0"></span>正常</div>
                 <div><span class="static-1"></span>信息</div>
                 <div><span class="static-2"></span>轻微</div>
                 <div><span class="static-3"></span>一般</div>
@@ -109,7 +109,7 @@
                 </ul>
             </div>
         </div>
-        <div class="center-data">20</div>
+        <div class="center-data">90</div>
     </div>
     <!-- 主机状态 -->
     <div id="zjzt">
@@ -200,6 +200,9 @@
     <div id="gjfgjjb">
         <h2 class="h2">各机房告警级别分布</h2>
         <div id="gjfgjjb-echarts"></div>
+
+        <div id="gjfgjjb-titledata"></div>
+        <div class="jiantou2"></div>
     </div>
     <!-- 告警总数走势折线图 -->
     <div id="gjzszs">
@@ -211,14 +214,13 @@
         <h2 class="h2">CPU/内存/磁盘使用系统Top5</h2>
         <div class="_absolute1">
             <div class="_absolute2">
-                <div id="cpu-yz"></div>
-                <div id="cpu-lf"></div>
-                <div id="nc-yz"></div>
-                <div id="nc-lf"></div>
-                <div id="cp-yz"></div>
-                <div id="cp-lf"></div>
+                <div id="cpu-yz" class="anim-change"></div>
+                <div id="cpu-lf" class="anim-change"></div>
+                <div id="nc-yz" class="anim-change"></div>
+                <div id="nc-lf" class="anim-change"></div>
+                <div id="cp-yz" class="anim-change"></div>
+                <div id="cp-lf" class="anim-change"></div>
             </div>
-            <div id="xtmc">系统名称</div>
             <div id="sys"></div>
         </div>
     </div>
@@ -235,6 +237,8 @@
     <div id="sblx">
         <h2 class="h2">各机房设备类型分布</h2>
         <div id="sblx-echarts"></div>
+        <div id="sblx-titledata"></div>
+        <div class="jiantou"></div>
     </div>
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
@@ -267,7 +271,7 @@
                 YZDATA = datajson.data;
                 addCounter()
             })
-            
+
         function addCounter() {
             ++counter
             if (counter == 2) {
@@ -459,7 +463,7 @@
             setInterval(function() {
                 sbjf_echarts.clear();
                 sbjf_echarts.setOption(option);
-            }, 7000);
+            }, 10000);
         }
         $.ajax({
                 url: 'https://zxs0827.github.io/web-back/JSON/shebeidata.json',
@@ -487,13 +491,21 @@
                 dataType: 'json',
             })
             .done(function(datajson) {
+                // console.log('+++++++++++');
+                // console.log(datajson);
+                // console.log('+++++++++++');
+
                 console.log("success");
                 var arrHosts = [];
                 var hostsCount = 0;
                 var eachCount = 0;
 
+                var titleData = [];
+
                 $.each(datajson.data, function(index, val) {
                     $.each(val, function(index, val) {
+                        titleData.push(val.jifangname);
+
                         arrHosts[eachCount] = new Array();
 
                         $.each(val.data, function(index, val) {
@@ -504,7 +516,7 @@
 
                             arrHosts[eachCount].push({
                                 value: val.cons,
-                                name: val.host_type
+                                name: val.host_type + ':' + val.cons
                             });
                         });
 
@@ -512,20 +524,24 @@
                     });
                 });
 
+                $("#sblx-titledata").text(titleData[0]);
+
+                // alert(titleData);
+
                 // 替代函数
-                var arr = [];
-                $.each(datajson.data, function(index, val) {
-                     $.each(val,function(i,v){
-                        $.each(v.data,function(key,value){
-                            value["value"] = value.cons;
-                            value["name"] = value.host_type;
-                            delete value.count;
-                            delete value.cons;
-                            delete value.host_type;
-                        })
-                        arr.push(v.data);
-                     })
-                });
+                // var arr = [];
+                // $.each(datajson.data, function(index, val) {
+                //      $.each(val,function(i,v){
+                //         $.each(v.data,function(key,value){
+                //             value["value"] = value.cons;
+                //             value["name"] = value.host_type;
+                //             delete value.count;
+                //             delete value.cons;
+                //             delete value.host_type;
+                //         })
+                //         arr.push(v.data);
+                //      })
+                // });
 
 
                 var sblx_echarts = echarts.init($("#sblx-echarts")[0]);
@@ -533,7 +549,7 @@
                     color: ['rgb(0, 88, 255)', 'rgb(12, 156, 250)'],
                     series: [{
                         type: 'pie',
-                        radius: ['30%', '50%'],
+                        radius: ['60%', '80%'],
                         grid: {
                             width: '100%',
                             left: 0,
@@ -543,8 +559,9 @@
                         label: {
                             normal: {
                                 show: true,
-                                fontSize: 15,
-                                // position: 'center'
+                                fontSize: 20,
+                                lineHeight: 50,
+                                position: 'center'
                             }
                         },
                         labelLine: {
@@ -566,7 +583,9 @@
 
                     sblx_echarts.clear();
                     sblx_echarts.setOption(option);
-                }, 5000);
+
+                    $("#sblx-titledata").text(titleData[hostsCount]);
+                }, 10000);
             });
     }
     sblxInit();
@@ -601,15 +620,15 @@
                                     // return val.priority
                                     switch (val.priority) {
                                         case 1:
-                                            return "信息";
+                                            return "信息:" + val.cons;
                                         case 2:
-                                            return "轻微";
+                                            return "轻微:" + val.cons;
                                         case 3:
-                                            return "一般";
+                                            return "一般:" + val.cons;
                                         case 4:
-                                            return "重要";
+                                            return "重要:" + val.cons;
                                         case 5:
-                                            return "紧急";
+                                            return "紧急:" + val.cons;
                                         default:
                                             return val.priority
                                             break;
@@ -710,16 +729,23 @@
                 };
                 sbjf_echarts.setOption(option);
                 echartsPieInit(intervalCount);
+
+                $("#gjfgjjb-titledata").text(data1[0]);
+
                 setInterval(function() {
                     sbjf_echarts.clear();
                     sbjf_echarts.setOption(option);
-                }, 7000);
+                }, 10000);
                 var echartsPieInterval = setInterval(function() {
                     intervalCount++;
                     echartsPieInit(intervalCount % intervalLength);
-                }, 5000);
+                    $("#gjfgjjb-titledata").text(data1[intervalCount]);
+                }, 10000);
             }
         }
+        //-----------------------------------------------------------------
+        // 各机房告警级别分布
+        //-----------------------------------------------------------------
 
         function echartsPieInit(index) {
             var gjfgjjb_echarts = echarts.init($("#gjfgjjb-echarts")[0]);
@@ -747,6 +773,7 @@
                 dataType: 'json',
             })
             .done(function(datajson) {
+
                 echartsInit(datajson);
             })
             .fail(function() {})
@@ -764,7 +791,7 @@
             var xData = [];
             var yData = [];
             var lineCount = 0;
-            var lineNum = 5;
+            var lineNum = 24;
             $.each(data, function(index, val) {
                 // data1.push(val.clock);
                 data1.push(val.clock.substring(11, 16));
@@ -780,9 +807,9 @@
             }
             var option = {
                 xAxis: [{
-                    name: '时间',
+                    // name: '时间',
                     type: 'category',
-                    boundaryGap: true,
+                    boundaryGap: false,
                     axisLine: {
                         lineStyle: {
                             color: "#fff"
@@ -794,7 +821,7 @@
                 yAxis: [{
                     type: 'value',
                     scale: true,
-                    name: '告警数量',
+                    name: '告警数量 / 时间',
                     max: maxNum,
                     min: 0,
                     axisLine: {
@@ -827,19 +854,25 @@
                 }]
             };
             gjzszs_echarts.setOption(option);
-            setInterval(function() {
-                lineCount++;
-                lineCount = lineCount % data.length;
-                var xAxis = option.xAxis[0].data;
-                var series = option.series[0].data;
-                xAxis.shift();
-                // xAxis.push(data1[lineCount + lineNum - 1] % data.length) ;
-                xAxis.push(data1[(lineCount + lineNum - 1) % data.length]);
-                series.shift();
-                // series.push(data2[lineCount + lineNum - 1]);
-                series.push(data2[(lineCount + lineNum - 1) % data.length]);
+
+            setInterval(function(){
+                gjzszs_echarts.clear();
                 gjzszs_echarts.setOption(option);
-            }, 2000);
+            }, 10000);
+
+            // setInterval(function() {
+            //     lineCount++;
+            //     lineCount = lineCount % data.length;
+            //     var xAxis = option.xAxis[0].data;
+            //     var series = option.series[0].data;
+            //     xAxis.shift();
+            //     // xAxis.push(data1[lineCount + lineNum - 1] % data.length) ;
+            //     xAxis.push(data1[(lineCount + lineNum - 1) % data.length]);
+            //     series.shift();
+            //     // series.push(data2[lineCount + lineNum - 1]);
+            //     series.push(data2[(lineCount + lineNum - 1) % data.length]);
+            //     gjzszs_echarts.setOption(option);
+            // }, 60000);
         }
         $.ajax({
                 url: 'https://zxs0827.github.io/web-back/JSON/alertcount.json',
@@ -861,89 +894,6 @@
     //系统名称切换滚动
     //----------------------------------------------------------------------------------
     $(document).ready(function() {
-        var o0 = {
-            'left': '50px',
-            'transform': 'scale(0.5)',
-            'z-index': '0',
-            'opacity': '0.3'
-        }
-        var o1 = {
-            'left': '50px',
-            'transform': 'scale(0.5)',
-            'z-index': '0',
-            'opacity': '0'
-        };
-        var o2 = {
-            'left': '50px',
-            'transform': 'scale(0.5)',
-            'z-index': '0',
-            'opacity': '0'
-        };
-        var o3 = {
-            'left': '50px',
-            'transform': 'scale(0.5)',
-            'z-index': '0',
-            'opacity': '0'
-        };
-        var o4 = {
-            'left': '-50px',
-            'transform': 'scale(0.5)',
-            'z-index': '0',
-            'opacity': '0.3'
-        };
-        var o5 = {
-            'left': '0px',
-            'transform': 'scale(1)',
-            'z-index': '99',
-            'opacity': '1'
-        };
-        var a = [o0, o1, o2, o3, o4, o5];
-        var mycars = 0;
-        setInterval(function() {
-            a.unshift(a.pop());
-            $('#pt1').css(a[0]);
-            $('#pt2').css(a[1]);
-            $('#pt3').css(a[2]);
-            $('#pt4').css(a[3]);
-            $('#pt5').css(a[4]);
-            $('#pt6').css(a[5]);
-            //改变CPU磁盘内容
-            if (mycars == 6) {
-                mycars = 1;
-            } else {
-                mycars++;
-            }
-            if (mycars == 1) {
-                $("#cpu-yz").css("opacity", 1);
-            } else {
-                $("#cpu-yz").css("opacity", 0);
-            }
-            if (mycars == 2) {
-                $("#cpu-lf").css("opacity", 1);
-            } else {
-                $("#cpu-lf").css("opacity", 0);
-            }
-            if (mycars == 3) {
-                $("#nc-yz").css("opacity", 1);
-            } else {
-                $("#nc-yz").css("opacity", 0);
-            }
-            if (mycars == 4) {
-                $("#nc-lf").css("opacity", 1);
-            } else {
-                $("#nc-lf").css("opacity", 0);
-            }
-            if (mycars == 5) {
-                $("#cp-yz").css("opacity", 1);
-            } else {
-                $("#cp-yz").css("opacity", 0);
-            }
-            if (mycars == 6) {
-                $("#cp-lf").css("opacity", 1);
-            } else {
-                $("#cp-lf").css("opacity", 0);
-            }
-        }, 2000);
         $.ajax({
                 url: 'https://zxs0827.github.io/web-back/JSON/cpu.json',
                 type: 'GET',
@@ -992,6 +942,68 @@
                 str += "</div>";
                 $("#sys").html(str);
                 cpuEchartsInit(datajson.data);
+
+                var o0 = {
+                    'left': '50px',
+                    'transform': 'scale(0.5)',
+                    'z-index': '-10',
+                    'opacity': '1'
+                }
+                var o1 = {
+                    'left': '50px',
+                    'transform': 'scale(0.5)',
+                    'z-index': '0',
+                    'opacity': '0'
+                };
+                var o2 = {
+                    'left': '50px',
+                    'transform': 'scale(0.5)',
+                    'z-index': '0',
+                    'opacity': '0'
+                };
+                var o3 = {
+                    'left': '50px',
+                    'transform': 'scale(0.5)',
+                    'z-index': '0',
+                    'opacity': '0'
+                };
+                var o4 = {
+                    'left': '-50px',
+                    'transform': 'scale(0.5)',
+                    'z-index': '0',
+                    'opacity': '1'
+                };
+                var o5 = {
+                    'left': '0px',
+                    'transform': 'scale(1)',
+                    'z-index': '99',
+                    'opacity': '1'
+                };
+                var a = [o0, o1, o2, o3, o4, o5];
+                var mycars = 0;
+                a.unshift(a.pop());
+                $('#pt1').css(a[0]);
+                $('#pt2').css(a[1]);
+                $('#pt3').css(a[2]);
+                $('#pt4').css(a[3]);
+                $('#pt5').css(a[4]);
+                $('#pt6').css(a[5]);
+                setInterval(function() {
+                    a.unshift(a.pop());
+                    $('#pt1').css(a[0]);
+                    $('#pt2').css(a[1]);
+                    $('#pt3').css(a[2]);
+                    $('#pt4').css(a[3]);
+                    $('#pt5').css(a[4]);
+                    $('#pt6').css(a[5]);
+                    //改变CPU磁盘内容
+                    $('#cpu-yz').css(a[0]);
+                    $('#cpu-lf').css(a[1]);
+                    $('#nc-yz').css(a[2]);
+                    $('#nc-lf').css(a[3]);
+                    $('#cp-yz').css(a[4]);
+                    $('#cp-lf').css(a[5]);
+                }, 10000);
             })
     });
     //----------------------------------------------------------------------------------
@@ -1033,7 +1045,7 @@
                 containLabel: true
             },
             xAxis: {
-                name: '时间',
+                // name: '时间',
                 nameLocation: 'end',
                 type: 'category',
                 boundaryGap: false,
@@ -1046,7 +1058,7 @@
                 }
             },
             yAxis: {
-                name: '平均使用率',
+                name: '平均使用率 / 时间',
                 type: 'value',
                 axisLine: {
                     onZero: false,
@@ -1085,7 +1097,7 @@
                 echars.clear();
                 echars.setOption(option);
             }, 500);
-        }, 2000);
+        }, 10000);
     }
     </script>
 </body>
