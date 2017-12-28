@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,IAAK;EACD,SAAS,EAAE,GAAG;EACd,gBAAgB,EAAE,oBAAoB;EACtC,eAAe,EAAE,SAAS;EAC1B,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,aAAa;EAClC,MAAM,EAAE,IAAI;;AAIhB,MAAO;EACH,MAAM,EAAE,UAAa;EACrB,gBAAgB,EAAE,uBAAuB;EACzC,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,aAAa;EAClC,eAAe,EAAE,SAAS",
+"sources": ["bigdata.scss"],
+"names": [],
+"file": "bigdata.css"
+}

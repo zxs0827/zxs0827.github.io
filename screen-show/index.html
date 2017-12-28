@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bigdata.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <title>大屏展示</title>
+</head>
+
+<body>
+    <!-- 联通监控系统大屏展示 顶部图片 -->
+    <div id="title"></div>
+    <!-- 中间电流效果 -->
+    <div id="center">
+        <!-- 运动电流  start-->
+        <div id="c1"></div>
+        <div id="c2"></div>
+        <div id="c3"></div>
+        <div id="c4"></div>
+        <div id="c6"></div>
+        <div id="c7"></div>
+        <svg version="1.1" id="electricity" x="0px" y="0px" width="875px" height="529px" viewBox="0 0 875 529" enable-background="new 0 0 875 529" xml:space="preserve">
+            <path fill="none" stroke="none" stroke-miterlimit="10" d="M28,280l101-44" id="path-1" />
+            <path fill="none" stroke="none" stroke-miterlimit="10" d="M454,24L342,73" id="path-2" />
+            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M431,156.328
+    C431,209.718,344.367,253,237.5,253S44,209.718,44,156.328s86.633-96.672,193.5-96.672S431,102.938,431,156.328z" id="path-3" />
+            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M334,242l253,122l-178,75l42,20l-142,65l-47-19
+    l-2-16l-16-5" id="path-4" />
+            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M336,244l253,118l108-45l86,38L499,477l-47-19
+    l-141,65l-48-19l-4-13l-15-8" id="path-5" />
+            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M801,154.5l49,18L796,195l63,24.5L806,244
+    l62.5,24L727,331l-29.5-13l-107,46.5L334,243.5" id="path-6" />
+            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M800,154.333l48,18l-52.667,23.333l64,26
+    l-54.667,22l64,24.667l-142,62l56.667,25.334L500,475.667L410,441l178-76.667l-256.667-122" id="path-7" />
+            <!--  -->
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="1s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-1" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="2s" begin="0.5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-1" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="1.5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-2" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="3s" begin="0.5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-2" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="3s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-3" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+                <animateMotion dur="3s" begin="2s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-3" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
+                <animateMotion dur="5s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+                    <mpath xlink:href="#path-4" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
+                <animateMotion dur="4s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+                    <mpath xlink:href="#path-5" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
+                <animateMotion dur="5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-6" />
+                </animateMotion>
+            </circle>
+            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
+                <animateMotion dur="6s" begin="1s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-7" />
+                </animateMotion>
+            </circle>
+        </svg>
+        <!-- 运动电流  end-->
+    </div>
+    <!-- 系统健康状态 -->
+    <div id="xtjkzt">
+        <h2 class="h2">系统健康状态</h2>
+        <div class="bk-3">
+            <h3 id="zy-t">亦庄数据中心</h3>
+            <h3 id="lf-t">廊坊数据中心</h3>
+            <div id="score"></div>
+            <div id="infomation">
+                <div><span class="static-0"></span>待定</div>
+                <div><span class="static-1"></span>信息</div>
+                <div><span class="static-2"></span>轻微</div>
+                <div><span class="static-3"></span>一般</div>
+                <div><span class="static-4"></span>重要</div>
+                <div><span class="static-5"></span>紧急</div>
+            </div>
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <!--  -->
+                </ul>
+            </div>
+        </div>
+        <div class="center-data">20</div>
+    </div>
+    <!-- 主机状态 -->
+    <div id="zjzt">
+        <h2 class="h2">主机状态</h2>
+        <div class="_yx-status">
+            <h3 id="yz-t">亦庄</h3>
+            <div class="yz-zx _status-item green">
+                <p class="font14">在线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </div>
+            <div class="yz-lx _status-item red">
+                <p class="font14">离线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </div>
+            <div class="yz-whz _status-item gray">
+                <p class="font14">维护中</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </div>
+        </div>
+        <div class="_lf-status">
+            <h3 id="lf-t">廊坊</h3>
+            <div class="lf-zx _status-item green">
+                <p class="font14">在线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </div>
+            <div class="lf-lx _status-item red">
+                <p class="font14">离线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </div>
+            <div class="lf-whz _status-item gray">
+                <p class="font14">维护中</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 总数 -->
+    <div id="zs">
+        <!-- 机房总数 -->
+        <div id="jfzs">
+            <span>&nbsp;</span>
+            <span>机房总数</span>
+        </div>
+        <!-- 系统总数 -->
+        <div id="xtzs">
+            <span></span>
+            <span>系统总数</span>
+        </div>
+        <!-- 设备总数 -->
+        <div id="sbzs">
+            <span>&nbsp;</span>
+            <span>设备总数</span>
+        </div>
+        <!-- 物理机总数 -->
+        <div id="wljzs">
+            <span>&nbsp;</span>
+            <span>物理机总数</span>
+        </div>
+        <!-- 虚拟机总数 -->
+        <div id="xnjzs">
+            <span>&nbsp;</span>
+            <span>虚拟机总数</span>
+        </div>
+    </div>
+    <!-- 所有告警分布 -->
+    <div id="sygjfb">
+        <h2 class="h2">所有告警分布</h2>
+        <div id="sygjfb-echarts"></div>
+    </div>
+    <!-- 各机房告警级别分布 -->
+    <div id="gjfgjjb">
+        <h2 class="h2">各机房告警级别分布</h2>
+        <div id="gjfgjjb-echarts"></div>
+    </div>
+    <!-- 告警总数走势折线图 -->
+    <div id="gjzszs">
+        <h2 class="h2">告警总数走势折线图</h2>
+        <div id="gjzszs-echarts"></div>
+    </div>
+    <!-- CPU/内存/磁盘使用系统Top5 -->
+    <div id="cpu">
+        <h2 class="h2">CPU/内存/磁盘使用系统Top5</h2>
+        <div class="_absolute1">
+            <div class="_absolute2">
+                <div id="cpu-yz"></div>
+                <div id="cpu-lf"></div>
+                <div id="nc-yz"></div>
+                <div id="nc-lf"></div>
+                <div id="cp-yz"></div>
+                <div id="cp-lf"></div>
+            </div>
+            <div id="xtmc">系统名称</div>
+            <div id="sys"></div>
+        </div>
+    </div>
+    <!-- cpu/内存折线图 -->
+    <div id="cpu-left">
+        <div id="cpu-echars"></div>
+    </div>
+    <!-- 设备机房分布图 -->
+    <div id="sbjf">
+        <h2 class="h2">设备机房分布图</h2>
+        <div id="sbjf-echarts"></div>
+    </div>
+    <!-- 各机房设备类型分布 -->
+    <div id="sblx">
+        <h2 class="h2">各机房设备类型分布</h2>
+        <div id="sblx-echarts"></div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+    <script type="text/javascript">
+    //----------------------------------------------------------------------------------
+    // 系统健康状态
+    //----------------------------------------------------------------------------------
+    var LFDATA = {};
+    var YZDATA = {};
+    var counter = 0;
+    var swiper;
+
+    function initData() {
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/lf.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                LFDATA = datajson.data;
+                addCounter();
+            })
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/yz.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                YZDATA = datajson.data;
+                addCounter()
+            })
+            
+        function addCounter() {
+            ++counter
+            if (counter == 2) {
+                console.log(LFDATA);
+                console.log(YZDATA);
+                // 亦庄数据长度
+                var yzLength = YZDATA.length;
+                // 廊坊数据长度
+                var lfLength = LFDATA.length;
+                // 取最大长度
+                var maxNum = Math.max(yzLength, lfLength);
+                $("ul.swiper-wrapper").html("");
+                for (var i = 0; i < maxNum; i++) {
+                    // 亦庄 填充文字
+                    var yz_context = YZDATA[i % yzLength].sys_name.length > 25 ? YZDATA[i % yzLength].sys_name.substring(0, 25) + '..' : YZDATA[i % yzLength].sys_name;
+                    // 廊坊 填充文字
+                    var lf_context = LFDATA[i % lfLength].sys_name.length > 25 ? LFDATA[i % lfLength].sys_name.substring(0, 25) + '...' : LFDATA[i % lfLength].sys_name;
+                    // 亦庄 状态圆形显示颜色
+                    var yz_status = YZDATA[i % yzLength].priority;
+                    // 廊坊 状态圆形显示颜色
+                    var lf_status = LFDATA[i % lfLength].priority;
+                    var yz_html = '<div class="left-data"><span class="infor-' + yz_status + '"></span>' + yz_context + '</div>';
+                    var lf_html = '<div class="right-data"><span class="infor-' + lf_status + '"></span>' + lf_context + '</div>';
+                    var html = yz_html + lf_html;
+                    $("<li />", {
+                        html: html,
+                        'class': 'swiper-slide'
+                    }).appendTo('ul.swiper-wrapper');
+                }
+                if (swiper) {
+                    swiper.destroy();
+                }
+                swiper = new Swiper('.swiper-container', {
+                    direction: 'vertical',
+                    loop: true, // 环路
+                    slidesPerView: 6, //每页显示条数
+                    simulateTouch: false, //鼠标拖动事件
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }
+                });
+            }
+        }
+        // });
+    }
+    initData();
+    setInterval(function() {
+        counter = 0;
+        initData();
+    }, 300000);
+    //----------------------------------------------------------------------------------
+    // 主机状态
+    //----------------------------------------------------------------------------------
+    (function zjztInit() {
+        $.getJSON('https://zxs0827.github.io/web-back/JSON/status.json', function(datajson, textStatus) {
+            /*optional stuff to do after success */
+            console.log(datajson);
+            // 在线
+            $(".yz-zx .status-num").text(datajson.data.zaixianyz);
+            $(".lf-zx .status-num").text(datajson.data.zaixianlf);
+            // 离线
+            $(".yz-lx .status-num").text(datajson.data.duankaiyz);
+            $(".lf-lx .status-num").text(datajson.data.duankailf);
+            // 维护中
+            $(".yz-whz .status-num").text(datajson.data.weihuyz);
+            $(".lf-whz .status-num").text(datajson.data.weihulf);
+        });
+    })();
+    // 设备总数
+    (function zsInit() {
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/zs.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                // 机房总数
+                $("#jfzs span:nth-child(1)").text(datajson.data.jifang);
+                // 系统总数
+                $("#xtzs span:nth-child(1)").text(datajson.data.system);
+                // 设备总数
+                $("#sbzs span:nth-child(1)").text(datajson.data.host);
+                // 物理机总数
+                $("#wljzs span:nth-child(1)").text(datajson.data.wuhost);
+                // 虚拟机总数
+                $("#xnjzs span:nth-child(1)").text(datajson.data.xnhost);
+            })
+    })();
+    //----------------------------------------------------------------------------------
+    // 设备机房分布图
+    //----------------------------------------------------------------------------------
+    function sbjfInit() {
+        function echartsInit(datajson) {
+            var data1 = [];
+            var data2 = [];
+            var dataShadow = [];
+
+            $.each(datajson.data, function(index, val) {
+                $.each(val, function(i, v) {
+                    data1.push(v.jifangname);
+                    data2.push(v.cons);
+                })
+            });
+
+
+            var sbjf_echarts = echarts.init($("#sbjf-echarts")[0]);
+            var maxNum = Math.max.apply({}, data2);
+            maxNum = 3000;
+            for (var i = 0; i < data1.length; i++) {
+                dataShadow.push(maxNum);
+            }
+            var option = {
+                title: {
+                    // text: ''
+                },
+                textStyle: {
+                    color: 'rgb(255, 255, 255)',
+                    fontSize: 4
+                },
+                tooltip: {
+                    show: false
+                },
+                legend: {
+                    // data: ['']
+                },
+                grid: [{
+                    width: '100%',
+                    bottom: 0,
+                    left: 0,
+                    containLabel: true,
+                }],
+                xAxis: {
+                    data: data1,
+                    axisLabel: {
+                        interval: 0,
+                        rotate: -90,
+                    },
+                    nameTextStyle: {
+                        fontSize: 20
+                    },
+                    axisLine: {
+                        lineStyle: {
+                            color: "#fff"
+                        },
+                        show: true
+                    },
+                },
+                yAxis: {
+                    axisLine: {
+                        lineStyle: {
+                            color: "#fff"
+                        },
+                        show: true
+                    },
+                },
+                series: [{ // For shadow
+                    type: 'bar',
+                    itemStyle: {
+                        normal: { color: 'rgba(255,255,255,0.1)' }
+                    },
+                    barGap: '-100%',
+                    barCategoryGap: '40%',
+                    data: dataShadow,
+                    animation: false
+                    // animationDelay: function(idx) {
+                    //     return idx * 500;
+                    // }
+                }, {
+                    type: 'bar',
+                    data: data2,
+                    itemStyle: {
+                        normal: {
+                            color: new echarts.graphic.LinearGradient(
+                                0, 0, 0, 1, [
+                                    { offset: 0, color: '#83bff6' },
+                                    { offset: 0.5, color: '#188df0' },
+                                    { offset: 1, color: '#188df0' }
+                                ]
+                            )
+                        }
+                    },
+                    animationDelay: function(idx) {
+                        return idx * 500;
+                    }
+                }]
+            };
+            sbjf_echarts.setOption(option);
+            setInterval(function() {
+                sbjf_echarts.clear();
+                sbjf_echarts.setOption(option);
+            }, 7000);
+        }
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/shebeidata.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                echartsInit(datajson);
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            });
+    }
+    sbjfInit();
+    //----------------------------------------------------------------------------------
+    // 各机房设备类型分布 
+    //----------------------------------------------------------------------------------
+    function sblxInit() {
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/shebeidata.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                console.log("success");
+                var arrHosts = [];
+                var hostsCount = 0;
+                var eachCount = 0;
+
+                $.each(datajson.data, function(index, val) {
+                    $.each(val, function(index, val) {
+                        arrHosts[eachCount] = new Array();
+
+                        $.each(val.data, function(index, val) {
+                            // 临时
+                            if (val.cons === 0) {
+                                val.cons = 20;
+                            }
+
+                            arrHosts[eachCount].push({
+                                value: val.cons,
+                                name: val.host_type
+                            });
+                        });
+
+                        eachCount++;
+                    });
+                });
+
+                // 替代函数
+                var arr = [];
+                $.each(datajson.data, function(index, val) {
+                     $.each(val,function(i,v){
+                        $.each(v.data,function(key,value){
+                            value["value"] = value.cons;
+                            value["name"] = value.host_type;
+                            delete value.count;
+                            delete value.cons;
+                            delete value.host_type;
+                        })
+                        arr.push(v.data);
+                     })
+                });
+
+
+                var sblx_echarts = echarts.init($("#sblx-echarts")[0]);
+                var option = {
+                    color: ['rgb(0, 88, 255)', 'rgb(12, 156, 250)'],
+                    series: [{
+                        type: 'pie',
+                        radius: ['30%', '50%'],
+                        grid: {
+                            width: '100%',
+                            left: 0,
+                            right: 0,
+                            containLabel: true
+                        },
+                        label: {
+                            normal: {
+                                show: true,
+                                fontSize: 15,
+                                // position: 'center'
+                            }
+                        },
+                        labelLine: {
+                            normal: {
+                                show: true,
+                                length: 1,
+                                length2: 10
+                            }
+                        },
+                        data: arrHosts[hostsCount]
+                    }]
+                }
+                sblx_echarts.setOption(option);
+                setInterval(function() {
+                    hostsCount++;
+                    hostsCount = hostsCount % arrHosts.length;
+
+                    option.series[0].data = arrHosts[hostsCount];
+
+                    sblx_echarts.clear();
+                    sblx_echarts.setOption(option);
+                }, 5000);
+            });
+    }
+    sblxInit();
+    //------------------------------------------------------------------
+    // 所有告警分布
+    //------------------------------------------------------------------
+    function sygjfbInit() {
+        var count = 0;
+        var echartsPieCount = 0; // 饼状图索引
+        var echartsPieData = []; // 饼状图数据
+        var intervalCount = 0; // 饼状图循环计数器
+        var intervalLength = null; // 饼状图循环长度
+        function echartsInit(datajson) {
+            count = count + 1;
+            if (count == 1) {
+                var data1 = [];
+                var data2 = [];
+                var dataShadow = [];
+                $.each(datajson.data, function(index, val) {
+                    $.each(val, function(index, val) {
+                        data1.push(val.jifangname);
+                        data2.push(val.jifang);
+                        echartsPieData[echartsPieCount] = new Array();
+                        $.each(val.data, function(index, val) {
+                            // 临时
+                            if (val.cons === 0) {
+                                val.cons = 20;
+                            }
+                            echartsPieData[echartsPieCount].push({
+                                value: val.cons,
+                                name: (function() {
+                                    // return val.priority
+                                    switch (val.priority) {
+                                        case 1:
+                                            return "信息";
+                                        case 2:
+                                            return "轻微";
+                                        case 3:
+                                            return "一般";
+                                        case 4:
+                                            return "重要";
+                                        case 5:
+                                            return "紧急";
+                                        default:
+                                            return val.priority
+                                            break;
+                                    }
+                                })()
+                            });
+                        });
+                        echartsPieCount++;
+                    });
+                });
+                intervalLength = echartsPieData.length;
+                var sbjf_echarts = echarts.init($("#sygjfb-echarts")[0]);
+                var maxNum = Math.max.apply({}, data2);
+                if (maxNum % 10 > 0) {
+                    var strMaxNum = maxNum.toString();
+                    strMaxNum = strMaxNum.substring(0, strMaxNum.length - 1);
+                    maxNum = (parseInt(strMaxNum) + 1) * 10;
+                }
+                for (var i = 0; i < data1.length; i++) {
+                    dataShadow.push(maxNum);
+                }
+                var option = {
+                    title: {
+                        // text: ''
+                    },
+                    textStyle: {
+                        color: 'rgb(255, 255, 255)',
+                        fontSize: 4
+                    },
+                    tooltip: {
+                        show: false
+                    },
+                    legend: {
+                        // data: ['']
+                    },
+                    grid: [{
+                        width: '100%',
+                        bottom: 0,
+                        left: 0,
+                        containLabel: true,
+                    }],
+                    xAxis: {
+                        data: data1,
+                        axisLabel: {
+                            interval: 0,
+                            rotate: -90,
+                        },
+                        nameTextStyle: {
+                            fontSize: 20
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: "#fff"
+                            },
+                            show: true
+                        },
+                    },
+                    yAxis: {
+                        axisLine: {
+                            lineStyle: {
+                                color: "#fff"
+                            },
+                            show: true
+                        }
+                    },
+                    series: [{ // For shadow
+                        type: 'bar',
+                        itemStyle: {
+                            normal: { color: 'rgba(255,255,255,0.1)' }
+                        },
+                        barGap: '-100%',
+                        // barCategoryGap: '40%',
+                        barCategoryGap: '40%',
+                        data: dataShadow,
+                        animation: false
+                        // animationDelay: function(idx) {
+                        //     return idx * 500;
+                        // }
+                    }, {
+                        // name: '销量',
+                        type: 'bar',
+                        data: data2,
+                        itemStyle: {
+                            normal: {
+                                color: new echarts.graphic.LinearGradient(
+                                    0, 0, 0, 1, [
+                                        { offset: 0, color: '#83bff6' },
+                                        { offset: 0.5, color: '#188df0' },
+                                        { offset: 1, color: '#188df0' }
+                                    ]
+                                )
+                            }
+                        },
+                        animationDelay: function(idx) {
+                            return idx * 500;
+                        }
+                    }]
+                };
+                sbjf_echarts.setOption(option);
+                echartsPieInit(intervalCount);
+                setInterval(function() {
+                    sbjf_echarts.clear();
+                    sbjf_echarts.setOption(option);
+                }, 7000);
+                var echartsPieInterval = setInterval(function() {
+                    intervalCount++;
+                    echartsPieInit(intervalCount % intervalLength);
+                }, 5000);
+            }
+        }
+
+        function echartsPieInit(index) {
+            var gjfgjjb_echarts = echarts.init($("#gjfgjjb-echarts")[0]);
+            var option = {
+                series: [{
+                    type: 'pie',
+                    radius: ' 55%',
+                    roseType: 'radius',
+                    center: ['50%', '50%'],
+                    labelLine: {
+                        normal: {
+                            length: -5,
+                            show: false
+                        }
+                    },
+                    color: ['rgb(236, 134, 81)', 'rgb(255, 101, 218)', 'rgb(54, 116, 233)', 'rgb(86, 207, 236)', 'rgb(194, 194, 49)'],
+                    data: echartsPieData[index]
+                }]
+            }
+            gjfgjjb_echarts.setOption(option);
+        }
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/jfgj.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                echartsInit(datajson);
+            })
+            .fail(function() {})
+            .always(function() {});
+    }
+    sygjfbInit();
+    //-----------------------------------------------------------------------------------------
+    // 告警总数走势折线图
+    //-----------------------------------------------------------------------------------------
+    function gjzszsInit() {
+        function echartsInit(data) {
+            var gjzszs_echarts = echarts.init(document.getElementById("gjzszs-echarts"));
+            var data1 = [];
+            var data2 = [];
+            var xData = [];
+            var yData = [];
+            var lineCount = 0;
+            var lineNum = 5;
+            $.each(data, function(index, val) {
+                // data1.push(val.clock);
+                data1.push(val.clock.substring(11, 16));
+                data2.push(val.cons);
+            });
+            xData = data1.slice(lineCount, lineCount + lineNum);
+            // alert(xData);
+            console.log(xData);
+            yData = data2.slice(lineCount, lineCount + lineNum);
+            var maxNum = Math.max.apply({}, data2);
+            if (maxNum % 50 > 0) {
+                maxNum = Math.ceil(maxNum / 50) * 50;
+            }
+            var option = {
+                xAxis: [{
+                    name: '时间',
+                    type: 'category',
+                    boundaryGap: true,
+                    axisLine: {
+                        lineStyle: {
+                            color: "#fff"
+                        },
+                        show: true
+                    },
+                    data: xData
+                }],
+                yAxis: [{
+                    type: 'value',
+                    scale: true,
+                    name: '告警数量',
+                    max: maxNum,
+                    min: 0,
+                    axisLine: {
+                        lineStyle: {
+                            color: "#fff"
+                        },
+                        show: true
+                    },
+                    boundaryGap: [0.2, 0.2]
+                }],
+                series: [{
+                    type: 'line',
+                    itemStyle: {
+                        normal: {
+                            color: 'rgba(255, 255, 255,0.6)'
+                        }
+                    },
+                    areaStyle: {
+                        normal: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                                offset: 0,
+                                color: 'rgba(107, 107, 255,0.4)'
+                            }, {
+                                offset: 0.8,
+                                color: 'rgba(0, 230, 255, 0.4)'
+                            }])
+                        }
+                    },
+                    data: yData
+                }]
+            };
+            gjzszs_echarts.setOption(option);
+            setInterval(function() {
+                lineCount++;
+                lineCount = lineCount % data.length;
+                var xAxis = option.xAxis[0].data;
+                var series = option.series[0].data;
+                xAxis.shift();
+                // xAxis.push(data1[lineCount + lineNum - 1] % data.length) ;
+                xAxis.push(data1[(lineCount + lineNum - 1) % data.length]);
+                series.shift();
+                // series.push(data2[lineCount + lineNum - 1]);
+                series.push(data2[(lineCount + lineNum - 1) % data.length]);
+                gjzszs_echarts.setOption(option);
+            }, 2000);
+        }
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/alertcount.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                echartsInit(datajson.data);
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            });
+    }
+    gjzszsInit();
+    //----------------------------------------------------------------------------------
+    //系统名称切换滚动
+    //----------------------------------------------------------------------------------
+    $(document).ready(function() {
+        var o0 = {
+            'left': '50px',
+            'transform': 'scale(0.5)',
+            'z-index': '0',
+            'opacity': '0.3'
+        }
+        var o1 = {
+            'left': '50px',
+            'transform': 'scale(0.5)',
+            'z-index': '0',
+            'opacity': '0'
+        };
+        var o2 = {
+            'left': '50px',
+            'transform': 'scale(0.5)',
+            'z-index': '0',
+            'opacity': '0'
+        };
+        var o3 = {
+            'left': '50px',
+            'transform': 'scale(0.5)',
+            'z-index': '0',
+            'opacity': '0'
+        };
+        var o4 = {
+            'left': '-50px',
+            'transform': 'scale(0.5)',
+            'z-index': '0',
+            'opacity': '0.3'
+        };
+        var o5 = {
+            'left': '0px',
+            'transform': 'scale(1)',
+            'z-index': '99',
+            'opacity': '1'
+        };
+        var a = [o0, o1, o2, o3, o4, o5];
+        var mycars = 0;
+        setInterval(function() {
+            a.unshift(a.pop());
+            $('#pt1').css(a[0]);
+            $('#pt2').css(a[1]);
+            $('#pt3').css(a[2]);
+            $('#pt4').css(a[3]);
+            $('#pt5').css(a[4]);
+            $('#pt6').css(a[5]);
+            //改变CPU磁盘内容
+            if (mycars == 6) {
+                mycars = 1;
+            } else {
+                mycars++;
+            }
+            if (mycars == 1) {
+                $("#cpu-yz").css("opacity", 1);
+            } else {
+                $("#cpu-yz").css("opacity", 0);
+            }
+            if (mycars == 2) {
+                $("#cpu-lf").css("opacity", 1);
+            } else {
+                $("#cpu-lf").css("opacity", 0);
+            }
+            if (mycars == 3) {
+                $("#nc-yz").css("opacity", 1);
+            } else {
+                $("#nc-yz").css("opacity", 0);
+            }
+            if (mycars == 4) {
+                $("#nc-lf").css("opacity", 1);
+            } else {
+                $("#nc-lf").css("opacity", 0);
+            }
+            if (mycars == 5) {
+                $("#cp-yz").css("opacity", 1);
+            } else {
+                $("#cp-yz").css("opacity", 0);
+            }
+            if (mycars == 6) {
+                $("#cp-lf").css("opacity", 1);
+            } else {
+                $("#cp-lf").css("opacity", 0);
+            }
+        }, 2000);
+        $.ajax({
+                url: 'https://zxs0827.github.io/web-back/JSON/cpu.json',
+                type: 'GET',
+                dataType: 'json',
+                async: false,
+            })
+            .done(function(datajson) {
+                console.log("success");
+                console.log(datajson);
+                //系统名称
+                var str = "<div id='pt1'>";
+                $.each(datajson.data.lfcp, function(index, val) {
+                    var a = index + 1
+                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
+                });
+                str += "</div>";
+                str += "<div id='pt2'>";
+                $.each(datajson.data.lfcpu, function(index, val) {
+                    var a = index + 1
+                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
+                });
+                str += "</div>";
+                str += "<div id='pt3'>";
+                $.each(datajson.data.lfnc, function(index, val) {
+                    var a = index + 1
+                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
+                });
+                str += "</div>";
+                str += "<div id='pt4'>";
+                $.each(datajson.data.yzcp, function(index, val) {
+                    var a = index + 1
+                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
+                });
+                str += "</div>";
+                str += "<div id='pt5'>";
+                $.each(datajson.data.yzcpu, function(index, val) {
+                    var a = index + 1
+                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
+                });
+                str += "</div>";
+                str += "<div id='pt6'>";
+                $.each(datajson.data.yznc, function(index, val) {
+                    var a = index + 1
+                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
+                });
+                str += "</div>";
+                $("#sys").html(str);
+                cpuEchartsInit(datajson.data);
+            })
+    });
+    //----------------------------------------------------------------------------------
+    //CPU/内存/磁盘折线图
+    //----------------------------------------------------------------------------------
+    function cpuEchartsInit(data) {
+        var arrCpuClock = [];
+        var arrCpuValue = [];
+        var cpuCount = 0;
+        var eachCount = 0;
+        $.each(data, function(index1, val) {
+            arrCpuClock[eachCount] = new Array();
+            arrCpuValue[eachCount] = new Array();
+            $.each(val, function(index2, val) {
+                arrCpuClock[eachCount][index2] = new Array();
+                arrCpuValue[eachCount][index2] = new Array();
+                $.each(val.data, function(index3, val) {
+                    arrCpuClock[eachCount][index2].push(val.clock.substring(11, 16));
+                    arrCpuValue[eachCount][index2].push(val.value_avg);
+                });
+            });
+            eachCount++;
+        });
+        var echars = echarts.init(document.getElementById("cpu-echars"));
+        var color = ['#FFFFFF'];
+        var option = {
+            title: {},
+            tooltip: {
+                show: false
+            },
+            legend: {
+                data: []
+            },
+            grid: {
+                // left: '3%',
+                width: '80%',
+                left: '3%',
+                bottom: '0%',
+                containLabel: true
+            },
+            xAxis: {
+                name: '时间',
+                nameLocation: 'end',
+                type: 'category',
+                boundaryGap: false,
+                data: arrCpuClock[cpuCount][0],
+                axisLine: {
+                    onZero: false,
+                    lineStyle: {
+                        color: color[0]
+                    }
+                }
+            },
+            yAxis: {
+                name: '平均使用率',
+                type: 'value',
+                axisLine: {
+                    onZero: false,
+                    lineStyle: {
+                        color: color[0]
+                    }
+                }
+            },
+            series: [{
+                type: 'line',
+                data: arrCpuValue[cpuCount][0]
+            }, {
+                type: 'line',
+                data: arrCpuValue[cpuCount][1]
+            }, {
+                type: 'line',
+                data: arrCpuValue[cpuCount][2]
+            }, {
+                type: 'line',
+                data: arrCpuValue[cpuCount][3]
+            }, {
+                type: 'line',
+                data: arrCpuValue[cpuCount][4]
+            }]
+        };
+        echars.setOption(option);
+        setInterval(function() {
+            cpuCount++;
+            cpuCount = cpuCount % arrCpuValue.length;
+            option.series[0].data = arrCpuValue[cpuCount][0];
+            option.series[1].data = arrCpuValue[cpuCount][1];
+            option.series[2].data = arrCpuValue[cpuCount][2];
+            option.series[3].data = arrCpuValue[cpuCount][3];
+            option.series[4].data = arrCpuValue[cpuCount][4];
+            setTimeout(function() {
+                echars.clear();
+                echars.setOption(option);
+            }, 500);
+        }, 2000);
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,826 @@
+@charset "UTF-8";
+html {
+  font-size: 5vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  text-shadow: 0px 0px 2px #000;
+}
+
+body {
+  width: 1920px;
+  height: 1200px;
+  position: relative;
+  background-image: url("../img/bk-old.png");
+  background-size: 100% 100%;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+#title {
+  /* height: pxTorem(81px);*/
+  height: 81px;
+  background-image: url("../img/title.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+#center {
+  width: 1067px;
+  height: 809px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 421px;
+  right: 0px;
+  top: 140px;
+}
+
+.left-h, .h2:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 19px;
+  background-image: url("../img/left-h.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 5px;
+}
+
+.h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  margin: 0px;
+  text-shadow: 0px 0px 7px red;
+}
+
+#xtjkzt {
+  width: 420px;
+  position: absolute;
+  /* bottom: 120px;*/
+  bottom: 96px;
+  left: 4px;
+}
+#xtjkzt #infomation {
+  width: 135px;
+  font-size: 0px;
+  margin: 0 auto;
+  position: relative;
+  top: 206px;
+}
+#xtjkzt #infomation > div {
+  display: inline-block;
+  font-size: 12px;
+}
+#xtjkzt #score {
+  font-size: 30px;
+}
+#xtjkzt .bk-3 {
+  background-image: url("../img/box-3.png");
+  width: 410px;
+  height: 244px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 10px;
+  position: relative;
+  top: 45px;
+}
+#xtjkzt h2 {
+  text-indent: 31px;
+}
+#xtjkzt h2:after {
+  left: 16px;
+}
+#xtjkzt h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+}
+#xtjkzt #zy-t {
+  top: -20px;
+  left: 16px;
+}
+#xtjkzt #lf-t {
+  top: -20px;
+  right: 14px;
+}
+#xtjkzt .left-data {
+  text-align: left;
+  font-size: 9px;
+  display: inline-block;
+  width: 105px;
+  margin-left: 7px;
+  vertical-align: top;
+  position: relative;
+  padding-left: 16px;
+  float: left;
+}
+#xtjkzt .right-data {
+  text-align: left;
+  font-size: 9px;
+  display: inline-block;
+  width: 105px;
+  vertical-align: top;
+  position: relative;
+  padding-left: 16px;
+  float: right;
+}
+#xtjkzt .swiper-container {
+  height: 205px;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+#xtjkzt .swiper-wrapper {
+  font-size: 0px;
+  width: 100%;
+  padding: 0;
+}
+#xtjkzt li.swiper-slide {
+  list-style: none;
+}
+#xtjkzt .box-1 {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+#xtjkzt .center-data {
+  width: 76px;
+  position: absolute;
+  top: 158px;
+  left: 178px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 0px;
+  color: #48a8d5;
+}
+
+[class^='infor-'] {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  border-radius: 50%;
+  -webkit-animation: anim-shadow 1s linear infinite alternate;
+  animation: anim-shadow 1s linear infinite alternate;
+}
+
+[class^='static-'] {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 1px;
+  margin: 0px 5px;
+  border-radius: 50%;
+  -webkit-animation: anim-shadow 1s linear infinite alternate;
+  animation: anim-shadow 1s linear infinite alternate;
+}
+
+@-webkit-keyframes anim-shadow {
+  0% {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 3px #fff;
+    box-shadow: 0px 0px 3px #fff;
+    opacity: 0.8;
+  }
+}
+@keyframes anim-shadow {
+  0% {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 3px #fff;
+    box-shadow: 0px 0px 3px #fff;
+    opacity: 0.8;
+  }
+}
+.infor-0,
+.static-0 {
+  background-image: url("../img/0.png");
+}
+
+.infor-1,
+.static-1 {
+  background-image: url("../img/1.png");
+}
+
+.infor-2,
+.static-2 {
+  background-image: url("../img/2.png");
+}
+
+.infor-3,
+.static-3 {
+  background-image: url("../img/3.png");
+}
+
+.infor-4,
+.static-4 {
+  background-image: url("../img/4.png");
+}
+
+.infor-5,
+.static-5 {
+  background-image: url("../img/5.png");
+}
+
+/* center 中央电流*/
+#electricity {
+  position: absolute;
+  left: 193px;
+  top: 263px;
+}
+
+#c1 {
+  width: 444px;
+  height: 278px;
+  position: absolute;
+  top: 531px;
+  left: -1px;
+  background-image: url("../img/c1.png");
+  z-index: 1;
+}
+
+#c2 {
+  width: 362px;
+  height: 232px;
+  position: absolute;
+  top: 276px;
+  left: 247px;
+  background-image: url("../img/c2.png");
+}
+
+#c3 {
+  width: 260px;
+  height: 211px;
+  position: absolute;
+  top: 504px;
+  left: 657px;
+  background-image: url("../img/c3.png");
+}
+
+#c4 {
+  width: 803px;
+  height: 597px;
+  background-image: url("../img/c4.png");
+  position: absolute;
+  top: 0px;
+  left: 42px;
+}
+
+#c6 {
+  width: 875px;
+  height: 529px;
+  background-image: url("../img/c6.png");
+  position: absolute;
+  top: 261px;
+  left: 191px;
+}
+
+#c7 {
+  width: 354px;
+  height: 224px;
+  background-image: url("../img/c7.png");
+  position: absolute;
+  top: 191px;
+  left: 649px;
+}
+
+/* 主机状态*/
+#zjzt {
+  width: 454px;
+  height: 255px;
+  /* background-image: url("../img/zjzt.png");*/
+  position: absolute;
+  right: 8px;
+  bottom: 110px;
+}
+#zjzt h2 {
+  text-indent: 17px;
+}
+#zjzt h2:after {
+  left: 1px;
+  top: 4px;
+}
+#zjzt h3 {
+  margin: 0;
+  font-size: 26px;
+  position: absolute;
+  font-weight: normal;
+  top: 8px;
+  left: 2px;
+  text-shadow: 0px 0px 7px #1290af;
+}
+#zjzt .font14 {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+  margin: 0px;
+}
+#zjzt .status-num {
+  font-size: 24px;
+  position: absolute;
+  left: 55px;
+  top: 16px;
+}
+#zjzt ._b1-line {
+  width: 30px;
+  height: 30px;
+  border-width: 2px;
+  border-style: solid;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#zjzt ._b1-line ._b-solid {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  -webkit-animation: anim-rotatey 2s linear infinite;
+  animation: anim-rotatey 2s linear infinite;
+}
+#zjzt ._status-item {
+  position: absolute;
+  width: 131px;
+  /* background-color: rgba(0, 128, 0, 0.64);*/
+  height: 100%;
+}
+#zjzt ._status-item.green {
+  left: 61px;
+}
+#zjzt ._status-item.red {
+  left: 192px;
+}
+#zjzt ._status-item.gray {
+  left: 323px;
+}
+#zjzt ._status-item.green ._b1-line {
+  border-color: #12ff00;
+}
+#zjzt ._status-item.green ._b-solid {
+  background-color: #12ff00;
+}
+#zjzt ._status-item.green .status-num {
+  color: #12ff00;
+}
+#zjzt ._status-item.red ._b1-line {
+  border-color: #ff2e47;
+}
+#zjzt ._status-item.red ._b-solid {
+  background-color: #ff2e47;
+}
+#zjzt ._status-item.red .status-num {
+  color: #ff2e47;
+}
+#zjzt ._status-item.gray ._b1-line {
+  border-color: #7b7b7b;
+}
+#zjzt ._status-item.gray ._b-solid {
+  background-color: #7b7b7b;
+}
+#zjzt ._status-item.gray .status-num {
+  color: #7b7b7b;
+}
+#zjzt ._yx-status {
+  width: 100%;
+  height: 85px;
+  /* background-color: rgba(255, 0, 0, 0.46);*/
+  position: relative;
+  margin-top: 37px;
+}
+#zjzt ._lf-status {
+  width: 100%;
+  height: 85px;
+  /* background-color: rgba(255, 0, 0, 0.46);*/
+  position: relative;
+  margin-top: 25px;
+}
+
+@-webkit-keyframes anim-rotatey {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes anim-rotatey {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+/* 总数*/
+#zs {
+  position: absolute;
+  /* outline: 3px solid red;*/
+  font-size: 0;
+  bottom: 47px;
+  left: 466px;
+  width: 970px;
+  height: 140px;
+}
+#zs > div {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  margin: 0px 27px;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+}
+#zs > div:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/circle.png");
+  -webkit-animation: anim-rotate 2s linear infinite;
+  animation: anim-rotate 2s linear infinite;
+  z-index: -1;
+}
+#zs > div span {
+  font-size: 21px;
+  display: block;
+  text-shadow: 0px 0px 8px #068eee;
+}
+#zs > div span:nth-child(1) {
+  position: relative;
+  top: 41px;
+}
+#zs > div span:nth-child(2) {
+  position: relative;
+  top: 35px;
+}
+
+@-webkit-keyframes anim-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes anim-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* 所有告警分布 */
+#sygjfb {
+  position: absolute;
+  width: 220px;
+  height: 310px;
+  /* outline: 2px solid red;*/
+  top: 466px;
+}
+#sygjfb h2 {
+  text-indent: 36px;
+}
+#sygjfb h2:after {
+  left: 20px;
+}
+#sygjfb #sygjfb-echarts {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* 各机房告警级别分布*/
+#gjfgjjb {
+  width: 220px;
+  height: 310px;
+  /* outline: 2px solid green;*/
+  position: absolute;
+  top: 466px;
+  left: 220px;
+}
+#gjfgjjb h2 {
+  text-indent: 17px;
+}
+#gjfgjjb h2:after {
+  left: 3px;
+  top: 4px;
+}
+#gjfgjjb #gjfgjjb-echarts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* 告警总数走势折线图*/
+#gjzszs {
+  width: 420px;
+  height: 300px;
+  /* outline: 2px solid orange;*/
+  position: absolute;
+  top: 105px;
+  left: 0;
+}
+#gjzszs h2 {
+  text-indent: 36px;
+}
+#gjzszs h2:after {
+  left: 20px;
+  top: 4px;
+}
+#gjzszs #gjzszs-echarts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: green;*/
+}
+
+/* CPU/内存/磁盘使用系统Top5*/
+#cpu {
+  width: 420px;
+  height: 320px;
+  /* outline: 2px solid orange;*/
+  position: absolute;
+  right: 7px;
+  top: 106px;
+}
+#cpu h2 {
+  text-indent: 17px;
+}
+#cpu h2:after {
+  left: 2px;
+  top: 4px;
+}
+#cpu ._absolute1 {
+  position: absolute;
+  top: 63px;
+}
+
+/* cpu折线图*/
+#cpu-left {
+  position: absolute;
+  top: 140px;
+  height: 250px;
+  width: 280px;
+  right: 0;
+}
+
+#cpu-echars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* 设备机房分布图*/
+#sbjf {
+  width: 200px;
+  height: 320px;
+  /* outline: 2px solid rgb(255, 192, 203);*/
+  position: absolute;
+  right: 226px;
+  top: 466px;
+}
+#sbjf h2 {
+  text-indent: 17px;
+}
+#sbjf h2:after {
+  left: 2px;
+  top: 4px;
+}
+
+#sbjf-echarts {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* 各机房设备类型分布 */
+#sblx {
+  width: 224px;
+  height: 320px;
+  /* outline: 2px solid rgb(255, 192, 203);*/
+  position: absolute;
+  right: 0px;
+  top: 466px;
+}
+#sblx h2 {
+  text-indent: 17px;
+}
+#sblx h2:after {
+  left: 2px;
+  top: 4px;
+}
+
+#sblx-echarts {
+  width: 100%;
+  height: 100%;
+  /* background-color: red;*/
+  position: absolute;
+}
+
+/* CPU*/
+#cpu-yz {
+  width: 116px;
+  height: 76px;
+  opacity: 1;
+  background-image: url("../img/1 (2).png");
+  background-position: center center;
+  position: absolute;
+}
+
+#cpu-lf {
+  width: 116px;
+  height: 76px;
+  opacity: 0;
+  background-image: url("../img/2 (2).png");
+  background-position: center center;
+  position: absolute;
+}
+
+#nc-yz {
+  width: 116px;
+  height: 76px;
+  opacity: 0;
+  background-image: url("../img/4 (2).png");
+  background-position: center center;
+  position: absolute;
+}
+
+#nc-lf {
+  width: 116px;
+  height: 76px;
+  opacity: 0;
+  background-image: url("../img/3 (2).png");
+  background-position: center center;
+  position: absolute;
+}
+
+#cp-yz {
+  width: 116px;
+  height: 76px;
+  opacity: 0;
+  background-image: url("../img/5 (2).png");
+  background-position: center center;
+  position: absolute;
+}
+
+#cp-lf {
+  width: 116px;
+  height: 76px;
+  opacity: 0;
+  background-image: url("../img/6.png");
+  background-position: center center;
+}
+
+#cpu-font {
+  width: 116px;
+  height: 40px;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #ffffff;
+  position: absolute;
+}
+
+#syxt-font {
+  width: 116px;
+  height: 76px;
+  margin-top: 29px;
+  font-size: 12px;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+}
+
+#top5-font {
+  width: 116px;
+  height: 76px;
+  font-size: 12px;
+  margin-top: 40px;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+}
+
+#xtmc {
+  width: 116px;
+  height: 24px;
+  font-size: 14px;
+  text-align: center;
+  right: 5px;
+  color: #fffefe;
+}
+
+[class^='dsjpt'] {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 5px;
+  margin: 4px 0px;
+}
+
+.dsjpt1 {
+  width: 110px;
+  height: 20px;
+  font-size: 12px;
+  right: 5px;
+  color: #f100ff;
+  text-align: center;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dsjpt2 {
+  width: 110px;
+  height: 20px;
+  font-size: 12px;
+  right: 5px;
+  color: #fe5300;
+  text-align: center;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dsjpt3 {
+  width: 110px;
+  height: 20px;
+  font-size: 12px;
+  right: 5px;
+  color: #ffff01;
+  text-align: center;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dsjpt4 {
+  width: 110px;
+  height: 20px;
+  font-size: 12px;
+  right: 5px;
+  color: #2251ff;
+  text-align: center;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dsjpt5 {
+  width: 110px;
+  height: 20px;
+  font-size: 12px;
+  right: 5px;
+  color: #019bfc;
+  text-align: center;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#sys {
+  position: absolute;
+}
+
+[id^='pt'] {
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+  position: absolute;
+  opacity: 0;
+}
