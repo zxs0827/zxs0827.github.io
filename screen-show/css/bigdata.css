@@ -9,10 +9,10 @@ html {
 
 body {
   width: 1920px;
-  height: 1200px;
+  height: 1100px;
   position: relative;
   background-image: url("../img/bk-old.png");
-  background-size: 100% 100%; }
+  background-size: 1920px 1100px; }
 
 .font14 {
   font-size: 14px; }
@@ -32,7 +32,7 @@ body {
   position: absolute;
   left: 421px;
   right: 0px;
-  top: 140px; }
+  top: 110px; }
 
 .left-h, .h2:after {
   content: "";
@@ -56,7 +56,7 @@ body {
   width: 420px;
   position: absolute;
   /* bottom: 120px;*/
-  bottom: 96px;
+  top: 770px;
   left: 4px; }
   #xtjkzt #infomation {
     width: 135px;
@@ -77,7 +77,7 @@ body {
     background-position: center center;
     margin-left: 10px;
     position: relative;
-    top: 45px; }
+    margin-top: 45px; }
   #xtjkzt h2 {
     text-indent: 31px; }
     #xtjkzt h2:after {
@@ -96,7 +96,7 @@ body {
     right: 14px; }
   #xtjkzt .left-data {
     text-align: left;
-    font-size: 9px;
+    font-size: 12px;
     display: inline-block;
     width: 105px;
     margin-left: 7px;
@@ -106,7 +106,7 @@ body {
     float: left; }
   #xtjkzt .right-data {
     text-align: left;
-    font-size: 9px;
+    font-size: 12px;
     display: inline-block;
     width: 105px;
     vertical-align: top;
@@ -262,11 +262,9 @@ body {
 /* 主机状态*/
 #zjzt {
   width: 454px;
-  height: 255px;
-  /* background-image: url("../img/zjzt.png");*/
   position: absolute;
   right: 8px;
-  bottom: 110px; }
+  top: 810px; }
   #zjzt h2 {
     text-indent: 17px; }
     #zjzt h2:after {
@@ -341,7 +339,7 @@ body {
     height: 85px;
     /* background-color: rgba(255, 0, 0, 0.46);*/
     position: relative;
-    margin-top: 70px; }
+    margin-top: 30px; }
   #zjzt ._lf-status {
     width: 100%;
     height: 85px;
@@ -366,9 +364,8 @@ body {
 /* 总数*/
 #zs {
   position: absolute;
-  /* outline: 3px solid red;*/
   font-size: 0;
-  bottom: 47px;
+  top: 940px;
   left: 466px;
   width: 970px;
   height: 140px; }
@@ -428,7 +425,7 @@ body {
   width: 220px;
   height: 310px;
   /* outline: 2px solid red;*/
-  top: 466px; }
+  top: 420px; }
   #sygjfb h2 {
     text-indent: 36px; }
     #sygjfb h2:after {
@@ -436,7 +433,9 @@ body {
   #sygjfb #sygjfb-echarts {
     width: 100%;
     height: 100%;
-    position: absolute; }
+    position: absolute;
+    top: 0px;
+    left: 10px; }
 
 /* 各机房告警级别分布*/
 #gjfgjjb {
@@ -444,8 +443,8 @@ body {
   height: 310px;
   /* outline: 2px solid green;*/
   position: absolute;
-  top: 466px;
-  left: 220px; }
+  top: 420px;
+  left: 235px; }
   #gjfgjjb h2 {
     text-indent: 17px; }
     #gjfgjjb h2:after {
@@ -462,7 +461,7 @@ body {
   height: 300px;
   /* outline: 2px solid orange;*/
   position: absolute;
-  top: 105px;
+  top: 90px;
   left: 0; }
   #gjzszs h2 {
     text-indent: 36px; }
@@ -482,7 +481,7 @@ body {
   /* outline: 2px solid orange;*/
   position: absolute;
   right: 7px;
-  top: 106px; }
+  top: 90px; }
   #cpu h2 {
     text-indent: 17px; }
     #cpu h2:after {
@@ -495,10 +494,10 @@ body {
 /* cpu折线图*/
 #cpu-left {
   position: absolute;
-  top: 140px;
+  top: 124px;
   height: 250px;
-  width: 280px;
-  right: 0; }
+  width: 260px;
+  right: 20px; }
 
 #cpu-echars {
   position: absolute;
@@ -512,7 +511,7 @@ body {
   /* outline: 2px solid rgb(255, 192, 203);*/
   position: absolute;
   right: 226px;
-  top: 466px; }
+  top: 420px; }
   #sbjf h2 {
     text-indent: 17px; }
     #sbjf h2:after {
@@ -531,7 +530,7 @@ body {
   /* outline: 2px solid rgb(255, 192, 203);*/
   position: absolute;
   right: 0px;
-  top: 466px; }
+  top: 420px; }
   #sblx h2 {
     text-indent: 17px; }
     #sblx h2:after {
@@ -700,7 +699,7 @@ body {
   background-image: url("../img/jiantou.png");
   position: absolute;
   top: 306px;
-  right: 8px;
+  right: 20px;
   animation: anim-totate2 2s linear infinite; }
 
 .jiantou2 {
@@ -710,6 +709,7 @@ body {
   position: absolute;
   top: 280px;
   right: 8px;
+  opacity: 0;
   animation: anim-totate2 2s linear infinite; }
 
 @keyframes anim-totate2 {
@@ -722,7 +722,7 @@ body {
   position: absolute;
   width: 130px;
   top: 300px;
-  right: 43px;
+  right: 60px;
   background-color: #188DF0;
   text-align: center;
   box-shadow: 0px 0px 5px #188DF0; }
@@ -737,4 +737,58 @@ body {
   text-align: center;
   box-shadow: 0px 0px 5px #188DF0; }
 
-/*# sourceMappingURL=bigdata.css.map */
+#sygj-name {
+  position: absolute;
+  top: 240px;
+  display: flex;
+  text-align: center;
+  right: -8px; }
+
+#sbjf-name {
+  position: absolute;
+  top: 272px;
+  display: flex;
+  text-align: center;
+  right: 3px; }
+
+#sygj-name > * {
+  display: inline-block;
+  width: 12px;
+  font-size: 12px;
+  word-break: break-all;
+  line-height: 13px;
+  margin-left: 4.5px;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently not supported by any browser */
+  /* 在 IE < 10 和Opera < 15中我们需要在需要禁止选中的元素上面添加一个属性 unselectable="on" */ }
+
+#sbjf-name > * {
+  display: inline-block;
+  width: 9px;
+  font-size: 12px;
+  word-break: break-all;
+  line-height: 13px;
+  margin-left: 4.5px;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently not supported by any browser */
+  /* 在 IE < 10 和Opera < 15中我们需要在需要禁止选中的元素上面添加一个属性 unselectable="on" */ }

@@ -172,7 +172,7 @@
         </div>
         <!-- 系统总数 -->
         <div id="xtzs">
-            <span></span>
+            <span>&nbsp;</span>
             <span>系统总数</span>
         </div>
         <!-- 设备总数 -->
@@ -195,6 +195,20 @@
     <div id="sygjfb">
         <h2 class="h2">所有告警分布</h2>
         <div id="sygjfb-echarts"></div>
+        <div id="sygj-name">
+            <!-- <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div>
+            <div>廊坊219机房</div> -->
+        </div>
     </div>
     <!-- 各机房告警级别分布 -->
     <div id="gjfgjjb">
@@ -232,6 +246,7 @@
     <div id="sbjf">
         <h2 class="h2">设备机房分布图</h2>
         <div id="sbjf-echarts"></div>
+        <div id="sbjf-name"></div>
     </div>
     <!-- 各机房设备类型分布 -->
     <div id="sblx">
@@ -286,9 +301,9 @@
                 $("ul.swiper-wrapper").html("");
                 for (var i = 0; i < maxNum; i++) {
                     // 亦庄 填充文字
-                    var yz_context = YZDATA[i % yzLength].sys_name.length > 25 ? YZDATA[i % yzLength].sys_name.substring(0, 25) + '..' : YZDATA[i % yzLength].sys_name;
+                    var yz_context = YZDATA[i % yzLength].sys_name.length > 15 ? YZDATA[i % yzLength].sys_name.substring(0, 15) + '..' : YZDATA[i % yzLength].sys_name;
                     // 廊坊 填充文字
-                    var lf_context = LFDATA[i % lfLength].sys_name.length > 25 ? LFDATA[i % lfLength].sys_name.substring(0, 25) + '...' : LFDATA[i % lfLength].sys_name;
+                    var lf_context = LFDATA[i % lfLength].sys_name.length > 15 ? LFDATA[i % lfLength].sys_name.substring(0, 15) + '...' : LFDATA[i % lfLength].sys_name;
                     // 亦庄 状态圆形显示颜色
                     var yz_status = YZDATA[i % yzLength].priority;
                     // 廊坊 状态圆形显示颜色
@@ -307,7 +322,7 @@
                 swiper = new Swiper('.swiper-container', {
                     direction: 'vertical',
                     loop: true, // 环路
-                    slidesPerView: 6, //每页显示条数
+                    slidesPerView: 5, //每页显示条数
                     simulateTouch: false, //鼠标拖动事件
                     autoplay: {
                         delay: 2500,
@@ -409,6 +424,9 @@
                     axisLabel: {
                         interval: 0,
                         rotate: -90,
+                        textStyle: {
+                            color: 'rgba(255,255,255,0)'
+                        }
                     },
                     nameTextStyle: {
                         fontSize: 20
@@ -426,6 +444,12 @@
                             color: "#fff"
                         },
                         show: true
+                    },
+                    splitLine : {
+                        show: true,
+                        lineStyle : {
+                            color : 'rgba(255,255,255,0.1)'
+                        }
                     },
                 },
                 series: [{ // For shadow
@@ -460,6 +484,15 @@
                 }]
             };
             sbjf_echarts.setOption(option);
+            // 非canvas 直接生成文字，应客户需求实现文字垂直显示
+                (function verticalText(el,names){
+                    $.each(names, function(index, val) {
+                        $("<div />",{
+                            html: val
+                        }).appendTo(el);
+                    });
+                })($("#sbjf-name"),data1);
+
             setInterval(function() {
                 sbjf_echarts.clear();
                 sbjf_echarts.setOption(option);
@@ -525,8 +558,7 @@
                 });
 
                 $("#sblx-titledata").text(titleData[0]);
-
-                // alert(titleData);
+                $(".jiantou").css("opactiy","1");
 
                 // 替代函数
                 // var arr = [];
@@ -666,8 +698,8 @@
                     },
                     grid: [{
                         width: '100%',
-                        bottom: 0,
-                        left: 0,
+                        bottom: '0',
+                        left: '0',
                         containLabel: true,
                     }],
                     xAxis: {
@@ -675,6 +707,9 @@
                         axisLabel: {
                             interval: 0,
                             rotate: -90,
+                            textStyle: {
+                                color: 'rgba(255,255,255,0)'
+                            }
                         },
                         nameTextStyle: {
                             fontSize: 20
@@ -691,8 +726,15 @@
                             lineStyle: {
                                 color: "#fff"
                             },
-                            show: true
+                            show: true,
+
+                        },
+                        splitLine : {
+                        show: true,
+                        lineStyle : {
+                            color : 'rgba(255,255,255,0.1)'
                         }
+                    },
                     },
                     series: [{ // For shadow
                         type: 'bar',
@@ -728,10 +770,20 @@
                     }]
                 };
                 sbjf_echarts.setOption(option);
+
+                // 非canvas 直接生成文字，应客户需求实现文字垂直显示
+                (function verticalText(el,names){
+                    $.each(names, function(index, val) {
+                        $("<div />",{
+                            html: val
+                        }).appendTo(el);
+                    });
+                })($("#sygj-name"),data1);
+
                 echartsPieInit(intervalCount);
 
                 $("#gjfgjjb-titledata").text(data1[0]);
-
+                $(".jiantou2").css("opacity","1");
                 setInterval(function() {
                     sbjf_echarts.clear();
                     sbjf_echarts.setOption(option);
@@ -739,7 +791,8 @@
                 var echartsPieInterval = setInterval(function() {
                     intervalCount++;
                     echartsPieInit(intervalCount % intervalLength);
-                    $("#gjfgjjb-titledata").text(data1[intervalCount]);
+                    console.log('INTERVALCOUNT :' + intervalCount);
+                    $("#gjfgjjb-titledata").text(data1[intervalCount % intervalLength]);
                 }, 10000);
             }
         }
@@ -821,7 +874,7 @@
                 yAxis: [{
                     type: 'value',
                     scale: true,
-                    name: '告警数量 / 时间',
+                    name: '     告警数量 / 时间',
                     max: maxNum,
                     min: 0,
                     axisLine: {
@@ -829,6 +882,12 @@
                             color: "#fff"
                         },
                         show: true
+                    },
+                    splitLine : {
+                        show: true,
+                        lineStyle : {
+                            color : 'rgba(255,255,255,0.1)'
+                        }
                     },
                     boundaryGap: [0.2, 0.2]
                 }],
@@ -850,6 +909,7 @@
                             }])
                         }
                     },
+                    symbolSize: 5,
                     data: yData
                 }]
             };
@@ -1038,15 +1098,14 @@
                 data: []
             },
             grid: {
-                // left: '3%',
-                width: '80%',
-                left: '3%',
-                bottom: '0%',
+                width: '100%',
+                left: '0',
+                bottom: '0',
                 containLabel: true
             },
             xAxis: {
                 // name: '时间',
-                nameLocation: 'end',
+                nameLocation: 'start',
                 type: 'category',
                 boundaryGap: false,
                 data: arrCpuClock[cpuCount][0],
@@ -1058,12 +1117,18 @@
                 }
             },
             yAxis: {
-                name: '平均使用率 / 时间',
+                name: '                 平均使用率 / 时间',
                 type: 'value',
                 axisLine: {
                     onZero: false,
                     lineStyle: {
                         color: color[0]
+                    }
+                },
+                splitLine : {
+                    show: true,
+                    lineStyle : {
+                        color : 'rgba(255,255,255,0.1)'
                     }
                 }
             },
