@@ -11,7 +11,7 @@ body {
   width: 1920px;
   height: 1100px;
   position: relative;
-  background-image: url("../img/bk-old.png");
+  background-image: url("../img/bj.jpg");
   background-size: 1920px 1100px; }
 
 .font14 {
@@ -792,3 +792,5 @@ body {
   user-select: none;
   /* Non-prefixed version, currently not supported by any browser */
   /* 在 IE < 10 和Opera < 15中我们需要在需要禁止选中的元素上面添加一个属性 unselectable="on" */ }
+
+/*# sourceMappingURL=bigdata.css.map */

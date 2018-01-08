@@ -1164,6 +1164,49 @@
             }, 500);
         }, 10000);
     }
+
+    //----------------------------------------------------------------------------------
+    //getyzlfinit() | 
+    //----------------------------------------------------------------------------------
+    // function getyzlfinit(){
+    //     $.ajax({
+    //         type: "post",
+    //         // url: "${ctx}/exhibition/getyzlf",
+    //         url: "https://zxs0827.github.io/web-back/JSON/getyzlf.json",
+    //         async:false,
+    //         dataType: "json",
+    //         contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+    //         success: function(datajson) {
+    //             console.log('+++++++++++getyzlf+++++++++++++');
+    //             console.log(datajson.data);
+    //             console.log('+++++++++++getyzlf+++++++++++++');
+    //         }
+    //     });
+    // }
+    // getyzlfinit();
+
+    function getyzlfinit(){
+        $.ajax({
+            url: 'https://zxs0827.github.io/web-back/JSON/getyzlf.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+            console.log("success");
+            console.log('+++++++++++getyzlf+++++++++++++');
+            console.log(datajson.data);
+            console.log('+++++++++++getyzlf+++++++++++++');
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+        
+    }
+
+    getyzlfinit();
     </script>
 </body>
 
