@@ -207,15 +207,16 @@ body {
 /* center 中央电流*/
 #electricity {
   position: absolute;
-  left: 193px;
-  top: 263px; }
+  left: 226px;
+  top: 294px;
+  z-index: 10; }
 
 #c1 {
-  width: 444px;
-  height: 278px;
+  width: 486px;
+  height: 296px;
   position: absolute;
-  top: 531px;
-  left: -1px;
+  top: 492px;
+  left: 95px;
   background-image: url("../img/c1.png");
   z-index: 1; }
 
@@ -223,17 +224,19 @@ body {
   width: 362px;
   height: 232px;
   position: absolute;
-  top: 276px;
+  top: 255px;
   left: 247px;
-  background-image: url("../img/c2.png"); }
+  background-image: url("../img/c2.png");
+  z-index: 10; }
 
 #c3 {
-  width: 260px;
-  height: 211px;
+  width: 360px;
+  height: 230px;
   position: absolute;
-  top: 504px;
-  left: 657px;
-  background-image: url("../img/c3.png"); }
+  top: 486px;
+  left: 608px;
+  background-image: url("../img/c3.png");
+  z-index: 10; }
 
 #c4 {
   width: 803px;
@@ -241,23 +244,25 @@ body {
   background-image: url("../img/c4.png");
   position: absolute;
   top: 0px;
-  left: 42px; }
+  left: 42px;
+  z-index: 11; }
 
 #c6 {
-  width: 875px;
-  height: 529px;
+  width: 810px;
+  height: 450px;
   background-image: url("../img/c6.png");
   position: absolute;
-  top: 261px;
-  left: 191px; }
+  top: 297px;
+  left: 229px;
+  z-index: 9; }
 
 #c7 {
-  width: 354px;
-  height: 224px;
+  width: 406px;
+  height: 230px;
   background-image: url("../img/c7.png");
   position: absolute;
-  top: 191px;
-  left: 649px; }
+  top: 231px;
+  left: 617px; }
 
 /* 主机状态*/
 #zjzt {
@@ -792,5 +797,95 @@ body {
   user-select: none;
   /* Non-prefixed version, currently not supported by any browser */
   /* 在 IE < 10 和Opera < 15中我们需要在需要禁止选中的元素上面添加一个属性 unselectable="on" */ }
+
+.sj {
+  position: absolute;
+  left: 549px;
+  top: 440px; }
+
+.sj1 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #ff0051;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
+
+.sj2 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #d5ff00;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
+
+.sj3 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #00ff15;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
+
+.sj4 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #0f00ff;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
+
+.sj5 {
+  position: absolute;
+  left: 1160px;
+  top: 118px; }
+
+.sj6 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #ff0051;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
+
+.sj7 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #d5ff00;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
+
+.sj8 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #00ff15;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
+
+.sj9 {
+  width: 110px;
+  height: 20px;
+  font-size: 11px;
+  right: 5px;
+  text-shadow: 0px 0px 3px #0f00ff;
+  text-align: center;
+  line-height: 20px;
+  text-align: left; }
 
 /*# sourceMappingURL=bigdata.css.map */

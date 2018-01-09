@@ -21,73 +21,80 @@
         <div id="c4"></div>
         <div id="c6"></div>
         <div id="c7"></div>
-        <svg version="1.1" id="electricity" x="0px" y="0px" width="875px" height="529px" viewBox="0 0 875 529" enable-background="new 0 0 875 529" xml:space="preserve">
-            <path fill="none" stroke="none" stroke-miterlimit="10" d="M28,280l101-44" id="path-1" />
-            <path fill="none" stroke="none" stroke-miterlimit="10" d="M454,24L342,73" id="path-2" />
-            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M431,156.328
-    C431,209.718,344.367,253,237.5,253S44,209.718,44,156.328s86.633-96.672,193.5-96.672S431,102.938,431,156.328z" id="path-3" />
-            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M334,242l253,122l-178,75l42,20l-142,65l-47-19
-    l-2-16l-16-5" id="path-4" />
-            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M336,244l253,118l108-45l86,38L499,477l-47-19
-    l-141,65l-48-19l-4-13l-15-8" id="path-5" />
-            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M801,154.5l49,18L796,195l63,24.5L806,244
-    l62.5,24L727,331l-29.5-13l-107,46.5L334,243.5" id="path-6" />
-            <path fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M800,154.333l48,18l-52.667,23.333l64,26
-    l-54.667,22l64,24.667l-142,62l56.667,25.334L500,475.667L410,441l178-76.667l-256.667-122" id="path-7" />
+        <svg version="1.1" id="electricity" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="809.898px" height="454.771px" viewBox="-3 0 809.898 454.771" enable-background="new -3 0 809.898 454.771" xml:space="preserve">
+            <path id="path-1" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M69,229l73-31"/>
+            <path id="path-2" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M397,18l-51,22"/>
+            <path id="path-3" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M390,102.328
+                C390,155.718,303.367,199,196.5,199S3,155.718,3,102.328C3,48.938,89.633,5.656,196.5,5.656S390,48.938,390,102.328z"/>
+            <path id="path-4" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M292.666,190.334L547.668,311
+                l-178,75l42,20l-99.001,45.666l-33.333-14L274,426.999l-12-4"/>
+            <path id="path-5" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M296.496,191.683l253,118l108-45
+                l85.999,38l-283.999,122l-46.497-16.682l-98.666,44.666l-34.667-14.666l-1.333-8L265,424.667"/>
+            <path id="path-6" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M756,152l31.5,11.5L750.25,181
+                l44,18.5L758.5,217l43.25,17.5L694,283l-39.5-19l-107,46.5L291,189.5"/>
+            <path id="path-7" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M753.133,148.674l35,13.333
+                l-39.667,18l46.333,18.333l-38,17.663l44,17.333l-107.333,48l47.333,22.331l-283.333,120L369.667,386L546.8,311.335L290.133,189.336
+                "/>
             <!--  -->
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="2s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-1" />
-                </animateMotion>
-            </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="3s" begin="0.5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-1" />
-                </animateMotion>
-            </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="2.5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-2" />
-                </animateMotion>
-            </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="4s" begin="0.5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-2" />
-                </animateMotion>
-            </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
+            <pattern id="electric" width="100%" height="100%" patternContentUnits="objectBoundingBox">
+                <image width="1" height="1" xlink:href="img/ball.png"/>
+            </pattern>
+
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
                 <animateMotion dur="5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-1" />
+                </animateMotion>
+            </circle>
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
+                <animateMotion dur="7s" begin="0.5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-1" />
+                </animateMotion>
+            </circle>
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
+                <animateMotion dur="6s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-2" />
+                </animateMotion>
+            </circle>
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
+                <animateMotion dur="8s" begin="0.5s" repeatCount="indefinite">
+                    <mpath xlink:href="#path-2" />
+                </animateMotion>
+            </circle>
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
+                <animateMotion dur="10s" repeatCount="indefinite">
                     <mpath xlink:href="#path-3" />
                 </animateMotion>
             </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4">
-                <animateMotion dur="4s" begin="2s" repeatCount="indefinite">
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
+                <animateMotion dur="10s" begin="2s" repeatCount="indefinite">
                     <mpath xlink:href="#path-3" />
                 </animateMotion>
             </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="6s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
+                <animateMotion dur="8s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
                     <mpath xlink:href="#path-4" />
                 </animateMotion>
             </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="5s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
+                <animateMotion dur="12s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
                     <mpath xlink:href="#path-5" />
                 </animateMotion>
             </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="7s" repeatCount="indefinite">
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
+                <animateMotion dur="15s" repeatCount="indefinite">
                     <mpath xlink:href="#path-6" />
                 </animateMotion>
             </circle>
-            <circle fill="#fff" stroke-miterlimit="10" cx="0" cy="0" r="4" autoReverse="true">
-                <animateMotion dur="7s" begin="1s" repeatCount="indefinite">
+            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
+                <animateMotion dur="13s" begin="1s" repeatCount="indefinite">
                     <mpath xlink:href="#path-7" />
                 </animateMotion>
             </circle>
         </svg>
         <!-- 运动电流  end-->
     </div>
+    <div class="sj"></div>
+    <div class="sj5"></div>
     <!-- 系统健康状态 -->
     <div id="xtjkzt">
         <h2 class="h2">系统健康状态</h2>
@@ -337,7 +344,7 @@
     setInterval(function() {
         counter = 0;
         initData();
-    }, 300000);
+    }, 400000);
     //----------------------------------------------------------------------------------
     // 主机状态
     //----------------------------------------------------------------------------------
@@ -496,7 +503,7 @@
             setInterval(function() {
                 sbjf_echarts.clear();
                 sbjf_echarts.setOption(option);
-            }, 10000);
+            }, 20000);
         }
         $.ajax({
                 url: 'https://zxs0827.github.io/web-back/JSON/shebeidata.json',
@@ -617,7 +624,7 @@
                     sblx_echarts.setOption(option);
 
                     $("#sblx-titledata").text(titleData[hostsCount]);
-                }, 10000);
+                }, 20000);
             });
     }
     sblxInit();
@@ -787,13 +794,13 @@
                 setInterval(function() {
                     sbjf_echarts.clear();
                     sbjf_echarts.setOption(option);
-                }, 10000);
+                }, 20000);
                 var echartsPieInterval = setInterval(function() {
                     intervalCount++;
                     echartsPieInit(intervalCount % intervalLength);
                     console.log('INTERVALCOUNT :' + intervalCount);
                     $("#gjfgjjb-titledata").text(data1[intervalCount % intervalLength]);
-                }, 10000);
+                }, 20000);
             }
         }
         //-----------------------------------------------------------------
@@ -859,6 +866,7 @@
                 maxNum = Math.ceil(maxNum / 50) * 50;
             }
             var option = {
+            	
                 xAxis: [{
                     // name: '时间',
                     type: 'category',
@@ -886,7 +894,7 @@
                     splitLine : {
                         show: true,
                         lineStyle : {
-                            color : 'rgba(255,255,255,0.1)'
+                            color : 'rgba(255,255,255,0.1)',
                         }
                     },
                     boundaryGap: [0.2, 0.2]
@@ -895,7 +903,9 @@
                     type: 'line',
                     itemStyle: {
                         normal: {
-                            color: 'rgba(255, 255, 255,0.6)'
+                            color: 'rgba(255, 255, 255,0.6)',
+                            shadowBlur: 10,
+                            shadowColor: 'white'
                         }
                     },
                     areaStyle: {
@@ -909,7 +919,7 @@
                             }])
                         }
                     },
-                    symbolSize: 5,
+                    symbolSize: 8,
                     data: yData
                 }]
             };
@@ -918,7 +928,7 @@
             setInterval(function(){
                 gjzszs_echarts.clear();
                 gjzszs_echarts.setOption(option);
-            }, 10000);
+            }, 20000);
 
             // setInterval(function() {
             //     lineCount++;
@@ -1063,7 +1073,7 @@
                     $('#nc-lf').css(a[3]);
                     $('#cp-yz').css(a[4]);
                     $('#cp-lf').css(a[5]);
-                }, 10000);
+                }, 20000);
             })
     });
     //----------------------------------------------------------------------------------
@@ -1162,7 +1172,7 @@
                 echars.clear();
                 echars.setOption(option);
             }, 500);
-        }, 10000);
+        }, 20000);
     }
 
     //----------------------------------------------------------------------------------
@@ -1192,10 +1202,18 @@
             dataType: 'json',
         })
         .done(function(datajson) {
-            console.log("success");
-            console.log('+++++++++++getyzlf+++++++++++++');
-            console.log(datajson.data);
-            console.log('+++++++++++getyzlf+++++++++++++');
+          var str = "<div class='sj1'>物理机数量"+datajson.data.lfwlhost+"台</div>";
+            str+="<div class='sj2'>虚拟机数量"+datajson.data.lfxnhost+"台</div>";
+            str+="<div class='sj3'>主机状态数量"+datajson.data.lfhost+"台</div>";
+            str+="<div class='sj4'>主机维护数量"+datajson.data.lfwhhost+"台</div>";
+            $(".sj").html(str);
+            
+         var str2 = "<div class='sj6'>物理机数量"+datajson.data.yzwlhost+"台</div>";
+            str2+="<div class='sj7'>虚拟机数量"+datajson.data.yzxnhost+"台</div>";
+            str2+="<div class='sj8'>主机状态数量"+datajson.data.yzhost+"台</div>";
+            str2+="<div class='sj9'>主机维护数量"+datajson.data.yzwhhost+"台</div>";
+            $(".sj5").html(str2);
+            
         })
         .fail(function() {
             console.log("error");
