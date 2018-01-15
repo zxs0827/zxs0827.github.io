@@ -21,6 +21,7 @@
         <div id="c4"></div>
         <div id="c6"></div>
         <div id="c7"></div>
+        <div id="c8"></div>
         <svg version="1.1" id="electricity" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="809.898px" height="454.771px" viewBox="-3 0 809.898 454.771" enable-background="new -3 0 809.898 454.771" xml:space="preserve">
             <path id="path-1" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M69,229l73-31"/>
             <path id="path-2" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M397,18l-51,22"/>
@@ -332,7 +333,7 @@
                     slidesPerView: 5, //每页显示条数
                     simulateTouch: false, //鼠标拖动事件
                     autoplay: {
-                        delay: 2500,
+                        delay: 8000,
                         disableOnInteraction: false,
                     }
                 });
@@ -866,7 +867,9 @@
                 maxNum = Math.ceil(maxNum / 50) * 50;
             }
             var option = {
-            	
+                grid: {
+                    width: '80%',
+                },
                 xAxis: [{
                     // name: '时间',
                     type: 'category',
@@ -877,6 +880,12 @@
                         },
                         show: true
                     },
+                    axisLabel: {  
+                        fontSize: 12,
+                        interval: 0,
+                        rotate: 45
+                    } ,
+                    
                     data: xData
                 }],
                 yAxis: [{
@@ -1017,7 +1026,7 @@
                     'left': '50px',
                     'transform': 'scale(0.5)',
                     'z-index': '-10',
-                    'opacity': '1'
+                    'opacity': '0.3'
                 }
                 var o1 = {
                     'left': '50px',
@@ -1041,7 +1050,7 @@
                     'left': '-50px',
                     'transform': 'scale(0.5)',
                     'z-index': '0',
-                    'opacity': '1'
+                    'opacity': '0.3'
                 };
                 var o5 = {
                     'left': '0px',
@@ -1099,7 +1108,9 @@
         });
         var echars = echarts.init(document.getElementById("cpu-echars"));
         var color = ['#FFFFFF'];
+        var colors = ['#019bfc', '#fe5300', '#ffff01', '#2251ff', '#f100ff'];
         var option = {
+        	color: colors,
             title: {},
             tooltip: {
                 show: false
@@ -1143,7 +1154,7 @@
                 }
             },
             series: [{
-                type: 'line',
+                type: 'line',  
                 data: arrCpuValue[cpuCount][0]
             }, {
                 type: 'line',

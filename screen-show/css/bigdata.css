@@ -239,12 +239,12 @@ body {
   z-index: 10; }
 
 #c4 {
-  width: 803px;
+  width: 541px;
   height: 597px;
   background-image: url("../img/c4.png");
   position: absolute;
-  top: 0px;
-  left: 42px;
+  top: -8px;
+  left: 305px;
   z-index: 11; }
 
 #c6 {
@@ -263,12 +263,21 @@ body {
   position: absolute;
   top: 231px;
   left: 617px; }
+  
+#c8 {
+  width: 80px;
+  height: 597px;
+  background-image: url("../img/c8.png");
+  position: absolute;
+	top: 93px;
+  left: 124px;
+  z-index: 11; }
 
 /* 主机状态*/
 #zjzt {
-  width: 454px;
+  width: 434px;
   position: absolute;
-  right: 8px;
+  right: 0px;
   top: 810px; }
   #zjzt h2 {
     text-indent: 17px; }
@@ -312,7 +321,7 @@ body {
       animation: anim-rotatey 2s linear infinite; }
   #zjzt ._status-item {
     position: absolute;
-    width: 131px;
+    width: 111px;
     /* background-color: rgba(0, 128, 0, 0.64);*/
     height: 100%; }
     #zjzt ._status-item.green {
@@ -467,7 +476,7 @@ body {
   /* outline: 2px solid orange;*/
   position: absolute;
   top: 90px;
-  left: 0; }
+  left: 0px; }
   #gjzszs h2 {
     text-indent: 36px; }
     #gjzszs h2:after {
@@ -477,6 +486,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+     left: 20px; 
     /* background-color: green;*/ }
 
 /* CPU/内存/磁盘使用系统Top5*/
@@ -800,7 +810,7 @@ body {
 
 .sj {
   position: absolute;
-  left: 549px;
+  left: 434px;
   top: 440px; }
 
 .sj1 {
@@ -811,7 +821,7 @@ body {
   text-shadow: 0px 0px 3px #ff0051;
   text-align: center;
   line-height: 20px;
-  text-align: left; }
+  text-align: right; }
 
 .sj2 {
   width: 110px;
@@ -821,7 +831,7 @@ body {
   text-shadow: 0px 0px 3px #d5ff00;
   text-align: center;
   line-height: 20px;
-  text-align: left; }
+  text-align: right; }
 
 .sj3 {
   width: 110px;
@@ -831,7 +841,7 @@ body {
   text-shadow: 0px 0px 3px #00ff15;
   text-align: center;
   line-height: 20px;
-  text-align: left; }
+  text-align: right; }
 
 .sj4 {
   width: 110px;
@@ -841,7 +851,7 @@ body {
   text-shadow: 0px 0px 3px #0f00ff;
   text-align: center;
   line-height: 20px;
-  text-align: left; }
+  text-align: right; }
 
 .sj5 {
   position: absolute;
