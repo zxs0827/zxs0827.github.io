@@ -11,8 +11,8 @@ body {
   width: 1920px;
   height: 1100px;
   position: relative;
-  background-image: url("../img/bj.jpg");
-  background-size: 1920px 1100px; }
+  background-size: 1920px 1100px;
+  background-color: #0a0a0a; }
 
 .font14 {
   font-size: 14px; }
@@ -239,12 +239,12 @@ body {
   z-index: 10; }
 
 #c4 {
-  width: 541px;
+  width: 803px;
   height: 597px;
   background-image: url("../img/c4.png");
   position: absolute;
-  top: -8px;
-  left: 305px;
+  top: 0px;
+  left: 42px;
   z-index: 11; }
 
 #c6 {
@@ -263,21 +263,12 @@ body {
   position: absolute;
   top: 231px;
   left: 617px; }
-  
-#c8 {
-  width: 80px;
-  height: 597px;
-  background-image: url("../img/c8.png");
-  position: absolute;
-	top: 93px;
-  left: 124px;
-  z-index: 11; }
 
 /* 主机状态*/
 #zjzt {
-  width: 434px;
+  width: 454px;
   position: absolute;
-  right: 0px;
+  right: 8px;
   top: 810px; }
   #zjzt h2 {
     text-indent: 17px; }
@@ -321,7 +312,7 @@ body {
       animation: anim-rotatey 2s linear infinite; }
   #zjzt ._status-item {
     position: absolute;
-    width: 111px;
+    width: 131px;
     /* background-color: rgba(0, 128, 0, 0.64);*/
     height: 100%; }
     #zjzt ._status-item.green {
@@ -471,12 +462,12 @@ body {
 
 /* 告警总数走势折线图*/
 #gjzszs {
-  width: 420px;
+  width: 500px;
   height: 300px;
   /* outline: 2px solid orange;*/
   position: absolute;
   top: 90px;
-  left: 0px; }
+  left: 0; }
   #gjzszs h2 {
     text-indent: 36px; }
     #gjzszs h2:after {
@@ -486,7 +477,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-     left: 20px; 
     /* background-color: green;*/ }
 
 /* CPU/内存/磁盘使用系统Top5*/
@@ -702,7 +692,8 @@ body {
   position: absolute;
   top: 80px; }
 
-[id^='pt'], .anim-change {
+[id^='pt'],
+.anim-change {
   -webkit-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
   position: absolute;
@@ -810,7 +801,7 @@ body {
 
 .sj {
   position: absolute;
-  left: 434px;
+  left: 549px;
   top: 440px; }
 
 .sj1 {
@@ -821,7 +812,7 @@ body {
   text-shadow: 0px 0px 3px #ff0051;
   text-align: center;
   line-height: 20px;
-  text-align: right; }
+  text-align: left; }
 
 .sj2 {
   width: 110px;
@@ -831,7 +822,7 @@ body {
   text-shadow: 0px 0px 3px #d5ff00;
   text-align: center;
   line-height: 20px;
-  text-align: right; }
+  text-align: left; }
 
 .sj3 {
   width: 110px;
@@ -841,7 +832,7 @@ body {
   text-shadow: 0px 0px 3px #00ff15;
   text-align: center;
   line-height: 20px;
-  text-align: right; }
+  text-align: left; }
 
 .sj4 {
   width: 110px;
@@ -851,7 +842,7 @@ body {
   text-shadow: 0px 0px 3px #0f00ff;
   text-align: center;
   line-height: 20px;
-  text-align: right; }
+  text-align: left; }
 
 .sj5 {
   position: absolute;
@@ -897,5 +888,105 @@ body {
   text-align: center;
   line-height: 20px;
   text-align: left; }
+
+/* 联通大屏 */
+#unicom-bigdata {
+  width: 442px;
+  height: 1047px;
+  background-image: url("../img/taiyue-bk.png");
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0; }
+
+h2 {
+  color: #48d7f9 !important;
+  text-shadow: 0px 0px 7px #fff !important; }
+
+.left-h, .h2:after,
+.h2::after {
+  background-image: url("../img/taiyue-left.png");
+  width: 6px;
+  height: 20px; }
+
+._t_center {
+  text-align: center; }
+
+/* 告警总数走势折线图 */
+#gjzszs {
+  width: 100%;
+  top: 353px;
+  transform-origin: left top;
+  left: 0; }
+  #gjzszs #gjzszs-echarts {
+    left: 4px;
+    top: 0px; }
+  #gjzszs h2::after {
+    left: 130px;
+    top: 3px; }
+  #gjzszs #gjzszs-shijian {
+    position: absolute;
+    top: 245px;
+    left: 14px;
+    font-size: 12px; }
+
+/* 系统健康状态 */
+#xtjkzt {
+  width: 100%;
+  position: absolute;
+  top: 675px;
+  left: 5px; }
+  #xtjkzt h2:after {
+    left: 150px;
+    stop: 3px; }
+
+/* 设备机房分布图 */
+#sbjf {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  right: auto;
+  width: 250px; }
+  #sbjf h2 {
+    top: 45px;
+    position: relative;
+    text-indent: 45px;
+    text-align: left; }
+    #sbjf h2:after {
+      left: 23px; }
+  #sbjf #sbjf-echarts {
+    top: 45px; }
+  #sbjf #sbjf-tai {
+    font-size: 10px;
+    position: absolute;
+    left: 26px;
+    top: 81px; }
+
+/* 各机房设备类型分布 */
+#sblx {
+  position: absolute;
+  top: 0;
+  left: 220px;
+  right: auto; }
+  #sblx h2 {
+    position: relative;
+    top: 45px; }
+    #sblx h2:after {
+      left: 15px; }
+  #sblx #sblx-echarts {
+    top: 5px; }
+  #sblx #sblx-titledata {
+    font-size: 18px;
+    position: absolute;
+    top: 250px;
+    right: 60px;
+    width: auto;
+    background-color: RGB(24, 141, 240);
+    text-align: center;
+    box-shadow: 0px 0px 5px RGB(24, 141, 240);
+    padding: 0px 8px; }
+  #sblx .jiantou {
+    top: 255px;
+    right: 27px; }
 
 /*# sourceMappingURL=bigdata.css.map */

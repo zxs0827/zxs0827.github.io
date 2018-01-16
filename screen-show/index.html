@@ -10,258 +10,51 @@
 </head>
 
 <body>
-    <!-- 联通监控系统大屏展示 顶部图片 -->
-    <div id="title"></div>
-    <!-- 中间电流效果 -->
-    <div id="center">
-        <!-- 运动电流  start-->
-        <div id="c1"></div>
-        <div id="c2"></div>
-        <div id="c3"></div>
-        <div id="c4"></div>
-        <div id="c6"></div>
-        <div id="c7"></div>
-        <div id="c8"></div>
-        <svg version="1.1" id="electricity" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="809.898px" height="454.771px" viewBox="-3 0 809.898 454.771" enable-background="new -3 0 809.898 454.771" xml:space="preserve">
-            <path id="path-1" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M69,229l73-31"/>
-            <path id="path-2" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M397,18l-51,22"/>
-            <path id="path-3" fill="none" stroke="none" stroke-width="4" stroke-miterlimit="10" d="M390,102.328
-                C390,155.718,303.367,199,196.5,199S3,155.718,3,102.328C3,48.938,89.633,5.656,196.5,5.656S390,48.938,390,102.328z"/>
-            <path id="path-4" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M292.666,190.334L547.668,311
-                l-178,75l42,20l-99.001,45.666l-33.333-14L274,426.999l-12-4"/>
-            <path id="path-5" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M296.496,191.683l253,118l108-45
-                l85.999,38l-283.999,122l-46.497-16.682l-98.666,44.666l-34.667-14.666l-1.333-8L265,424.667"/>
-            <path id="path-6" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M756,152l31.5,11.5L750.25,181
-                l44,18.5L758.5,217l43.25,17.5L694,283l-39.5-19l-107,46.5L291,189.5"/>
-            <path id="path-7" fill="none" stroke="none" stroke-width="3.8565" stroke-miterlimit="10" d="M753.133,148.674l35,13.333
-                l-39.667,18l46.333,18.333l-38,17.663l44,17.333l-107.333,48l47.333,22.331l-283.333,120L369.667,386L546.8,311.335L290.133,189.336
-                "/>
-            <!--  -->
-            <pattern id="electric" width="100%" height="100%" patternContentUnits="objectBoundingBox">
-                <image width="1" height="1" xlink:href="img/ball.png"/>
-            </pattern>
-
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
-                <animateMotion dur="5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-1" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
-                <animateMotion dur="7s" begin="0.5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-1" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
-                <animateMotion dur="6s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-2" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
-                <animateMotion dur="8s" begin="0.5s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-2" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
-                <animateMotion dur="10s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-3" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9">
-                <animateMotion dur="10s" begin="2s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-3" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
-                <animateMotion dur="8s" begin="1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
-                    <mpath xlink:href="#path-4" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
-                <animateMotion dur="12s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1">
-                    <mpath xlink:href="#path-5" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
-                <animateMotion dur="15s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-6" />
-                </animateMotion>
-            </circle>
-            <circle fill="url(#electric)" stroke-miterlimit="10" cx="0" cy="0" r="9" autoReverse="true">
-                <animateMotion dur="13s" begin="1s" repeatCount="indefinite">
-                    <mpath xlink:href="#path-7" />
-                </animateMotion>
-            </circle>
-        </svg>
-        <!-- 运动电流  end-->
-    </div>
-    <div class="sj"></div>
-    <div class="sj5"></div>
-    <!-- 系统健康状态 -->
-    <div id="xtjkzt">
-        <h2 class="h2">系统健康状态</h2>
-        <div class="bk-3">
-            <h3 id="zy-t">亦庄数据中心</h3>
-            <h3 id="lf-t">廊坊数据中心</h3>
-            <div id="score"></div>
-            <div id="infomation">
-                <div><span class="static-0"></span>正常</div>
-                <div><span class="static-1"></span>信息</div>
-                <div><span class="static-2"></span>轻微</div>
-                <div><span class="static-3"></span>一般</div>
-                <div><span class="static-4"></span>重要</div>
-                <div><span class="static-5"></span>紧急</div>
-            </div>
-            <div class="swiper-container">
-                <ul class="swiper-wrapper">
-                    <!--  -->
-                </ul>
-            </div>
+    <div id="unicom-bigdata">
+        <!-- 告警总数走势折线图 -->
+        <div id="gjzszs">
+            <h2 class="h2 _t_center">告警总数走势折线图</h2>
+            <div id="gjzszs-echarts"></div>
+            <!-- 单位：时间 -->
+            <div id="gjzszs-shijian">时间</div>
         </div>
-        <div class="center-data">90</div>
-    </div>
-    <!-- 主机状态 -->
-    <div id="zjzt">
-        <h2 class="h2">主机状态</h2>
-        <div class="_yx-status">
-            <h3 id="yz-t">亦庄</h3>
-            <div class="yz-zx _status-item green">
-                <p class="font14">在线</p>
-                <div class="_b1-line">
-                    <div class="_b-solid"></div>
+        <!-- 设备机房分布图 -->
+        <div id="sbjf">
+            <h2 class="h2 _t_center">设备机房分布图</h2>
+            <div id="sbjf-echarts"></div>
+            <div id="sbjf-tai">(台)</div>
+            <!-- <div id="sbjf-name"></div> -->
+        </div>
+        <!-- 各机房设备类型分布 -->
+        <div id="sblx">
+            <h2 class="h2 _t_center">各机房设备类型分布</h2>
+            <div id="sblx-echarts"></div>
+            <div id="sblx-titledata"></div>
+            <div class="jiantou"></div>
+        </div>
+        <!-- 系统健康状态 -->
+        <div id="xtjkzt">
+            <h2 class="h2 _t_center">系统健康状态</h2>
+            <div class="bk-3">
+                <h3 id="zy-t">亦庄数据中心</h3>
+                <h3 id="lf-t">廊坊数据中心</h3>
+                <div id="score"></div>
+                <div id="infomation">
+                    <div><span class="static-0"></span>正常</div>
+                    <div><span class="static-1"></span>信息</div>
+                    <div><span class="static-2"></span>轻微</div>
+                    <div><span class="static-3"></span>一般</div>
+                    <div><span class="static-4"></span>重要</div>
+                    <div><span class="static-5"></span>紧急</div>
                 </div>
-                <div class="status-num"></div>
-            </div>
-            <div class="yz-lx _status-item red">
-                <p class="font14">离线</p>
-                <div class="_b1-line">
-                    <div class="_b-solid"></div>
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <!--  -->
+                    </ul>
                 </div>
-                <div class="status-num"></div>
             </div>
-            <div class="yz-whz _status-item gray">
-                <p class="font14">维护中</p>
-                <div class="_b1-line">
-                    <div class="_b-solid"></div>
-                </div>
-                <div class="status-num"></div>
-            </div>
+            <div class="center-data">90</div>
         </div>
-        <div class="_lf-status">
-            <h3 id="lf-t">廊坊</h3>
-            <div class="lf-zx _status-item green">
-                <p class="font14">在线</p>
-                <div class="_b1-line">
-                    <div class="_b-solid"></div>
-                </div>
-                <div class="status-num"></div>
-            </div>
-            <div class="lf-lx _status-item red">
-                <p class="font14">离线</p>
-                <div class="_b1-line">
-                    <div class="_b-solid"></div>
-                </div>
-                <div class="status-num"></div>
-            </div>
-            <div class="lf-whz _status-item gray">
-                <p class="font14">维护中</p>
-                <div class="_b1-line">
-                    <div class="_b-solid"></div>
-                </div>
-                <div class="status-num"></div>
-            </div>
-        </div>
-    </div>
-    <!-- 总数 -->
-    <div id="zs">
-        <!-- 机房总数 -->
-        <div id="jfzs">
-            <span>&nbsp;</span>
-            <span>机房总数</span>
-        </div>
-        <!-- 系统总数 -->
-        <div id="xtzs">
-            <span>&nbsp;</span>
-            <span>系统总数</span>
-        </div>
-        <!-- 设备总数 -->
-        <div id="sbzs">
-            <span>&nbsp;</span>
-            <span>设备总数</span>
-        </div>
-        <!-- 物理机总数 -->
-        <div id="wljzs">
-            <span>&nbsp;</span>
-            <span>物理机总数</span>
-        </div>
-        <!-- 虚拟机总数 -->
-        <div id="xnjzs">
-            <span>&nbsp;</span>
-            <span>虚拟机总数</span>
-        </div>
-    </div>
-    <!-- 所有告警分布 -->
-    <div id="sygjfb">
-        <h2 class="h2">所有告警分布</h2>
-        <div id="sygjfb-echarts"></div>
-        <div id="sygj-name">
-            <!-- <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div>
-            <div>廊坊219机房</div> -->
-        </div>
-    </div>
-    <!-- 各机房告警级别分布 -->
-    <div id="gjfgjjb">
-        <h2 class="h2">各机房告警级别分布</h2>
-        <div id="gjfgjjb-echarts"></div>
-
-        <div id="gjfgjjb-titledata"></div>
-        <div class="jiantou2"></div>
-    </div>
-    <!-- 告警总数走势折线图 -->
-    <div id="gjzszs">
-        <h2 class="h2">告警总数走势折线图</h2>
-        <div id="gjzszs-echarts"></div>
-    </div>
-    <!-- CPU/内存/磁盘使用系统Top5 -->
-    <div id="cpu">
-        <h2 class="h2">CPU/内存/磁盘使用系统Top5</h2>
-        <div class="_absolute1">
-            <div class="_absolute2">
-                <div id="cpu-yz" class="anim-change"></div>
-                <div id="cpu-lf" class="anim-change"></div>
-                <div id="nc-yz" class="anim-change"></div>
-                <div id="nc-lf" class="anim-change"></div>
-                <div id="cp-yz" class="anim-change"></div>
-                <div id="cp-lf" class="anim-change"></div>
-            </div>
-            <div id="sys"></div>
-        </div>
-    </div>
-    <!-- cpu/内存折线图 -->
-    <div id="cpu-left">
-        <div id="cpu-echars"></div>
-    </div>
-    <!-- 设备机房分布图 -->
-    <div id="sbjf">
-        <h2 class="h2">设备机房分布图</h2>
-        <div id="sbjf-echarts"></div>
-        <div id="sbjf-name"></div>
-    </div>
-    <!-- 各机房设备类型分布 -->
-    <div id="sblx">
-        <h2 class="h2">各机房设备类型分布</h2>
-        <div id="sblx-echarts"></div>
-        <div id="sblx-titledata"></div>
-        <div class="jiantou"></div>
     </div>
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/swiper.min.js"></script>
@@ -422,18 +215,20 @@
                     // data: ['']
                 },
                 grid: [{
-                    width: '100%',
-                    bottom: 0,
+                    width: '85%',
                     left: 0,
+                    right: 0,
                     containLabel: true,
                 }],
                 xAxis: {
+                    // offset: 20,
                     data: data1,
                     axisLabel: {
                         interval: 0,
-                        rotate: -90,
+                        rotate: -45,
+                        fontSize: 9,
                         textStyle: {
-                            color: 'rgba(255,255,255,0)'
+                            color: 'rgba(255,255,255,1)'
                         }
                     },
                     nameTextStyle: {
@@ -453,10 +248,13 @@
                         },
                         show: true
                     },
-                    splitLine : {
+                    axisLabel: {
+                        fontSize: 10,
+                    },
+                    splitLine: {
                         show: true,
-                        lineStyle : {
-                            color : 'rgba(255,255,255,0.1)'
+                        lineStyle: {
+                            color: 'rgba(255,255,255,0.1)'
                         }
                     },
                 },
@@ -493,13 +291,13 @@
             };
             sbjf_echarts.setOption(option);
             // 非canvas 直接生成文字，应客户需求实现文字垂直显示
-                (function verticalText(el,names){
-                    $.each(names, function(index, val) {
-                        $("<div />",{
-                            html: val
-                        }).appendTo(el);
-                    });
-                })($("#sbjf-name"),data1);
+            /*(function verticalText(el, names) {
+                $.each(names, function(index, val) {
+                    $("<div />", {
+                        html: val
+                    }).appendTo(el);
+                });
+            })($("#sbjf-name"), data1);*/
 
             setInterval(function() {
                 sbjf_echarts.clear();
@@ -566,7 +364,7 @@
                 });
 
                 $("#sblx-titledata").text(titleData[0]);
-                $(".jiantou").css("opactiy","1");
+                $(".jiantou").css("opactiy", "1");
 
                 // 替代函数
                 // var arr = [];
@@ -586,10 +384,11 @@
 
                 var sblx_echarts = echarts.init($("#sblx-echarts")[0]);
                 var option = {
-                    color: ['rgb(0, 88, 255)', 'rgb(12, 156, 250)'],
+                    // color: ['rgb(0, 88, 255)', 'rgb(12, 156, 250)'],
+                    color: ['rgb(0, 88, 255)', 'rgb(255, 255, 255)'],
                     series: [{
                         type: 'pie',
-                        radius: ['60%', '80%'],
+                        radius: ['45%', '65%'],
                         grid: {
                             width: '100%',
                             left: 0,
@@ -599,7 +398,7 @@
                         label: {
                             normal: {
                                 show: true,
-                                fontSize: 20,
+                                fontSize: 16,
                                 lineHeight: 50,
                                 position: 'center'
                             }
@@ -737,12 +536,12 @@
                             show: true,
 
                         },
-                        splitLine : {
-                        show: true,
-                        lineStyle : {
-                            color : 'rgba(255,255,255,0.1)'
-                        }
-                    },
+                        splitLine: {
+                            show: true,
+                            lineStyle: {
+                                color: 'rgba(255,255,255,0.1)'
+                            }
+                        },
                     },
                     series: [{ // For shadow
                         type: 'bar',
@@ -780,18 +579,18 @@
                 sbjf_echarts.setOption(option);
 
                 // 非canvas 直接生成文字，应客户需求实现文字垂直显示
-                (function verticalText(el,names){
+                (function verticalText(el, names) {
                     $.each(names, function(index, val) {
-                        $("<div />",{
+                        $("<div />", {
                             html: val
                         }).appendTo(el);
                     });
-                })($("#sygj-name"),data1);
+                })($("#sygj-name"), data1);
 
                 echartsPieInit(intervalCount);
 
                 $("#gjfgjjb-titledata").text(data1[0]);
-                $(".jiantou2").css("opacity","1");
+                $(".jiantou2").css("opacity", "1");
                 setInterval(function() {
                     sbjf_echarts.clear();
                     sbjf_echarts.setOption(option);
@@ -880,18 +679,18 @@
                         },
                         show: true
                     },
-                    axisLabel: {  
-                        fontSize: 12,
+                    axisLabel: {
+                        fontSize: 10,
                         interval: 0,
-                        rotate: 45
-                    } ,
-                    
+                        rotate: -45
+                    },
+
                     data: xData
                 }],
                 yAxis: [{
                     type: 'value',
                     scale: true,
-                    name: '     告警数量 / 时间',
+                    name: '     告警数量',
                     max: maxNum,
                     min: 0,
                     axisLine: {
@@ -900,10 +699,10 @@
                         },
                         show: true
                     },
-                    splitLine : {
+                    splitLine: {
                         show: true,
-                        lineStyle : {
-                            color : 'rgba(255,255,255,0.1)',
+                        lineStyle: {
+                            color: 'rgba(255,255,255,0.1)',
                         }
                     },
                     boundaryGap: [0.2, 0.2]
@@ -934,7 +733,7 @@
             };
             gjzszs_echarts.setOption(option);
 
-            setInterval(function(){
+            setInterval(function() {
                 gjzszs_echarts.clear();
                 gjzszs_echarts.setOption(option);
             }, 20000);
@@ -1110,7 +909,7 @@
         var color = ['#FFFFFF'];
         var colors = ['#019bfc', '#fe5300', '#ffff01', '#2251ff', '#f100ff'];
         var option = {
-        	color: colors,
+            color: colors,
             title: {},
             tooltip: {
                 show: false
@@ -1146,15 +945,15 @@
                         color: color[0]
                     }
                 },
-                splitLine : {
+                splitLine: {
                     show: true,
-                    lineStyle : {
-                        color : 'rgba(255,255,255,0.1)'
+                    lineStyle: {
+                        color: 'rgba(255,255,255,0.1)'
                     }
                 }
             },
             series: [{
-                type: 'line',  
+                type: 'line',
                 data: arrCpuValue[cpuCount][0]
             }, {
                 type: 'line',
@@ -1206,33 +1005,33 @@
     // }
     // getyzlfinit();
 
-    function getyzlfinit(){
+    function getyzlfinit() {
         $.ajax({
-            url: 'https://zxs0827.github.io/web-back/JSON/getyzlf.json',
-            type: 'GET',
-            dataType: 'json',
-        })
-        .done(function(datajson) {
-          var str = "<div class='sj1'>物理机数量"+datajson.data.lfwlhost+"台</div>";
-            str+="<div class='sj2'>虚拟机数量"+datajson.data.lfxnhost+"台</div>";
-            str+="<div class='sj3'>主机状态数量"+datajson.data.lfhost+"台</div>";
-            str+="<div class='sj4'>主机维护数量"+datajson.data.lfwhhost+"台</div>";
-            $(".sj").html(str);
-            
-         var str2 = "<div class='sj6'>物理机数量"+datajson.data.yzwlhost+"台</div>";
-            str2+="<div class='sj7'>虚拟机数量"+datajson.data.yzxnhost+"台</div>";
-            str2+="<div class='sj8'>主机状态数量"+datajson.data.yzhost+"台</div>";
-            str2+="<div class='sj9'>主机维护数量"+datajson.data.yzwhhost+"台</div>";
-            $(".sj5").html(str2);
-            
-        })
-        .fail(function() {
-            console.log("error");
-        })
-        .always(function() {
-            console.log("complete");
-        });
-        
+                url: 'https://zxs0827.github.io/web-back/JSON/getyzlf.json',
+                type: 'GET',
+                dataType: 'json',
+            })
+            .done(function(datajson) {
+                var str = "<div class='sj1'>物理机数量" + datajson.data.lfwlhost + "台</div>";
+                str += "<div class='sj2'>虚拟机数量" + datajson.data.lfxnhost + "台</div>";
+                str += "<div class='sj3'>主机状态数量" + datajson.data.lfhost + "台</div>";
+                str += "<div class='sj4'>主机维护数量" + datajson.data.lfwhhost + "台</div>";
+                $(".sj").html(str);
+
+                var str2 = "<div class='sj6'>物理机数量" + datajson.data.yzwlhost + "台</div>";
+                str2 += "<div class='sj7'>虚拟机数量" + datajson.data.yzxnhost + "台</div>";
+                str2 += "<div class='sj8'>主机状态数量" + datajson.data.yzhost + "台</div>";
+                str2 += "<div class='sj9'>主机维护数量" + datajson.data.yzwhhost + "台</div>";
+                $(".sj5").html(str2);
+
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            });
+
     }
 
     getyzlfinit();
