@@ -16,23 +16,27 @@ html {
 }
 
 body {
-    width: 1920px;
-    // height: 1200px;
+    width: 1920px; // height: 1200px;
     height: 1100px;
     position: relative;
-    background-image: url("../img/bj.jpg");
-    // background-image: url("../img/bj3.jpg");
+    background-image: url("../img/bj.jpg"); // background-image: url("../img/bj3.jpg");
     background-size: 1920px 1100px;
 }
 
 @mixin user-select-none {
--webkit-touch-callout: none; /* iOS Safari */
--webkit-user-select: none; /* Chrome/Safari/Opera */
--khtml-user-select: none; /* Konqueror */
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* Internet Explorer/Edge */
-user-select: none; /* Non-prefixed version, currently not supported by any browser */
-/* 在 IE < 10 和Opera < 15中我们需要在需要禁止选中的元素上面添加一个属性 unselectable="on" */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently not supported by any browser */
+    /* 在 IE < 10 和Opera < 15中我们需要在需要禁止选中的元素上面添加一个属性 unselectable="on" */
 }
 
 .font14 {
@@ -90,7 +94,8 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 #xtjkzt {
     width: 420px;
-    position: absolute; /* bottom: 120px;*/
+    position: absolute;
+    /* bottom: 120px;*/
     top: 770px;
     left: 4px;
 
@@ -216,7 +221,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
     top: 1px;
     border-radius: 50%;
     -webkit-animation: anim-shadow 1s linear infinite alternate;
-            animation: anim-shadow 1s linear infinite alternate;
+    animation: anim-shadow 1s linear infinite alternate;
 }
 
 [class^='static-'] {
@@ -230,18 +235,18 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
     margin: 0px 5px;
     border-radius: 50%;
     -webkit-animation: anim-shadow 1s linear infinite alternate;
-            animation: anim-shadow 1s linear infinite alternate;
+    animation: anim-shadow 1s linear infinite alternate;
 }
 
 @-webkit-keyframes anim-shadow {
     0% {
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
     }
 
     100% {
         -webkit-box-shadow: 0px 0px 3px #fff;
-                box-shadow: 0px 0px 3px #fff;
+        box-shadow: 0px 0px 3px #fff;
         opacity: 0.8;
     }
 }
@@ -249,12 +254,12 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 @keyframes anim-shadow {
     0% {
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
     }
 
     100% {
         -webkit-box-shadow: 0px 0px 3px #fff;
-                box-shadow: 0px 0px 3px #fff;
+        box-shadow: 0px 0px 3px #fff;
         opacity: 0.8;
     }
 }
@@ -267,7 +272,9 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 }
 
 
+
 /* center 中央电流*/
+
 #electricity {
     position: absolute;
     left: 226px;
@@ -307,12 +314,12 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 }
 
 #c4 {
-    width: 803px;
+    width: 541px;
     height: 597px;
     background-image: url("../img/c4.png");
     position: absolute;
-    top: 0px;
-    left: 42px;
+    top: -8px;
+    left: 305px;
     z-index: 11;
 }
 
@@ -335,11 +342,23 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
     left: 617px;
 }
 
-/* 主机状态*/
-#zjzt {
-    width: 454px;
+#c8 {
+    width: 80px;
+    height: 597px;
+    background-image: url("../img/c8.png");
     position: absolute;
-    right: 8px;
+    top: 93px;
+    left: 124px;
+    z-index: 11;
+}
+
+
+/* 主机状态*/
+
+#zjzt {
+    width: 434px;
+    position: absolute;
+    right: 0px;
     top: 810px;
 
     h2 {
@@ -382,7 +401,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
         border-style: solid;
         position: absolute;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
 
         ._b-solid {
             width: 40px;
@@ -391,14 +410,14 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
             top: 10px;
             left: 10px;
             -webkit-animation: anim-rotatey 2s linear infinite;
-                    animation: anim-rotatey 2s linear infinite;
+            animation: anim-rotatey 2s linear infinite;
         }
     }
 
 
     ._status-item {
         position: absolute;
-        width: 131px; /* background-color: rgba(0, 128, 0, 0.64);*/
+        width: 111px;
         height: 100%;
 
         &.green {
@@ -413,7 +432,9 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
             left: 323px;
         }
 
-        $green: rgb(18,255,0);
+        $green: rgb(18,
+        255,
+        0);
         &.green {
             ._b1-line {
                 border-color: $green;
@@ -426,7 +447,9 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
             }
         }
 
-        $red: rgb(255,46,71);
+        $red: rgb(255,
+        46,
+        71);
         &.red {
             ._b1-line {
                 border-color: $red;
@@ -439,7 +462,9 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
             }
         }
 
-        $gray :rgb(123,123,123);
+        $gray :rgb(123,
+        123,
+        123);
         &.gray {
             ._b1-line {
                 border-color: $gray;
@@ -455,7 +480,8 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
     ._yx-status {
         width: 100%;
-        height: 85px; /* background-color: rgba(255, 0, 0, 0.46);*/
+        height: 85px;
+        /* background-color: rgba(255, 0, 0, 0.46);*/
         position: relative;
         margin-top: 30px;
     }
@@ -463,7 +489,8 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
     ._lf-status {
         width: 100%;
-        height: 85px; /* background-color: rgba(255, 0, 0, 0.46);*/
+        height: 85px;
+        /* background-color: rgba(255, 0, 0, 0.46);*/
         position: relative;
         margin-top: 40px;
     }
@@ -473,12 +500,12 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 @-webkit-keyframes anim-rotatey {
     0% {
         -webkit-transform: rotateY(0deg);
-                transform: rotateY(0deg);
+        transform: rotateY(0deg);
     }
 
     100% {
         -webkit-transform: rotateY(360deg);
-                transform: rotateY(360deg);
+        transform: rotateY(360deg);
     }
 }
 
@@ -486,16 +513,18 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 @keyframes anim-rotatey {
     0% {
         -webkit-transform: rotateY(0deg);
-                transform: rotateY(0deg);
+        transform: rotateY(0deg);
     }
 
     100% {
         -webkit-transform: rotateY(360deg);
-                transform: rotateY(360deg);
+        transform: rotateY(360deg);
     }
 }
 
+
 /* 总数*/
+
 #zs {
     position: absolute;
     font-size: 0;
@@ -522,7 +551,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
             height: 100%;
             background-image: url("../img/circle.png");
             -webkit-animation: anim-rotate 2s linear infinite;
-                    animation: anim-rotate 2s linear infinite;
+            animation: anim-rotate 2s linear infinite;
             z-index: -1;
         }
 
@@ -548,17 +577,17 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 @-webkit-keyframes anim-rotate {
     0% {
         -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     75% {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 
     100% {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -566,25 +595,28 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 @keyframes anim-rotate {
     0% {
         -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     75% {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 
     100% {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
+
 /* 所有告警分布 */
+
 #sygjfb {
     position: absolute;
     width: 220px;
-    height: 310px; /* outline: 2px solid red;*/
+    height: 310px;
+    /* outline: 2px solid red;*/
     top: 420px;
 
     h2 {
@@ -605,10 +637,13 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 }
 
 
+
 /* 各机房告警级别分布*/
+
 #gjfgjjb {
     width: 220px;
-    height: 310px; /* outline: 2px solid green;*/
+    height: 310px;
+    /* outline: 2px solid green;*/
     position: absolute;
     top: 420px;
     left: 235px;
@@ -631,13 +666,16 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 
 
+
 /* 告警总数走势折线图*/
+
 #gjzszs {
-    width: 500px;
-    height: 300px; /* outline: 2px solid orange;*/
+    width: 420px;
+    height: 300px;
+    /* outline: 2px solid orange;*/
     position: absolute;
     top: 90px;
-    left: 0;
+    left: 0px;
 
     h2 {
         text-indent: 36px;
@@ -651,14 +689,18 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
     #gjzszs-echarts {
         position: absolute;
         width: 100%;
-        height: 100%; /* background-color: green;*/
+        height: 100%;
+        left: 20px;
     }
 }
 
+
 /* CPU/内存/磁盘使用系统Top5*/
+
 #cpu {
     width: 420px;
-    height: 320px; /* outline: 2px solid orange;*/
+    height: 320px;
+    /* outline: 2px solid orange;*/
     position: absolute;
     right: 7px;
     top: 90px;
@@ -677,7 +719,10 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
         top: 63px;
     }
 }
+
+
 /* cpu折线图*/
+
 #cpu-left {
     position: absolute;
     top: 124px;
@@ -693,10 +738,13 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 }
 
 
+
 /* 设备机房分布图*/
+
 #sbjf {
     width: 200px;
-    height: 320px; /* outline: 2px solid rgb(255, 192, 203);*/
+    height: 320px;
+    /* outline: 2px solid rgb(255, 192, 203);*/
     position: absolute;
     right: 226px;
     top: 420px;
@@ -718,10 +766,13 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 }
 
 
+
 /* 各机房设备类型分布 */
+
 #sblx {
     width: 224px;
-    height: 320px; /* outline: 2px solid rgb(255, 192, 203);*/
+    height: 320px;
+    /* outline: 2px solid rgb(255, 192, 203);*/
     position: absolute;
     right: 0px;
     top: 420px;
@@ -738,13 +789,16 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 #sblx-echarts {
     width: 100%;
-    height: 100%; /* background-color: red;*/
+    height: 100%;
+    /* background-color: red;*/
     position: absolute;
 }
 
 
 
+
 /* CPU*/
+
 #cpu-yz {
     width: 116px;
     height: 76px;
@@ -801,8 +855,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 #cpu-font {
     width: 116px;
-    height: 40px;
-    // font-family: MicrosoftYaHei;
+    height: 40px; // font-family: MicrosoftYaHei;
     text-align: left;
     font-size: 18px;
     margin-top: 15px;
@@ -832,8 +885,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 #xtmc {
     width: 116px;
-    height: 24px;
-    // font-family: MicrosoftYaHei;
+    height: 24px; // font-family: MicrosoftYaHei;
     font-size: 14px;
     text-align: center;
     right: 5px;
@@ -850,8 +902,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 .dsjpt1 {
     width: 110px;
-    height: 20px;
-    // font-family: MicrosoftYaHei;
+    height: 20px; // font-family: MicrosoftYaHei;
     font-size: 12px;
     right: 5px;
     color: #f100ff;
@@ -862,8 +913,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 .dsjpt2 {
     width: 110px;
-    height: 20px;
-    // font-family: MicrosoftYaHei;
+    height: 20px; // font-family: MicrosoftYaHei;
     font-size: 12px;
     right: 5px;
     color: #fe5300;
@@ -874,8 +924,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 .dsjpt3 {
     width: 110px;
-    height: 20px;
-    // font-family: MicrosoftYaHei;
+    height: 20px; // font-family: MicrosoftYaHei;
     font-size: 12px;
     right: 5px;
     color: #ffff01;
@@ -886,8 +935,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 .dsjpt4 {
     width: 110px;
-    height: 20px;
-    // font-family: MicrosoftYaHei;
+    height: 20px; // font-family: MicrosoftYaHei;
     font-size: 12px;
     right: 5px;
     color: #2251ff;
@@ -898,8 +946,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 
 .dsjpt5 {
     width: 110px;
-    height: 20px;
-    // font-family: MicrosoftYaHei;
+    height: 20px; // font-family: MicrosoftYaHei;
     font-size: 12px;
     right: 5px;
     color: #019bfc;
@@ -913,7 +960,8 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
     top: 80px;
 }
 
-[id^='pt'] ,.anim-change {
+[id^='pt'],
+.anim-change {
     -webkit-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
     position: absolute;
@@ -991,7 +1039,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
     right: 3px;
 }
 
-#sygj-name > * {
+#sygj-name>* {
     display: inline-block;
     width: 12px;
     font-size: 12px;
@@ -1001,7 +1049,7 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
     @include user-select-none;
 }
 
-#sbjf-name > * {
+#sbjf-name>* {
     display: inline-block;
     width: 9px;
     font-size: 12px;
@@ -1012,102 +1060,102 @@ user-select: none; /* Non-prefixed version, currently not supported by any brows
 }
 
 .sj {
-  position: absolute;
-  left:549px;
-  top:440px;
+    position: absolute;
+    left: 434px;
+    top: 440px;
 }
 
-.sj1{
+.sj1 {
     width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #ff0051;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #ff0051;
+    text-align: center;
+    line-height: 20px;
+    text-align: right;
 }
 
-.sj2{
+.sj2 {
     width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #d5ff00;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #d5ff00;
+    text-align: center;
+    line-height: 20px;
+    text-align: right;
 }
 
-.sj3{
+.sj3 {
     width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #00ff15;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #00ff15;
+    text-align: center;
+    line-height: 20px;
+    text-align: right;
 }
 
-.sj4{
-  width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #0f00ff;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
+.sj4 {
+    width: 110px;
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #0f00ff;
+    text-align: center;
+    line-height: 20px;
+    text-align: right;
 }
 
 
 .sj5 {
-  position: absolute;
-  left:1160px;
-  top:118px;
+    position: absolute;
+    left: 1160px;
+    top: 118px;
 }
 
-.sj6{
-  width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #ff0051;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
-}
-
-.sj7{
+.sj6 {
     width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #d5ff00;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #ff0051;
+    text-align: center;
+    line-height: 20px;
+    text-align: left;
 }
 
-.sj8{
+.sj7 {
     width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #00ff15;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #d5ff00;
+    text-align: center;
+    line-height: 20px;
+    text-align: left;
 }
 
-.sj9{
-  width: 110px;
-  height: 20px;
-  font-size: 11px;
-  right: 5px;
-  text-shadow:0px 0px 3px #0f00ff;
-  text-align: center;
-  line-height: 20px;
-  text-align:left; 
+.sj8 {
+    width: 110px;
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #00ff15;
+    text-align: center;
+    line-height: 20px;
+    text-align: left;
+}
+
+.sj9 {
+    width: 110px;
+    height: 20px;
+    font-size: 11px;
+    right: 5px;
+    text-shadow: 0px 0px 3px #0f00ff;
+    text-align: center;
+    line-height: 20px;
+    text-align: left;
 }
