@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+#alarm {
+
+    h1 {
+        font-size: 34px;
+        width: 62px;
+        height: 390px;
+        background-image: url("../img/t2.png");
+        -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+        text-align: center;
+        line-height: 62px;
+        letter-spacing: 10px;
+        margin: 0;
+    }
+
+    >[id^="a_"] {
+        position: absolute;
+        width: 100%;
+        height: 450px;
+        outline: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 100px 1fr;
+    }
+
+
+    #a_yz {
+		#a_yz_tj {
+			background-color: black;
+		}
+    }
+
+    #a_lf {}
+}
