@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#alarm h1 {
+h1 {
   font-size: 34px;
   background-image: url("../img/t2.png");
   -webkit-writing-mode: vertical-lr;
@@ -12,7 +12,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   font-weight: normal; }
-#alarm > [id^="a_"] {
+
+> [id^="a_"] {
   position: absolute;
   width: 100%;
   height: 450px;
@@ -20,103 +21,151 @@
   display: flex;
   flex-direction: column;
   grid-template-columns: 100px 1fr; }
-#alarm #a_yz {
+
+#a_yz {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 100px 460px 660px 620px;
   grid-template-rows: 450px;
   top: 120px;
-  /* 各级别告警数量统计 */
-  /* 告警数量走势图 */
-  /* 告警内容TOP5 & 告警主机TOP5 */
-  /* 告警详情列表 */ }
-  #alarm #a_yz > * {
+  position: absolute; }
+  #a_yz > * {
     background-color: black; }
-  #alarm #a_yz #a_yz_tj {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px; }
-    #alarm #a_yz #a_yz_tj > * {
-      background-color: red; }
-  #alarm #a_yz #a_yz_sltj {
-    background-image: url("../img/b3.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center; }
-    #alarm #a_yz #a_yz_sltj h3 {
-      font-size: 18px;
-      font-weight: normal;
-      margin: 0; }
-    #alarm #a_yz #a_yz_sltj i {
-      font-size: 12px;
-      font-style: normal; }
-    #alarm #a_yz #a_yz_sltj .a_infor {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      margin-top: 10px; }
-      #alarm #a_yz #a_yz_sltj .a_infor > * {
-        flex-grow: 1;
-        font-size: 0;
-        text-align: center;
-        border-right: 2px solid #00a5ff; }
-      #alarm #a_yz #a_yz_sltj .a_infor > *:last-child {
-        border-right: none; }
-    #alarm #a_yz #a_yz_sltj .a_main {
-      height: 58px;
-      line-height: 58px;
+
+#a_yz_tj,
+#a_lf_tj {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px; }
+  #a_yz_tj > *,
+  #a_lf_tj > * {
+    background-color: red; }
+
+/* 各级别告警数量统计 */
+#a_yz_sltj,
+#a_lf_sltj {
+  background-image: url("../img/b3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center; }
+  #a_yz_sltj h3,
+  #a_lf_sltj h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0; }
+  #a_yz_sltj i,
+  #a_lf_sltj i {
+    font-size: 12px;
+    font-style: normal; }
+  #a_yz_sltj .a_infor,
+  #a_lf_sltj .a_infor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px; }
+    #a_yz_sltj .a_infor > *,
+    #a_lf_sltj .a_infor > * {
+      flex-grow: 1;
+      font-size: 0;
       text-align: center;
-      font-size: 0px; }
-  #alarm #a_yz #a_yz_slzs {
-    background-image: url("../img/b4.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center; }
-  #alarm #a_yz #a_yz_top {
-    background-image: url("../img/b2.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center; }
-  #alarm #a_yz #a_yz_xqlb, #alarm #a_yz #a_lf_xqlb {
-    background-image: url("../img/b1.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center; }
-#alarm #a_lf {
+      border-right: 2px solid #00a5ff; }
+    #a_yz_sltj .a_infor > *:last-child,
+    #a_lf_sltj .a_infor > *:last-child {
+      border-right: none; }
+  #a_yz_sltj .a_main,
+  #a_lf_sltj .a_main {
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 0px; }
+
+/* 告警数量走势图 */
+#a_yz_slzs,
+#a_lf_slzs {
+  background-image: url("../img/b4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center; }
+
+/* 告警内容TOP5 & 告警主机TOP5 */
+#a_yz_top {
+  background-image: url("../img/b2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center; }
+
+/* 告警详情列表 */
+#a_yz_xqlb,
+#a_lf_xqlb {
+  background-image: url("../img/b1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center; }
+
+#a_lf {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 100px 460px 660px 620px;
   grid-template-rows: 450px;
-  top: 610px; }
-  #alarm #a_lf > * {
+  top: 610px;
+  position: absolute; }
+  #a_lf > * {
     background-color: black; }
-  #alarm #a_lf #a_lf_sltj {
-    background-image: url("../img/b4.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center; }
-  #alarm #a_lf #a_lf_slzs {
-    background-image: url("../img/b4.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center; }
-#alarm h2._h2 {
+
+h2._h2 {
   font-size: 24px;
   text-align: center;
   font-weight: normal;
   margin: 0;
   margin-top: 40px; }
-#alarm [class$="_bigfont"] {
+
+[class$="_bigfont"] {
   font-size: 72px;
   background-image: linear-gradient(to top, #00a5ff 25%, #71cdff 99%), linear-gradient(#fefeff, #fefeff);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: none; }
-#alarm .a_unit {
+
+.a_unit {
   font-size: 24px !important;
   margin-left: 10px; }
-#alarm .a_smallfont {
+
+.a_smallfont {
   font-size: 30px; }
+
+#a_yz_top {
+  padding: 0px 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+  padding-top: 70px; }
+  #a_yz_top > * {
+    background-color: green; }
+
+.top_item {
+  width: 100%;
+  height: 54px;
+  background-image: url("../img/12.png");
+  background-color: orange; }
+
+.top_context {
+  width: 100%;
+  height: 42px;
+  background-image: url("../img/l2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-size: auto auto; }
+
+.top_bar {
+  height: 12px;
+  width: 100%;
+  background-image: url("../img/bar.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center; }
 
 /*# sourceMappingURL=alarm.css.map */
