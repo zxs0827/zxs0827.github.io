@@ -1,19 +1,27 @@
 @charset 'utf-8';
 
+
+@mixin no-repeat {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
 #alarm {
 
     h1 {
         font-size: 34px;
-        width: 62px;
-        height: 390px;
         background-image: url("../img/t2.png");
         -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
         writing-mode: vertical-lr;
         text-align: center;
-        line-height: 62px;
+        line-height: 100px;
         letter-spacing: 10px;
         margin: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        font-weight: normal;
     }
 
     >[id^="a_"] {
@@ -28,10 +36,75 @@
 
 
     #a_yz {
-		#a_yz_tj {
-			background-color: black;
-		}
+		display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 100px 460px 660px 620px;
+        grid-template-rows: 450px; 
+        top: 120px;
+        
+        > * {
+            background-color: black;
+        }
+
+        #a_yz_tj {
+            display: grid;
+            grid-template-row: 1fr 1fr;
+            grid-gap: 20px;
+
+            > * {
+                background-color: red;
+            }
+        }
+        /* 各级别告警数量统计 */
+        #a_yz_sltj {
+            background-image: url("../img/b4.png");
+            @include no-repeat;
+        }
+
+        /* 告警数量走势图 */
+
+        #a_yz_slzs {
+            background-image: url("../img/b4.png");
+            @include no-repeat;
+        }
+
+        /* 告警内容TOP5 & 告警主机TOP5 */
+        #a_yz_top {
+            background-image: url("../img/b2.png");
+            @include no-repeat;
+        }
+
+        /* 告警详情列表 */
+        #a_yz_xqlb , #a_lf_xqlb {
+            background-image: url("../img/b1.png");
+            @include no-repeat;
+        }
     }
 
-    #a_lf {}
+    #a_lf {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 100px 460px 660px 620px;
+        grid-template-rows: 450px; 
+        top: 610px;
+        
+        > * {
+            background-color: black;
+        }
+
+
+        #a_lf_sltj {
+            background-image: url("../img/b4.png");
+            @include no-repeat;
+        }
+
+        #a_lf_slzs {
+            background-image: url("../img/b4.png");
+            @include no-repeat;
+        }
+
+        #a_lf_top {
+
+        }
+    }
 }
