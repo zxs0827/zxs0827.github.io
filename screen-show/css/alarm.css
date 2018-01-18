@@ -1,4 +1,7 @@
 @charset "UTF-8";
+i {
+  font-style: normal; }
+
 h1 {
   font-size: 34px;
   background-image: url("../img/t2.png");
@@ -55,8 +58,7 @@ h1 {
     margin: 0; }
   #a_yz_sltj i,
   #a_lf_sltj i {
-    font-size: 12px;
-    font-style: normal; }
+    font-size: 12px; }
   #a_yz_sltj .a_infor,
   #a_lf_sltj .a_infor {
     display: flex;
@@ -156,7 +158,20 @@ h2._h2 {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  background-size: auto auto; }
+  background-size: auto auto;
+  position: relative; }
+  .top_context > i {
+    font-size: 18px;
+    position: absolute; }
+  .top_context .top_name {
+    top: 14px;
+    left: 7px;
+    font-size: 12px;
+    width: 120px;
+    line-height: 15px; }
+  .top_context .top_num {
+    right: 6px;
+    top: 4px; }
 
 .top_bar {
   height: 12px;
@@ -167,5 +182,9 @@ h2._h2 {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center; }
+
+.a_neirong {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr); }
 
 /*# sourceMappingURL=alarm.css.map */

@@ -7,6 +7,10 @@
     background-position: center center;
 }
 
+i {
+    font-style: normal;
+}
+
 h1 {
     font-size: 34px;
     background-image: url("../img/t2.png");
@@ -74,7 +78,6 @@ h1 {
 
     i {
         font-size: 12px;
-        font-style: normal;
     }
 
 
@@ -196,6 +199,25 @@ h2._h2 {
     background-image: url("../img/l2.png");
     @include no-repeat;
     background-size: auto auto;
+    position: relative;
+
+    > i {
+        font-size: 18px;
+        position: absolute;
+    }
+
+    .top_name {
+        top: 14px;
+        left: 7px;
+        font-size: 12px;
+        width: 120px;
+        line-height: 15px;
+    }
+
+    .top_num {
+        right: 6px;
+        top: 4px;
+    }
 }
 
 .top_bar {
@@ -206,3 +228,11 @@ h2._h2 {
     background-size: 100% 100%;
     @include no-repeat;
 }
+
+.a_neirong {
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+
+
+
