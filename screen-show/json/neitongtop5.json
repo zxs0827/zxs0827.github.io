@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "name":"内容TOP5",
+    "data":
+    {
+        "lf": [
+        {
+            "cons": 26,
+            "description": "CPU利用率>95%",
+            "startclock": 1516025615
+        },
+        {
+            "cons": 5,
+            "description": "主机ping细粒度检测",
+            "startclock": 1516026140
+        }],
+        "yz": [
+        {
+            "cons": 15,
+            "description": "bond01 网卡流量大于150MB/S",
+            "startclock": 1516025597
+        },
+        {
+            "cons": 10,
+            "description": "bond0 网卡流量大于150MB/S",
+            "startclock": 1516025911
+        },
+        {
+            "cons": 8,
+            "description": "eth0 网卡流量大于150MB/S",
+            "startclock": 1516025592
+        },
+        {
+            "cons": 8,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "startclock": 1516026266
+        },
+        {
+            "cons": 7,
+            "description": "eth1 网卡流量大于150MB/S",
+            "startclock": 1516026018
+        }]
+    },
+    "info": "查询成功!"
+}

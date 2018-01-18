@@ -1,0 +1,834 @@
+{
+    "code": 0,
+    "name":"告警详情列表",
+    "data":
+    {
+        "lf": [
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1500,
+            "description": "CPU利用率>95%",
+            "host": "10.162.166.198",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:13:35",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 9001,
+            "description": "CPU利用率>95%",
+            "host": "10.162.164.193",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:15:30",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1800,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.11",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:15:56",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "CPU利用率>95%",
+            "host": "10.162.160.155",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:16:30",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.16",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:18:06",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.1.55",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:19:46",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 60,
+            "description": "主机ping细粒度检测",
+            "host": "10.245.7.214",
+            "name": "主机ping状态",
+            "startTime": "2018-01-15 22:22:20",
+            "sys_name": "业务运营与需求管理平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.12",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:27:22",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 60,
+            "description": "主机ping细粒度检测",
+            "host": "10.245.7.214",
+            "name": "主机ping状态",
+            "startTime": "2018-01-15 22:30:20",
+            "sys_name": "业务运营与需求管理平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.166.194",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:32:51",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.21",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:35:16",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 7501,
+            "description": "CPU利用率>95%",
+            "host": "10.162.164.173",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:41:50",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.5",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:42:20",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 60,
+            "description": "主机ping细粒度检测",
+            "host": "10.162.160.140",
+            "name": "主机ping状态",
+            "startTime": "2018-01-15 22:44:32",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1801,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.10",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:49:30",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.24",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:49:34",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1801,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.21",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:50:16",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1800,
+            "description": "CPU利用率>95%",
+            "host": "10.162.166.50",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:50:58",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 6601,
+            "description": "CPU利用率>95%",
+            "host": "10.162.165.130",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:55:48",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.18",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:55:58",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1499,
+            "description": "CPU利用率>95%",
+            "host": "10.162.165.20",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:57:53",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.160.148",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:58:12",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "CPU利用率>95%",
+            "host": "10.162.165.181",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:58:54",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 2100,
+            "description": "CPU利用率>95%",
+            "host": "10.162.161.73",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:59:36",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 60,
+            "description": "主机ping细粒度检测",
+            "host": "10.162.161.74",
+            "name": "主机ping状态",
+            "startTime": "2018-01-15 22:59:39",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 60,
+            "description": "主机ping细粒度检测",
+            "host": "10.162.161.75",
+            "name": "主机ping状态",
+            "startTime": "2018-01-15 22:59:40",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.148.15",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 23:01:40",
+            "sys_name": "移动用户上网记录集中查询与分析系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.162.166.198",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 23:03:36",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1200,
+            "description": "CPU利用率>95%",
+            "host": "10.162.166.89",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 23:06:52",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1500,
+            "description": "CPU利用率>95%",
+            "host": "10.162.161.96",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 23:07:34",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 4200,
+            "description": "CPU利用率>95%",
+            "host": "10.162.164.164",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 23:08:57",
+            "sys_name": "大数据平台"
+        }],
+        "yz": [
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1200,
+            "description": "CPU利用率>95%",
+            "host": "10.161.35.12",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:25:24",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.137",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:13:17",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 301,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.137",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:33:16",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.25.137",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:13:12",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.25.137",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:33:12",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.138",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:20:23",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.138",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:30:23",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.138",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:50:23",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "eth1 网卡流量大于150MB/S",
+            "host": "10.161.25.138",
+            "name": "网卡总流量 eth1",
+            "startTime": "2018-01-15 22:20:18",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 301,
+            "description": "eth1 网卡流量大于150MB/S",
+            "host": "10.161.25.138",
+            "name": "网卡总流量 eth1",
+            "startTime": "2018-01-15 22:30:18",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.140",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:13:32",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.140",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:33:32",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 301,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.25.140",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:13:26",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 301,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.25.140",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:33:26",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 299,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.179",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:24:25",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.25.179",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 22:24:26",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.25.179",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:24:20",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "lo 网卡流量大于150MB/S",
+            "host": "10.161.25.179",
+            "name": "网卡总流量 lo",
+            "startTime": "2018-01-15 22:24:19",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "lo 网卡流量大于150MB/S",
+            "host": "10.161.25.187",
+            "name": "网卡总流量 lo",
+            "startTime": "2018-01-15 22:17:07",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 1500,
+            "description": "CPU利用率>95%",
+            "host": "10.161.25.190",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:41:10",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 2100,
+            "description": "enp2s0f0 网卡流量大于150MB/S",
+            "host": "10.161.24.186",
+            "name": "网卡总流量 enp2s0f0",
+            "startTime": "2018-01-15 22:52:13",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "lo 网卡流量大于150MB/S",
+            "host": "10.161.24.56",
+            "name": "网卡总流量 lo",
+            "startTime": "2018-01-15 22:13:09",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 599,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.26.30",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:32:32",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.26.30",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 22:32:33",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "eth1 网卡流量大于150MB/S",
+            "host": "10.161.26.30",
+            "name": "网卡总流量 eth1",
+            "startTime": "2018-01-15 22:32:28",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 299,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.26.31",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:36:02",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.26.31",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 22:36:03",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 301,
+            "description": "eth1 网卡流量大于150MB/S",
+            "host": "10.161.26.31",
+            "name": "网卡总流量 eth1",
+            "startTime": "2018-01-15 22:35:57",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.26.33",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:28:17",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.26.33",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 22:28:18",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "eth1 网卡流量大于150MB/S",
+            "host": "10.161.26.33",
+            "name": "网卡总流量 eth1",
+            "startTime": "2018-01-15 22:28:13",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.26.34",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 23:01:47",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.26.34",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 23:01:48",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.26.35",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:31:05",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.26.35",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 23:06:05",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.26.35",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 22:31:06",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.26.35",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 23:06:06",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 599,
+            "description": "eth1 网卡流量大于150MB/S",
+            "host": "10.161.26.35",
+            "name": "网卡总流量 eth1",
+            "startTime": "2018-01-15 22:31:01",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 299,
+            "description": "eth1 网卡流量大于150MB/S",
+            "host": "10.161.26.35",
+            "name": "网卡总流量 eth1",
+            "startTime": "2018-01-15 23:06:01",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "bond01 网卡流量大于150MB/S",
+            "host": "10.161.25.218",
+            "name": "网卡总流量 bond01",
+            "startTime": "2018-01-15 22:17:21",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "bond01.102 网卡流量大于150MB/S",
+            "host": "10.161.25.218",
+            "name": "网卡总流量 bond01.102",
+            "startTime": "2018-01-15 22:17:22",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.25.218",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:17:16",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:18:31",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:38:31",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:48:31",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0.100 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 bond0.100",
+            "startTime": "2018-01-15 22:18:29",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0.100 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 bond0.100",
+            "startTime": "2018-01-15 22:38:29",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "bond0.100 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 bond0.100",
+            "startTime": "2018-01-15 22:48:29",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 299,
+            "description": "enp2s0f0 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 enp2s0f0",
+            "startTime": "2018-01-15 22:18:27",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "enp2s0f0 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 enp2s0f0",
+            "startTime": "2018-01-15 22:38:26",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "enp2s0f0 网卡流量大于150MB/S",
+            "host": "10.161.48.111",
+            "name": "网卡总流量 enp2s0f0",
+            "startTime": "2018-01-15 22:48:26",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 2400,
+            "description": "CPU利用率>95%",
+            "host": "10.161.48.132",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:44:44",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 895,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:21:08",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:46:03",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 23:06:03",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0.100 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 bond0.100",
+            "startTime": "2018-01-15 22:31:01",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 301,
+            "description": "bond0.100 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 bond0.100",
+            "startTime": "2018-01-15 22:51:01",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0.100 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 bond0.100",
+            "startTime": "2018-01-15 23:11:01",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "enp2s0f0 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 enp2s0f0",
+            "startTime": "2018-01-15 22:30:58",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "enp2s0f0 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 enp2s0f0",
+            "startTime": "2018-01-15 22:50:58",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "enp2s0f0 网卡流量大于150MB/S",
+            "host": "10.161.48.135",
+            "name": "网卡总流量 enp2s0f0",
+            "startTime": "2018-01-15 23:10:58",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.161.48.135",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:14:02",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 600,
+            "description": "CPU利用率>95%",
+            "host": "10.161.48.135",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:34:02",
+            "sys_name": "大数据平台"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.16.57",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:36:50",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.16.57",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:36:46",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "CPU利用率>95%",
+            "host": "10.161.16.73",
+            "name": "CPU利用率",
+            "startTime": "2018-01-15 22:48:33",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 301,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.16.110",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:34:19",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "eth0 网卡流量大于150MB/S",
+            "host": "10.161.16.110",
+            "name": "网卡总流量 eth0",
+            "startTime": "2018-01-15 22:34:16",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.19.131",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:37:50",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 300,
+            "description": "em2 网卡流量大于150MB/S",
+            "host": "10.161.19.131",
+            "name": "网卡总流量 em2",
+            "startTime": "2018-01-15 22:37:47",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "bond0 网卡流量大于150MB/S",
+            "host": "10.161.20.127",
+            "name": "网卡总流量 bond0",
+            "startTime": "2018-01-15 22:20:27",
+            "sys_name": "上网记录查询及IP溯源系统"
+        },
+        {
+            "case ze.endclock when null then UNIX_TIMESTAMP(NOW()) - ze.startclock else ze.endclock - ze.startclock end": 900,
+            "description": "eth2 网卡流量大于150MB/S",
+            "host": "10.161.20.127",
+            "name": "网卡总流量 eth2",
+            "startTime": "2018-01-15 22:20:25",
+            "sys_name": "上网记录查询及IP溯源系统"
+        }]
+    },
+    "info": "查询成功!"
+}

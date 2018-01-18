@@ -1,0 +1,39 @@
+{
+	"code": 0,
+	"name": "各级别告警数量统计",
+	"data": {
+		"lf": [{
+			"priority": 1,
+			"sum": "195"
+		}, {
+			"priority": 2,
+			"sum": "8"
+		}, {
+			"priority": 3,
+			"sum": "0"
+		}, {
+			"priority": 4,
+			"sum": "0"
+		}, {
+			"priority": 5,
+			"sum": "0"
+		}],
+		"yz": [{
+			"priority": 1,
+			"sum": "147"
+		}, {
+			"priority": 2,
+			"sum": "21"
+		}, {
+			"priority": 3,
+			"sum": "0"
+		}, {
+			"priority": 4,
+			"sum": "0"
+		}, {
+			"priority": 5,
+			"sum": "0"
+		}]
+	},
+	"info": "²éÑ¯³É¹¦!"
+}

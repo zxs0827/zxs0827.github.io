@@ -1,0 +1,154 @@
+{
+    "code": 0,
+    "name":"告警数量走势图",
+    "data":
+    {
+        "lf": [
+        {
+            "clock": "2018-01-15 22:10:00",
+            "cons": 1,
+            "floor(ze.startclock/300)": 5053418,
+            "startclock": 1516025615
+        },
+        {
+            "clock": "2018-01-15 22:15:00",
+            "cons": 5,
+            "floor(ze.startclock/300)": 5053419,
+            "startclock": 1516025730
+        },
+        {
+            "clock": "2018-01-15 22:20:00",
+            "cons": 1,
+            "floor(ze.startclock/300)": 5053420,
+            "startclock": 1516026140
+        },
+        {
+            "clock": "2018-01-15 22:25:00",
+            "cons": 1,
+            "floor(ze.startclock/300)": 5053421,
+            "startclock": 1516026442
+        },
+        {
+            "clock": "2018-01-15 22:30:00",
+            "cons": 2,
+            "floor(ze.startclock/300)": 5053422,
+            "startclock": 1516026620
+        },
+        {
+            "clock": "2018-01-15 22:35:00",
+            "cons": 1,
+            "floor(ze.startclock/300)": 5053423,
+            "startclock": 1516026916
+        },
+        {
+            "clock": "2018-01-15 22:40:00",
+            "cons": 3,
+            "floor(ze.startclock/300)": 5053424,
+            "startclock": 1516027310
+        },
+        {
+            "clock": "2018-01-15 22:45:00",
+            "cons": 2,
+            "floor(ze.startclock/300)": 5053425,
+            "startclock": 1516027770
+        },
+        {
+            "clock": "2018-01-15 22:50:00",
+            "cons": 2,
+            "floor(ze.startclock/300)": 5053426,
+            "startclock": 1516027816
+        },
+        {
+            "clock": "2018-01-15 22:55:00",
+            "cons": 8,
+            "floor(ze.startclock/300)": 5053427,
+            "startclock": 1516028148
+        },
+        {
+            "clock": "2018-01-15 23:00:00",
+            "cons": 2,
+            "floor(ze.startclock/300)": 5053428,
+            "startclock": 1516028500
+        },
+        {
+            "clock": "2018-01-15 23:05:00",
+            "cons": 3,
+            "floor(ze.startclock/300)": 5053429,
+            "startclock": 1516028812
+        }],
+        "yz": [
+        {
+            "clock": "2018-01-15 22:10:00",
+            "cons": 6,
+            "floor(ze.startclock/300)": 5053418,
+            "startclock": 1516025597
+        },
+        {
+            "clock": "2018-01-15 22:15:00",
+            "cons": 7,
+            "floor(ze.startclock/300)": 5053419,
+            "startclock": 1516025827
+        },
+        {
+            "clock": "2018-01-15 22:20:00",
+            "cons": 9,
+            "floor(ze.startclock/300)": 5053420,
+            "startclock": 1516026023
+        },
+        {
+            "clock": "2018-01-15 22:25:00",
+            "cons": 4,
+            "floor(ze.startclock/300)": 5053421,
+            "startclock": 1516026324
+        },
+        {
+            "clock": "2018-01-15 22:30:00",
+            "cons": 17,
+            "floor(ze.startclock/300)": 5053422,
+            "startclock": 1516026796
+        },
+        {
+            "clock": "2018-01-15 22:35:00",
+            "cons": 10,
+            "floor(ze.startclock/300)": 5053423,
+            "startclock": 1516026962
+        },
+        {
+            "clock": "2018-01-15 22:40:00",
+            "cons": 2,
+            "floor(ze.startclock/300)": 5053424,
+            "startclock": 1516027270
+        },
+        {
+            "clock": "2018-01-15 22:45:00",
+            "cons": 5,
+            "floor(ze.startclock/300)": 5053425,
+            "startclock": 1516027711
+        },
+        {
+            "clock": "2018-01-15 22:50:00",
+            "cons": 4,
+            "floor(ze.startclock/300)": 5053426,
+            "startclock": 1516027823
+        },
+        {
+            "clock": "2018-01-15 23:00:00",
+            "cons": 2,
+            "floor(ze.startclock/300)": 5053428,
+            "startclock": 1516028507
+        },
+        {
+            "clock": "2018-01-15 23:05:00",
+            "cons": 4,
+            "floor(ze.startclock/300)": 5053429,
+            "startclock": 1516028765
+        },
+        {
+            "clock": "2018-01-15 23:10:00",
+            "cons": 2,
+            "floor(ze.startclock/300)": 5053430,
+            "startclock": 1516029061
+        }]
+    },
+    "info": "查询成功!"
+}
