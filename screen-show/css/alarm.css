@@ -270,8 +270,24 @@ h2._h2 {
 
 #a_yz_table, #a_lf_table {
   font-size: 12px;
-  text-align: center; }
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px; }
   #a_yz_table th, #a_yz_table td, #a_lf_table th, #a_lf_table td {
-    height: 35px; }
+    height: 35px;
+    background-color: rgba(0, 232, 255, 0.5); }
+
+/* 时间 */
+#sj {
+  background-image: url(../img/timer.png);
+  width: 260px;
+  height: 40px;
+  top: 68px;
+  left: 1638px;
+  position: absolute;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px; }
 
 /*# sourceMappingURL=alarm.css.map */

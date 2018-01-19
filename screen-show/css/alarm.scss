@@ -364,8 +364,26 @@ $urgent: #ff65da;
 #a_yz_table , #a_lf_table {
     font-size: 12px;
     text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
 
     th , td {
         height: 35px;
+        background-color: rgba(0, 232, 255, 0.5);
     }
+}
+
+/* 时间 */
+
+#sj{
+    background-image: url(../img/timer.png);
+    width: 260px;
+    height: 40px;
+    top: 68px;
+    left: 1638px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
 }
