@@ -933,7 +933,12 @@
                 }]
             };
             gjzszs_echarts.setOption(option);
-
+            gjzszs_echarts.on('click', function (param) {
+                alert('点击了我！');
+                console.log('5678905456');
+                console.log(param);
+                console.log('5678905456');
+            });
             setInterval(function(){
                 gjzszs_echarts.clear();
                 gjzszs_echarts.setOption(option);

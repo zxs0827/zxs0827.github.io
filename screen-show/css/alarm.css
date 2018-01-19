@@ -71,6 +71,15 @@ h1 {
     #a_yz_sltj .a_infor > *:last-child,
     #a_lf_sltj .a_infor > *:last-child {
       border-right: none; }
+    #a_yz_sltj .a_infor:after,
+    #a_lf_sltj .a_infor:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      top: 0;
+      left: 0; }
   #a_yz_sltj .a_main,
   #a_lf_sltj .a_main {
     height: 58px;
@@ -258,5 +267,11 @@ h2._h2 {
   position: absolute;
   bottom: 0;
   left: 0; }
+
+#a_yz_table, #a_lf_table {
+  font-size: 12px;
+  text-align: center; }
+  #a_yz_table th, #a_yz_table td, #a_lf_table th, #a_lf_table td {
+    height: 35px; }
 
 /*# sourceMappingURL=alarm.css.map */
