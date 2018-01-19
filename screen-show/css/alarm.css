@@ -59,7 +59,9 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 10px; }
+    position: absolute;
+    width: 100%;
+    bottom: 10px; }
     #a_yz_sltj .a_infor > *,
     #a_lf_sltj .a_infor > * {
       flex-grow: 1;
@@ -74,7 +76,10 @@ h1 {
     height: 58px;
     line-height: 58px;
     text-align: center;
-    font-size: 0px; }
+    font-size: 0px;
+    position: absolute;
+    top: 57px;
+    left: 219px; }
 
 /* 告警数量走势图 */
 #a_yz_slzs,
@@ -84,6 +89,13 @@ h1 {
   background-size: 100% 100%;
   background-position: center center;
   position: relative; }
+  #a_yz_slzs > .unit_title,
+  #a_lf_slzs > .unit_title {
+    flex-direction: column;
+    right: 10px;
+    left: auto;
+    width: auto;
+    height: 110px; }
 
 /* 告警内容TOP5 & 告警主机TOP5 */
 #a_yz_top, #a_lf_top {
@@ -119,8 +131,9 @@ h2._h2 {
   font-size: 24px;
   text-align: center;
   font-weight: normal;
-  margin: 0;
-  margin-top: 40px; }
+  position: absolute;
+  top: 54px;
+  left: 90px; }
 
 [class$="_bigfont"] {
   font-size: 72px;
@@ -235,7 +248,7 @@ h2._h2 {
 
 .unit_slzs_m {
   position: absolute;
-  right: 45px;
+  right: 60px;
   bottom: 45px;
   font-size: 12px; }
 
