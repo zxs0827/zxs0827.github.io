@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/bigdata.css">
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="css/alarm.css">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+    <script src="js/alarm.js"></script>
     <title>ALARM 2</title>
 </head>
 
@@ -21,39 +24,40 @@
             <div id="a_yz_sltj">
                 <h2 class="_h2">总告警次数</h2>
                 <div class="a_main">
-                    <b class="a_bigfont">34</b>
+                    <b class="a_bigfont">0</b>
                     <i class="a_unit">次</i>
                 </div>
                 <div class="a_infor">
                     <div id="a_xinxi">
                         <h3>信息</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
                     <div id="a_qingwei">
                         <h3>轻微</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
                     <div id="a_yiban">
                         <h3>一般</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
                     <div id="a_zhongyao">
                         <h3>重要</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
                     <div id="a_jinji">
                         <h3>紧急</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
                 </div>
             </div>
             <!-- 告警数量走势图 -->
             <div id="a_yz_slzs">
+            	<div id="gjzszs-echarts"></div>
             </div>
         </div>
         <!--告警内容TOP5 & 告警主机TOP5  -->
@@ -109,39 +113,40 @@
             <div id="a_lf_sltj">
                 <h2 class="_h2">总告警次数</h2>
                 <div class="a_main">
-                    <b class="a_bigfont">34</b>
+                    <b class="a_bigfont">0</b>
                     <i class="a_unit">次</i>
                 </div>
                 <div class="a_infor">
-                    <div id="a_xinxi">
+                    <div id="b_xinxi">
                         <h3>信息</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
-                    <div id="a_qingwei">
+                    <div id="b_qingwei">
                         <h3>轻微</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
-                    <div id="a_yiban">
+                    <div id="b_yiban">
                         <h3>一般</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
-                    <div id="a_zhongyao">
+                    <div id="b_zhongyao">
                         <h3>重要</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
-                    <div id="a_jinji">
+                    <div id="b_jinji">
                         <h3>紧急</h3>
-                        <b class="a_smallfont">20</b>
+                        <b class="a_smallfont">0</b>
                         <i>次</i>
                     </div>
                 </div>
             </div>
             <!-- 告警数量走势图 -->
             <div id="a_lf_slzs">
+            	  <div id="gjzszs-echarts"></div>
             </div>
         </div>
         <!--告警内容TOP5 & 告警主机TOP5  -->
