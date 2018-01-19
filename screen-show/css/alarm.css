@@ -137,7 +137,7 @@ h2._h2 {
 .a_smallfont {
   font-size: 30px; }
 
-#a_yz_top {
+#a_yz_top, #a_lf_top {
   padding: 0px 32px;
   display: grid;
   grid-template-columns: 1fr 1fr;
