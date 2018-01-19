@@ -141,7 +141,8 @@ h2._h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
-  padding-top: 70px; }
+  padding-top: 70px;
+  position: relative; }
   #a_yz_top > * {
     background-color: green; }
 
@@ -183,8 +184,21 @@ h2._h2 {
   background-size: 100% 100%;
   background-position: center center; }
 
-.a_neirong {
+.a_neirong, .a_zhuji {
   display: grid;
   grid-template-rows: repeat(5, 1fr); }
+
+.unit_title {
+  display: flex;
+  font-size: 12px;
+  flex-direction: row;
+  position: absolute;
+  width: 200px;
+  justify-content: space-around;
+  margin: auto;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  top: 44px; }
 
 /*# sourceMappingURL=alarm.css.map */
