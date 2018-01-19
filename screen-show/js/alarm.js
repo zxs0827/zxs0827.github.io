@@ -1,4 +1,4 @@
-
+//初始化
  $(document).ready(function(){  
      //各级别告警数量统计
 	 alarmCount();
@@ -48,9 +48,14 @@ function alarmCount(){
 // 告警总数走势折线图
 //-----------------------------------------------------------------------------------------
 function gjzszsInit() {
-	$("#gjzszs-echarts").css("height","200px")
-    function echartsInit(data) {
-        var gjzszs_echarts = echarts.init(document.getElementById("gjzszs-echarts"));
+    function echartsInit(data,pd) {
+    	if(pd=="yz"){
+			$("#gjzszs-echarts-yz").css("height","200px")
+        	var gjzszs_echarts = echarts.init(document.getElementById("gjzszs-echarts-yz"));
+    	}else{
+			$("#gjzszs-echarts-lf").css("height","200px")
+    		var gjzszs_echarts = echarts.init(document.getElementById("gjzszs-echarts-lf"));
+    	}
         var data1 = [];
         var data2 = [];
         var xData = [];
@@ -162,7 +167,8 @@ function gjzszsInit() {
             dataType: 'json',
         })
         .done(function(datajson) {
-            echartsInit(datajson.data.lf);
+        	echartsInit(datajson.data.yz,'yz');
+            echartsInit(datajson.data.lf,'lf');
         })
         .fail(function() {
             console.log("error");
