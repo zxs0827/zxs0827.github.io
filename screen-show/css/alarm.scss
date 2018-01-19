@@ -370,7 +370,15 @@ $urgent: #ff65da;
 
     th , td {
         height: 35px;
+    }
+
+
+    th {
         background-color: rgba(0, 232, 255, 0.5);
+    }
+
+   tbody tr:nth-child(2n){
+        background-color: rgba(2, 91, 245, 0.5);
     }
 }
 

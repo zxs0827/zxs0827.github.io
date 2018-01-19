@@ -275,8 +275,11 @@ h2._h2 {
   margin: 0 auto;
   margin-top: 40px; }
   #a_yz_table th, #a_yz_table td, #a_lf_table th, #a_lf_table td {
-    height: 35px;
+    height: 35px; }
+  #a_yz_table th, #a_lf_table th {
     background-color: rgba(0, 232, 255, 0.5); }
+  #a_yz_table tbody tr:nth-child(2n), #a_lf_table tbody tr:nth-child(2n) {
+    background-color: rgba(2, 91, 245, 0.5); }
 
 /* 时间 */
 #sj {
@@ -291,14 +294,3 @@ h2._h2 {
   line-height: 40px; }
 
 /*# sourceMappingURL=alarm.css.map */
-#sj{
-	background-image: url(../img/timer.png);
-	width: 260px;
-	height: 40px;
-	top: 68px;
-	left: 1638px;
-	position: absolute;
-	font-size: 16px;
-	text-align: center;
-	line-height: 40px;
-}
