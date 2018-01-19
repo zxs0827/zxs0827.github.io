@@ -6,6 +6,8 @@
 	 gjzszsInit();
 	 // 告警内容
 	 alarmContent();
+	 //更改时间
+	 $("#sj").html(QueryString("sj"));
  });  
 
 //-----------------------------------------------------------------------------------------
@@ -229,3 +231,13 @@ function alarmContent() {
             console.log("complete");
         });
 }
+//-----------------------------------------------------------------------------------------
+// 取地址栏参数
+//-----------------------------------------------------------------------------------------
+function QueryString(name) {
+	 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+	 var r = window.location.search.substr(1).match(reg);
+	 if(r!=null)return  unescape(r[2]); return null;
+}
+
+

@@ -849,6 +849,7 @@
             var gjzszs_echarts = echarts.init(document.getElementById("gjzszs-echarts"));
             var data1 = [];
             var data2 = [];
+            var data3 = [];
             var xData = [];
             var yData = [];
             var lineCount = 0;
@@ -857,6 +858,7 @@
                 // data1.push(val.clock);
                 data1.push(val.clock.substring(11, 16));
                 data2.push(val.cons);
+                data3.push(val.clock);
             });
             xData = data1.slice(lineCount, lineCount + lineNum);
             // alert(xData);
@@ -933,12 +935,13 @@
                 }]
             };
             gjzszs_echarts.setOption(option);
-            gjzszs_echarts.on('click', function (param) {
-                alert('点击了我！');
-                console.log('5678905456');
-                console.log(param);
-                console.log('5678905456');
-            });
+			gjzszs_echarts.on('click', function (param) {
+				for (var i = 0; i < data3.length; i++) {
+					if(data3[i].indexOf(param.name)=="11"){
+						window.location.href="alarm.html?sj='"+data3[i]+"'";
+					}
+				}
+			});
             setInterval(function(){
                 gjzszs_echarts.clear();
                 gjzszs_echarts.setOption(option);
@@ -1241,6 +1244,9 @@
     }
 
     getyzlfinit();
+    
+    
+    
     </script>
 </body>
 
