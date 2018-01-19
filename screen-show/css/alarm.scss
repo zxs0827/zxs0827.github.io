@@ -180,6 +180,7 @@ h2._h2 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 32px;
     padding-top: 70px;
+    position: relative;
 
     > * {
         background-color: green;
@@ -229,10 +230,22 @@ h2._h2 {
     @include no-repeat;
 }
 
-.a_neirong {
+.a_neirong , .a_zhuji{
     display: grid;
     grid-template-rows: repeat(5,1fr);
 }
 
-
+.unit_title {
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    position: absolute;
+    width: 200px;
+    justify-content: space-around;
+    margin: auto;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    top: 44px;
+}
 
