@@ -20,7 +20,6 @@ h1 {
   position: absolute;
   width: 100%;
   height: 450px;
-  outline: 2px solid red;
   display: flex;
   flex-direction: column;
   grid-template-columns: 100px 1fr; }
@@ -32,17 +31,12 @@ h1 {
   grid-template-rows: 450px;
   top: 120px;
   position: absolute; }
-  #a_yz > * {
-    background-color: black; }
 
 #a_yz_tj,
 #a_lf_tj {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px; }
-  #a_yz_tj > *,
-  #a_lf_tj > * {
-    background-color: red; }
 
 /* 各级别告警数量统计 */
 #a_yz_sltj,
@@ -50,7 +44,8 @@ h1 {
   background-image: url("../img/b3.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: center center; }
+  background-position: center center;
+  position: relative; }
   #a_yz_sltj h3,
   #a_lf_sltj h3 {
     font-size: 18px;
@@ -87,14 +82,16 @@ h1 {
   background-image: url("../img/b4.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: center center; }
+  background-position: center center;
+  position: relative; }
 
 /* 告警内容TOP5 & 告警主机TOP5 */
-#a_yz_top {
+#a_yz_top, #a_lf_top {
   background-image: url("../img/b2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: center center; }
+  background-position: center center;
+  position: relative; }
 
 /* 告警详情列表 */
 #a_yz_xqlb,
@@ -102,7 +99,13 @@ h1 {
   background-image: url("../img/b1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: center center; }
+  background-position: center center;
+  position: relative; }
+  #a_yz_xqlb > .unit_title,
+  #a_lf_xqlb > .unit_title {
+    top: 14px;
+    right: 10px;
+    left: auto; }
 
 #a_lf {
   display: grid;
@@ -111,8 +114,6 @@ h1 {
   grid-template-rows: 450px;
   top: 610px;
   position: absolute; }
-  #a_lf > * {
-    background-color: black; }
 
 h2._h2 {
   font-size: 24px;
@@ -136,21 +137,18 @@ h2._h2 {
 .a_smallfont {
   font-size: 30px; }
 
-#a_yz_top {
+#a_yz_top, #a_lf_top {
   padding: 0px 32px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
   padding-top: 70px;
   position: relative; }
-  #a_yz_top > * {
-    background-color: green; }
 
 .top_item {
   width: 100%;
   height: 54px;
-  background-image: url("../img/12.png");
-  background-color: orange; }
+  background-image: url("../img/12.png"); }
 
 .top_context {
   width: 100%;
@@ -188,6 +186,7 @@ h2._h2 {
   display: grid;
   grid-template-rows: repeat(5, 1fr); }
 
+/* 信息 轻微 一般 重要 紧急 */
 .unit_title {
   display: flex;
   font-size: 12px;
@@ -200,5 +199,51 @@ h2._h2 {
   right: 0;
   cursor: pointer;
   top: 44px; }
+  .unit_title > span {
+    padding: 0px 6px;
+    border-radius: 3px; }
+
+._infor {
+  color: #00a5ff; }
+  ._infor:hover {
+    background-color: #00a5ff;
+    color: #FFF; }
+
+._slight {
+  color: #53ceec; }
+  ._slight:hover, ._slight.active {
+    background-color: #53ceec;
+    color: #FFF; }
+
+._normal {
+  color: #2b6ce8; }
+  ._normal:hover {
+    background-color: #2b6ce8;
+    color: #FFF; }
+
+._important {
+  color: #eb7e44; }
+  ._important:hover {
+    background-color: #eb7e44;
+    color: #FFF; }
+
+._urgent {
+  color: #ff65da; }
+  ._urgent:hover {
+    background-color: #ff65da;
+    color: #FFF; }
+
+.unit_slzs_m {
+  position: absolute;
+  right: 45px;
+  bottom: 45px;
+  font-size: 12px; }
+
+#gjzszs-echarts-yz, #gjzszs-echarts-lf {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
 
 /*# sourceMappingURL=alarm.css.map */
