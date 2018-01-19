@@ -4,7 +4,7 @@
 	 alarmCount();
 	 //告警总数走势折线图
 	 gjzszsInit();
-	 // 告警内容TOP5
+	 // 告警内容
 	 alarmContent();
  });  
 
@@ -179,9 +179,11 @@ function gjzszsInit() {
 }
 
 //-----------------------------------------------------------------------------------------
-// 告警内容TOP5
+// 告警内容
 //-----------------------------------------------------------------------------------------
 function alarmContent() {
+	
+     //内容TOP5
 	 $.ajax({
             url: 'https://zxs0827.github.io/screen-show/json/neitongtop5.json',
             type: 'GET',
@@ -191,13 +193,34 @@ function alarmContent() {
         	var out_yz=datajson.data.yz;
         	var out_lf=datajson.data.lf;
         	for (var i = 0; i < out_yz.length; i++) {
-        		$(".a_neirong").append("<div class='top_item'><div class='top_context'><i class='top_name'>"+out_yz[i].description+"</i><i class='top_num'>"+out_yz[i].cons+"</i></div><div class='top_bar'></div></div>");
+        		$("#a_yz_top .a_neirong").append("<div class='top_item'><div class='top_context'><i class='top_name'>"+out_yz[i].description+"</i><i class='top_num'>"+out_yz[i].cons+"</i></div><div class='top_bar'></div></div>");
         	}
         	for (var i = 0; i < out_lf.length; i++) {
-        		$(".a_zhuji").append("<div class='top_item'><div class='top_context'><i class='top_name'>"+out_lf[i].description+"</i><i class='top_num'>"+out_lf[i].cons+"</i></div><div class='top_bar'></div></div>");
+        		$("#a_lf_top .a_neirong").append("<div class='top_item'><div class='top_context'><i class='top_name'>"+out_lf[i].description+"</i><i class='top_num'>"+out_lf[i].cons+"</i></div><div class='top_bar'></div></div>");
         	}
-        	
-        	
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+        
+     //主机TOP5
+	 $.ajax({
+            url: 'https://zxs0827.github.io/screen-show/json/zhujitop5.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+        	var out_yz=datajson.data.yz;
+        	var out_lf=datajson.data.lf;
+        	for (var i = 0; i < out_yz.length; i++) {
+        		$("#a_yz_top .a_zhuji").append("<div class='top_item'><div class='top_context'><i class='top_name'>"+out_yz[i].host+"</i><i class='top_num'>"+out_yz[i].cons+"</i></div><div class='top_bar'></div></div>");
+        	}
+        	for (var i = 0; i < out_lf.length; i++) {
+        		$("#a_lf_top .a_zhuji").append("<div class='top_item'><div class='top_context'><i class='top_name'>"+out_lf[i].host+"</i><i class='top_num'>"+out_lf[i].cons+"</i></div><div class='top_bar'></div></div>");
+        	}
         })
         .fail(function() {
             console.log("error");
