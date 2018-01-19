@@ -915,18 +915,18 @@ h2 {
 /* 告警总数走势折线图 */
 #gjzszs {
   width: 100%;
-  top: 353px;
+  top: 330px;
   transform-origin: left top;
   left: 0; }
   #gjzszs #gjzszs-echarts {
     left: 4px;
-    top: 0px; }
+    top: 11px; }
   #gjzszs h2::after {
     left: 130px;
     top: 3px; }
   #gjzszs #gjzszs-shijian {
     position: absolute;
-    top: 245px;
+    top: 270px;
     left: 14px;
     font-size: 12px; }
 
@@ -934,7 +934,7 @@ h2 {
 #xtjkzt {
   width: 100%;
   position: absolute;
-  top: 675px;
+  top: 695px;
   left: 5px; }
   #xtjkzt h2:after {
     left: 150px;
@@ -948,19 +948,19 @@ h2 {
   right: auto;
   width: 250px; }
   #sbjf h2 {
-    top: 45px;
+    top: 20px;
     position: relative;
     text-indent: 45px;
     text-align: left; }
     #sbjf h2:after {
       left: 23px; }
   #sbjf #sbjf-echarts {
-    top: 45px; }
+    top: 4px; }
   #sbjf #sbjf-tai {
     font-size: 10px;
     position: absolute;
     left: 26px;
-    top: 81px; }
+    top: 46px; }
 
 /* 各机房设备类型分布 */
 #sblx {
@@ -970,15 +970,15 @@ h2 {
   right: auto; }
   #sblx h2 {
     position: relative;
-    top: 45px; }
+    top: 20px; }
     #sblx h2:after {
       left: 15px; }
   #sblx #sblx-echarts {
-    top: 5px; }
+    top: -25px; }
   #sblx #sblx-titledata {
     font-size: 18px;
     position: absolute;
-    top: 250px;
+    top: 220px;
     right: 60px;
     width: auto;
     background-color: RGB(24, 141, 240);
@@ -986,7 +986,7 @@ h2 {
     box-shadow: 0px 0px 5px RGB(24, 141, 240);
     padding: 0px 8px; }
   #sblx .jiantou {
-    top: 255px;
+    top: 225px;
     right: 27px; }
 
 /*# sourceMappingURL=bigdata.css.map */

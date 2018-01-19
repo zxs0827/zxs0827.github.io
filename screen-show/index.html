@@ -60,6 +60,10 @@
     <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/echarts.min.js"></script>
     <script type="text/javascript">
+
+
+
+
     //----------------------------------------------------------------------------------
     // 系统健康状态
     //----------------------------------------------------------------------------------
@@ -69,30 +73,33 @@
     var swiper;
 
     function initData() {
-        $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/lf.json',
-                type: 'GET',
-                dataType: 'json',
-            })
-            .done(function(datajson) {
+			
+		$.ajax({
+            type: "post",
+            url: "http://10.245.7.118:9080/Exhibition/tyexhibition/getExhibitionlf",
+            dataType: "json",
+            success: function(datajson) {
+                // console.log(datajson.data);
                 LFDATA = datajson.data;
                 addCounter();
-            })
+            }
+        });
+
         $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/yz.json',
-                type: 'GET',
-                dataType: 'json',
-            })
-            .done(function(datajson) {
+            type: "post",
+            url: "http://10.245.7.118:9080/Exhibition/tyexhibition/getExhibitionyz",
+            dataType: "json",
+            success: function(datajson) {
                 YZDATA = datajson.data;
-                addCounter()
-            })
+                addCounter();
+            }
+        });
 
         function addCounter() {
             ++counter
             if (counter == 2) {
-                console.log(LFDATA);
-                console.log(YZDATA);
+                // console.log(LFDATA);
+                // console.log(YZDATA);
                 // 亦庄数据长度
                 var yzLength = YZDATA.length;
                 // 廊坊数据长度
@@ -139,44 +146,6 @@
         counter = 0;
         initData();
     }, 400000);
-    //----------------------------------------------------------------------------------
-    // 主机状态
-    //----------------------------------------------------------------------------------
-    (function zjztInit() {
-        $.getJSON('https://zxs0827.github.io/web-back/JSON/status.json', function(datajson, textStatus) {
-            /*optional stuff to do after success */
-            console.log(datajson);
-            // 在线
-            $(".yz-zx .status-num").text(datajson.data.zaixianyz);
-            $(".lf-zx .status-num").text(datajson.data.zaixianlf);
-            // 离线
-            $(".yz-lx .status-num").text(datajson.data.duankaiyz);
-            $(".lf-lx .status-num").text(datajson.data.duankailf);
-            // 维护中
-            $(".yz-whz .status-num").text(datajson.data.weihuyz);
-            $(".lf-whz .status-num").text(datajson.data.weihulf);
-        });
-    })();
-    // 设备总数
-    (function zsInit() {
-        $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/zs.json',
-                type: 'GET',
-                dataType: 'json',
-            })
-            .done(function(datajson) {
-                // 机房总数
-                $("#jfzs span:nth-child(1)").text(datajson.data.jifang);
-                // 系统总数
-                $("#xtzs span:nth-child(1)").text(datajson.data.system);
-                // 设备总数
-                $("#sbzs span:nth-child(1)").text(datajson.data.host);
-                // 物理机总数
-                $("#wljzs span:nth-child(1)").text(datajson.data.wuhost);
-                // 虚拟机总数
-                $("#xnjzs span:nth-child(1)").text(datajson.data.xnhost);
-            })
-    })();
     //----------------------------------------------------------------------------------
     // 设备机房分布图
     //----------------------------------------------------------------------------------
@@ -305,18 +274,18 @@
             }, 20000);
         }
         $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/shebeidata.json',
-                type: 'GET',
+                url: "http://10.245.7.118:9080/Exhibition/tyexhibition/getJifangHosts",
+                type: 'POST',
                 dataType: 'json',
             })
             .done(function(datajson) {
                 echartsInit(datajson);
             })
             .fail(function() {
-                console.log("error");
+                // console.log("error");
             })
             .always(function() {
-                console.log("complete");
+                // console.log("complete");
             });
     }
     sbjfInit();
@@ -330,11 +299,8 @@
                 dataType: 'json',
             })
             .done(function(datajson) {
-                // console.log('+++++++++++');
-                // console.log(datajson);
-                // console.log('+++++++++++');
 
-                console.log("success");
+                // console.log("success");
                 var arrHosts = [];
                 var hostsCount = 0;
                 var eachCount = 0;
@@ -428,218 +394,6 @@
             });
     }
     sblxInit();
-    //------------------------------------------------------------------
-    // 所有告警分布
-    //------------------------------------------------------------------
-    function sygjfbInit() {
-        var count = 0;
-        var echartsPieCount = 0; // 饼状图索引
-        var echartsPieData = []; // 饼状图数据
-        var intervalCount = 0; // 饼状图循环计数器
-        var intervalLength = null; // 饼状图循环长度
-        function echartsInit(datajson) {
-            count = count + 1;
-            if (count == 1) {
-                var data1 = [];
-                var data2 = [];
-                var dataShadow = [];
-                $.each(datajson.data, function(index, val) {
-                    $.each(val, function(index, val) {
-                        data1.push(val.jifangname);
-                        data2.push(val.jifang);
-                        echartsPieData[echartsPieCount] = new Array();
-                        $.each(val.data, function(index, val) {
-                            // 临时
-                            if (val.cons === 0) {
-                                val.cons = 20;
-                            }
-                            echartsPieData[echartsPieCount].push({
-                                value: val.cons,
-                                name: (function() {
-                                    // return val.priority
-                                    switch (val.priority) {
-                                        case 1:
-                                            return "信息:" + val.cons;
-                                        case 2:
-                                            return "轻微:" + val.cons;
-                                        case 3:
-                                            return "一般:" + val.cons;
-                                        case 4:
-                                            return "重要:" + val.cons;
-                                        case 5:
-                                            return "紧急:" + val.cons;
-                                        default:
-                                            return val.priority
-                                            break;
-                                    }
-                                })()
-                            });
-                        });
-                        echartsPieCount++;
-                    });
-                });
-                intervalLength = echartsPieData.length;
-                var sbjf_echarts = echarts.init($("#sygjfb-echarts")[0]);
-                var maxNum = Math.max.apply({}, data2);
-                if (maxNum % 10 > 0) {
-                    var strMaxNum = maxNum.toString();
-                    strMaxNum = strMaxNum.substring(0, strMaxNum.length - 1);
-                    maxNum = (parseInt(strMaxNum) + 1) * 10;
-                }
-                for (var i = 0; i < data1.length; i++) {
-                    dataShadow.push(maxNum);
-                }
-                var option = {
-                    title: {
-                        // text: ''
-                    },
-                    textStyle: {
-                        color: 'rgb(255, 255, 255)',
-                        fontSize: 4
-                    },
-                    tooltip: {
-                        show: false
-                    },
-                    legend: {
-                        // data: ['']
-                    },
-                    grid: [{
-                        width: '100%',
-                        bottom: '0',
-                        left: '0',
-                        containLabel: true,
-                    }],
-                    xAxis: {
-                        data: data1,
-                        axisLabel: {
-                            interval: 0,
-                            rotate: -90,
-                            textStyle: {
-                                color: 'rgba(255,255,255,0)'
-                            }
-                        },
-                        nameTextStyle: {
-                            fontSize: 20
-                        },
-                        axisLine: {
-                            lineStyle: {
-                                color: "#fff"
-                            },
-                            show: true
-                        },
-                    },
-                    yAxis: {
-                        axisLine: {
-                            lineStyle: {
-                                color: "#fff"
-                            },
-                            show: true,
-
-                        },
-                        splitLine: {
-                            show: true,
-                            lineStyle: {
-                                color: 'rgba(255,255,255,0.1)'
-                            }
-                        },
-                    },
-                    series: [{ // For shadow
-                        type: 'bar',
-                        itemStyle: {
-                            normal: { color: 'rgba(255,255,255,0.1)' }
-                        },
-                        barGap: '-100%',
-                        // barCategoryGap: '40%',
-                        barCategoryGap: '40%',
-                        data: dataShadow,
-                        animation: false
-                        // animationDelay: function(idx) {
-                        //     return idx * 500;
-                        // }
-                    }, {
-                        // name: '销量',
-                        type: 'bar',
-                        data: data2,
-                        itemStyle: {
-                            normal: {
-                                color: new echarts.graphic.LinearGradient(
-                                    0, 0, 0, 1, [
-                                        { offset: 0, color: '#83bff6' },
-                                        { offset: 0.5, color: '#188df0' },
-                                        { offset: 1, color: '#188df0' }
-                                    ]
-                                )
-                            }
-                        },
-                        animationDelay: function(idx) {
-                            return idx * 500;
-                        }
-                    }]
-                };
-                sbjf_echarts.setOption(option);
-
-                // 非canvas 直接生成文字，应客户需求实现文字垂直显示
-                (function verticalText(el, names) {
-                    $.each(names, function(index, val) {
-                        $("<div />", {
-                            html: val
-                        }).appendTo(el);
-                    });
-                })($("#sygj-name"), data1);
-
-                echartsPieInit(intervalCount);
-
-                $("#gjfgjjb-titledata").text(data1[0]);
-                $(".jiantou2").css("opacity", "1");
-                setInterval(function() {
-                    sbjf_echarts.clear();
-                    sbjf_echarts.setOption(option);
-                }, 20000);
-                var echartsPieInterval = setInterval(function() {
-                    intervalCount++;
-                    echartsPieInit(intervalCount % intervalLength);
-                    console.log('INTERVALCOUNT :' + intervalCount);
-                    $("#gjfgjjb-titledata").text(data1[intervalCount % intervalLength]);
-                }, 20000);
-            }
-        }
-        //-----------------------------------------------------------------
-        // 各机房告警级别分布
-        //-----------------------------------------------------------------
-
-        function echartsPieInit(index) {
-            var gjfgjjb_echarts = echarts.init($("#gjfgjjb-echarts")[0]);
-            var option = {
-                series: [{
-                    type: 'pie',
-                    radius: ' 55%',
-                    roseType: 'radius',
-                    center: ['50%', '50%'],
-                    labelLine: {
-                        normal: {
-                            length: -5,
-                            show: false
-                        }
-                    },
-                    color: ['rgb(236, 134, 81)', 'rgb(255, 101, 218)', 'rgb(54, 116, 233)', 'rgb(86, 207, 236)', 'rgb(194, 194, 49)'],
-                    data: echartsPieData[index]
-                }]
-            }
-            gjfgjjb_echarts.setOption(option);
-        }
-        $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/jfgj.json',
-                type: 'GET',
-                dataType: 'json',
-            })
-            .done(function(datajson) {
-
-                echartsInit(datajson);
-            })
-            .fail(function() {})
-            .always(function() {});
-    }
-    sygjfbInit();
     //-----------------------------------------------------------------------------------------
     // 告警总数走势折线图
     //-----------------------------------------------------------------------------------------
@@ -659,7 +413,7 @@
             });
             xData = data1.slice(lineCount, lineCount + lineNum);
             // alert(xData);
-            console.log(xData);
+            // console.log(xData);
             yData = data2.slice(lineCount, lineCount + lineNum);
             var maxNum = Math.max.apply({}, data2);
             if (maxNum % 50 > 0) {
@@ -752,289 +506,26 @@
             //     gjzszs_echarts.setOption(option);
             // }, 60000);
         }
-        $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/alertcount.json',
-                type: 'GET',
-                dataType: 'json',
-            })
-            .done(function(datajson) {
-                echartsInit(datajson.data);
-            })
-            .fail(function() {
-                console.log("error");
-            })
-            .always(function() {
-                console.log("complete");
-            });
+			
+		$.ajax({
+            type: "post",
+            url: "http://10.245.7.118:9080/Exhibition/tyexhibition/getsygj",
+            dataType: "json",  
+        })
+		.done(function(datajson) {
+            // console.log("aaa");
+            // console.log(datajson);
+			echartsInit(datajson.data);
+		})
+		.fail(function() {
+			// console.log("error2");
+		})
+		.always(function() {
+			// console.log("complete2");
+		});
     }
     gjzszsInit();
-    //----------------------------------------------------------------------------------
-    //系统名称切换滚动
-    //----------------------------------------------------------------------------------
-    $(document).ready(function() {
-        $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/cpu.json',
-                type: 'GET',
-                dataType: 'json',
-                async: false,
-            })
-            .done(function(datajson) {
-                console.log("success");
-                console.log(datajson);
-                //系统名称
-                var str = "<div id='pt1'>";
-                $.each(datajson.data.lfcp, function(index, val) {
-                    var a = index + 1
-                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
-                });
-                str += "</div>";
-                str += "<div id='pt2'>";
-                $.each(datajson.data.lfcpu, function(index, val) {
-                    var a = index + 1
-                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
-                });
-                str += "</div>";
-                str += "<div id='pt3'>";
-                $.each(datajson.data.lfnc, function(index, val) {
-                    var a = index + 1
-                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
-                });
-                str += "</div>";
-                str += "<div id='pt4'>";
-                $.each(datajson.data.yzcp, function(index, val) {
-                    var a = index + 1
-                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
-                });
-                str += "</div>";
-                str += "<div id='pt5'>";
-                $.each(datajson.data.yzcpu, function(index, val) {
-                    var a = index + 1
-                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
-                });
-                str += "</div>";
-                str += "<div id='pt6'>";
-                $.each(datajson.data.yznc, function(index, val) {
-                    var a = index + 1
-                    str += "<div class='dsjpt" + a + "'>" + val.sys_name + "</div>"
-                });
-                str += "</div>";
-                $("#sys").html(str);
-                cpuEchartsInit(datajson.data);
 
-                var o0 = {
-                    'left': '50px',
-                    'transform': 'scale(0.5)',
-                    'z-index': '-10',
-                    'opacity': '0.3'
-                }
-                var o1 = {
-                    'left': '50px',
-                    'transform': 'scale(0.5)',
-                    'z-index': '0',
-                    'opacity': '0'
-                };
-                var o2 = {
-                    'left': '50px',
-                    'transform': 'scale(0.5)',
-                    'z-index': '0',
-                    'opacity': '0'
-                };
-                var o3 = {
-                    'left': '50px',
-                    'transform': 'scale(0.5)',
-                    'z-index': '0',
-                    'opacity': '0'
-                };
-                var o4 = {
-                    'left': '-50px',
-                    'transform': 'scale(0.5)',
-                    'z-index': '0',
-                    'opacity': '0.3'
-                };
-                var o5 = {
-                    'left': '0px',
-                    'transform': 'scale(1)',
-                    'z-index': '99',
-                    'opacity': '1'
-                };
-                var a = [o0, o1, o2, o3, o4, o5];
-                var mycars = 0;
-                a.unshift(a.pop());
-                $('#pt1').css(a[0]);
-                $('#pt2').css(a[1]);
-                $('#pt3').css(a[2]);
-                $('#pt4').css(a[3]);
-                $('#pt5').css(a[4]);
-                $('#pt6').css(a[5]);
-                setInterval(function() {
-                    a.unshift(a.pop());
-                    $('#pt1').css(a[0]);
-                    $('#pt2').css(a[1]);
-                    $('#pt3').css(a[2]);
-                    $('#pt4').css(a[3]);
-                    $('#pt5').css(a[4]);
-                    $('#pt6').css(a[5]);
-                    //改变CPU磁盘内容
-                    $('#cpu-yz').css(a[0]);
-                    $('#cpu-lf').css(a[1]);
-                    $('#nc-yz').css(a[2]);
-                    $('#nc-lf').css(a[3]);
-                    $('#cp-yz').css(a[4]);
-                    $('#cp-lf').css(a[5]);
-                }, 20000);
-            })
-    });
-    //----------------------------------------------------------------------------------
-    //CPU/内存/磁盘折线图
-    //----------------------------------------------------------------------------------
-    function cpuEchartsInit(data) {
-        var arrCpuClock = [];
-        var arrCpuValue = [];
-        var cpuCount = 0;
-        var eachCount = 0;
-        $.each(data, function(index1, val) {
-            arrCpuClock[eachCount] = new Array();
-            arrCpuValue[eachCount] = new Array();
-            $.each(val, function(index2, val) {
-                arrCpuClock[eachCount][index2] = new Array();
-                arrCpuValue[eachCount][index2] = new Array();
-                $.each(val.data, function(index3, val) {
-                    arrCpuClock[eachCount][index2].push(val.clock.substring(11, 16));
-                    arrCpuValue[eachCount][index2].push(val.value_avg);
-                });
-            });
-            eachCount++;
-        });
-        var echars = echarts.init(document.getElementById("cpu-echars"));
-        var color = ['#FFFFFF'];
-        var colors = ['#019bfc', '#fe5300', '#ffff01', '#2251ff', '#f100ff'];
-        var option = {
-            color: colors,
-            title: {},
-            tooltip: {
-                show: false
-            },
-            legend: {
-                data: []
-            },
-            grid: {
-                width: '100%',
-                left: '0',
-                bottom: '0',
-                containLabel: true
-            },
-            xAxis: {
-                // name: '时间',
-                nameLocation: 'start',
-                type: 'category',
-                boundaryGap: false,
-                data: arrCpuClock[cpuCount][0],
-                axisLine: {
-                    onZero: false,
-                    lineStyle: {
-                        color: color[0]
-                    }
-                }
-            },
-            yAxis: {
-                name: '                 平均使用率 / 时间',
-                type: 'value',
-                axisLine: {
-                    onZero: false,
-                    lineStyle: {
-                        color: color[0]
-                    }
-                },
-                splitLine: {
-                    show: true,
-                    lineStyle: {
-                        color: 'rgba(255,255,255,0.1)'
-                    }
-                }
-            },
-            series: [{
-                type: 'line',
-                data: arrCpuValue[cpuCount][0]
-            }, {
-                type: 'line',
-                data: arrCpuValue[cpuCount][1]
-            }, {
-                type: 'line',
-                data: arrCpuValue[cpuCount][2]
-            }, {
-                type: 'line',
-                data: arrCpuValue[cpuCount][3]
-            }, {
-                type: 'line',
-                data: arrCpuValue[cpuCount][4]
-            }]
-        };
-        echars.setOption(option);
-        setInterval(function() {
-            cpuCount++;
-            cpuCount = cpuCount % arrCpuValue.length;
-            option.series[0].data = arrCpuValue[cpuCount][0];
-            option.series[1].data = arrCpuValue[cpuCount][1];
-            option.series[2].data = arrCpuValue[cpuCount][2];
-            option.series[3].data = arrCpuValue[cpuCount][3];
-            option.series[4].data = arrCpuValue[cpuCount][4];
-            setTimeout(function() {
-                echars.clear();
-                echars.setOption(option);
-            }, 500);
-        }, 20000);
-    }
-
-    //----------------------------------------------------------------------------------
-    //getyzlfinit() | 
-    //----------------------------------------------------------------------------------
-    // function getyzlfinit(){
-    //     $.ajax({
-    //         type: "post",
-    //         // url: "${ctx}/exhibition/getyzlf",
-    //         url: "https://zxs0827.github.io/web-back/JSON/getyzlf.json",
-    //         async:false,
-    //         dataType: "json",
-    //         contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
-    //         success: function(datajson) {
-    //             console.log('+++++++++++getyzlf+++++++++++++');
-    //             console.log(datajson.data);
-    //             console.log('+++++++++++getyzlf+++++++++++++');
-    //         }
-    //     });
-    // }
-    // getyzlfinit();
-
-    function getyzlfinit() {
-        $.ajax({
-                url: 'https://zxs0827.github.io/web-back/JSON/getyzlf.json',
-                type: 'GET',
-                dataType: 'json',
-            })
-            .done(function(datajson) {
-                var str = "<div class='sj1'>物理机数量" + datajson.data.lfwlhost + "台</div>";
-                str += "<div class='sj2'>虚拟机数量" + datajson.data.lfxnhost + "台</div>";
-                str += "<div class='sj3'>主机状态数量" + datajson.data.lfhost + "台</div>";
-                str += "<div class='sj4'>主机维护数量" + datajson.data.lfwhhost + "台</div>";
-                $(".sj").html(str);
-
-                var str2 = "<div class='sj6'>物理机数量" + datajson.data.yzwlhost + "台</div>";
-                str2 += "<div class='sj7'>虚拟机数量" + datajson.data.yzxnhost + "台</div>";
-                str2 += "<div class='sj8'>主机状态数量" + datajson.data.yzhost + "台</div>";
-                str2 += "<div class='sj9'>主机维护数量" + datajson.data.yzwhhost + "台</div>";
-                $(".sj5").html(str2);
-
-            })
-            .fail(function() {
-                console.log("error");
-            })
-            .always(function() {
-                console.log("complete");
-            });
-
-    }
-
-    getyzlfinit();
     </script>
 </body>
 

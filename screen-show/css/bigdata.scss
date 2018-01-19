@@ -1191,13 +1191,13 @@ h2 {
 /* 告警总数走势折线图 */
 #gjzszs {
     width: 100%;
-    top: 353px;
+    top: 330px;
     transform-origin: left top;
     left: 0;
 
     #gjzszs-echarts {
         left: 4px;
-        top: 0px;
+        top: 11px;
     }
 
     h2::after {
@@ -1207,7 +1207,7 @@ h2 {
 
     #gjzszs-shijian {
         position: absolute;
-        top: 245px;
+        top: 270px;
         left: 14px;
         font-size: 12px;
     }
@@ -1218,7 +1218,7 @@ h2 {
 #xtjkzt {
     width: 100%;
     position: absolute;
-    top: 675px;
+    top: 695px;
     left: 5px;
 
     h2:after {
@@ -1236,7 +1236,7 @@ h2 {
     width: 250px;
 
     h2 {
-        top: 45px;
+        top: 20px;
         position: relative;
         text-indent: 45px;
         text-align: left;
@@ -1246,14 +1246,14 @@ h2 {
     }
 
     #sbjf-echarts {
-        top: 45px;
+        top: 4px;
     }
 
     #sbjf-tai {
         font-size: 10px;
         position: absolute;
         left: 26px;
-        top: 81px;  
+        top: 46px;  
     }
 }
 
@@ -1267,20 +1267,21 @@ h2 {
 
     h2 {
         position: relative;
-        top: 45px;
+        top: 20px;
         &:after {
             left: 15px;
         }
     }
 
     #sblx-echarts {
-        top: 5px;
+        // top: 5px;
+        top: -25px;
     }
 
     #sblx-titledata {
         font-size: 18px;
         position: absolute;
-        top: 250px;
+        top: 220px;
         right: 60px;
         width: auto;
         background-color: RGB(24, 141, 240);
@@ -1290,7 +1291,7 @@ h2 {
     }
 
     .jiantou {
-        top: 255px;
+        top: 225px;
         right: 27px;
     }
 }
