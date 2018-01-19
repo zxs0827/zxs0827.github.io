@@ -30,7 +30,7 @@ h1 {
     position: absolute;
     width: 100%;
     height: 450px;
-    outline: 2px solid red;
+    // outline: 2px solid red;
     display: flex;
     flex-direction: column;
     grid-template-columns: 100px 1fr;
@@ -46,7 +46,7 @@ h1 {
     position: absolute;
 
     >* {
-        background-color: black;
+        // background-color: black;
     }
 }
 
@@ -57,7 +57,7 @@ h1 {
     grid-gap: 20px;
 
     >* {
-        background-color: red;
+        // background-color: red;
     }
 }
 
@@ -69,6 +69,7 @@ h1 {
 #a_lf_sltj {
     background-image: url("../img/b3.png");
     @include no-repeat;
+    position: relative;
 
     h3 {
         font-size: 18px;
@@ -114,14 +115,16 @@ h1 {
 #a_lf_slzs {
     background-image: url("../img/b4.png");
     @include no-repeat;
+    position: relative;
 }
 
 
 /* 告警内容TOP5 & 告警主机TOP5 */
 
-#a_yz_top {
+#a_yz_top , #a_lf_top{
     background-image: url("../img/b2.png");
     @include no-repeat;
+    position: relative;
 }
 
 
@@ -131,6 +134,13 @@ h1 {
 #a_lf_xqlb {
     background-image: url("../img/b1.png");
     @include no-repeat;
+    position: relative;
+
+    > .unit_title {
+        top: 14px;
+        right: 10px;
+        left: auto;
+    }
 }
 
 
@@ -143,7 +153,7 @@ h1 {
     position: absolute;
 
     >* {
-        background-color: black;
+        // background-color: black;
     }
 }
 
@@ -183,7 +193,7 @@ h2._h2 {
     position: relative;
 
     > * {
-        background-color: green;
+        // background-color: green;
     }
 }
 
@@ -191,7 +201,7 @@ h2._h2 {
     width: 100%;
     height: 54px;
     background-image: url("../img/12.png");
-    background-color: orange;
+    // background-color: orange;
 }
 
 .top_context {
@@ -235,6 +245,8 @@ h2._h2 {
     grid-template-rows: repeat(5,1fr);
 }
 
+/* 信息 轻微 一般 重要 紧急 */
+
 .unit_title {
     display: flex;
     font-size: 12px;
@@ -247,5 +259,79 @@ h2._h2 {
     right: 0;
     cursor: pointer;
     top: 44px;
+    
+    > span {
+        padding:0px 6px;
+        border-radius: 3px;
+    }
+
 }
 
+
+$infor: #00a5ff;
+
+$slight : #53ceec;
+
+$normal :#2b6ce8;
+
+$important: #eb7e44;
+
+$urgent: #ff65da;
+
+._infor {
+    color: $infor;
+    
+    &:hover {
+        background-color: $infor;
+        color: #FFF;
+    }
+}
+
+._slight {
+    color: $slight;
+
+    &:hover , &.active {
+        background-color: $slight;
+        color: #FFF;
+    }
+}
+
+._normal {
+    color: $normal;
+    &:hover {
+        background-color: $normal;
+        color: #FFF;
+    }
+}
+
+._important {
+    color: $important;
+    &:hover {
+        background-color: $important;
+        color: #FFF;
+    }
+}
+
+._urgent {
+    color: $urgent;
+    &:hover {
+        background-color: $urgent;
+        color: #FFF;
+    }
+}
+
+.unit_slzs_m {
+    position: absolute;
+    right: 45px;
+    bottom: 45px;
+    font-size: 12px;
+}
+
+
+#gjzszs-echarts-yz , #gjzszs-echarts-lf {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
