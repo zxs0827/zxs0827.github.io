@@ -1,13 +1,17 @@
 //初始化
  $(document).ready(function(){  
+ 	
      //各级别告警数量统计
 	 alarmCount();
+	 
 	 //告警总数走势折线图
 	 gjzszsInit();
+	 
 	 // 告警内容
 	 alarmContent();
+	 
 	 //更改时间
-	 $("#sj").html(QueryString("sj"));
+	 updDate();
  });  
 
 //-----------------------------------------------------------------------------------------
@@ -240,4 +244,13 @@ function QueryString(name) {
 	 if(r!=null)return  unescape(r[2]); return null;
 }
 
-
+//-----------------------------------------------------------------------------------------
+// 更改时间
+//-----------------------------------------------------------------------------------------
+function updDate(){
+	var date=QueryString("sj");
+	 $("#sj").html(date.substring(0,16));
+	 $("#sj").append("-"+date.substring(11,12));
+	 $("#sj").append(parseInt(date.substring(12,13))+1); 
+	 $("#sj").append(date.substring(13,16));
+}

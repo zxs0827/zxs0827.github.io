@@ -260,3 +260,14 @@ h2._h2 {
   left: 0; }
 
 /*# sourceMappingURL=alarm.css.map */
+#sj{
+	background-image: url(../img/timer.png);
+	width: 260px;
+	height: 40px;
+	top: 68px;
+	left: 1638px;
+	position: absolute;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+}
