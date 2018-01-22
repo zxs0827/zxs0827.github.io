@@ -1,0 +1,22 @@
+{
+	"code": 0,
+	"count": 10,
+	"name": "系统级别告警数量",
+	"data": [{
+		"count": "272",
+		"priority": 1
+	}, {
+		"count": "297",
+		"priority": 2
+	}, {
+		"count": "6",
+		"priority": 3
+	}, {
+		"count": "0",
+		"priority": 4
+	}, {
+		"count": "13",
+		"priority": 5
+	}],
+	"info": "²éÑ¯³É¹¦!"
+}

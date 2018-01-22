@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bigdata.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/third.css">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+    <title>THIRD</title>
+</head>
+
+<body id="third">
+    <div id="title"></div>
+    <!-- 各级别告警占比 -->
+    <div id="_grid">
+        <div id="gaojingzhanbi">
+            <h2 class="third_h2">各级别告警占比</h2>
+            <div id="gaojingzhanbi-echarts"></div>
+        </div>
+        <!-- 各级别告警内容TOP5 -->
+        <div id="gaojingneirong">
+            <h2 class="third_h2">各级别告警内容TOP5</h2>
+            <div class="unit_infor">
+                <span class="_infor active">信息</span>
+                <span class="_slight">轻微</span>
+                <span class="_normal">一般</span>
+                <span class="_important">重要</span>
+                <span class="_urgent">紧急</span>
+            </div>
+
+            <div id="gjnr_table">
+                <div class="gjnr_head">
+                    <span class="h_0"></span>
+                    <span class="h_1">告警内容</span>
+                    <span class="h_2">次数</span>
+                </div>
+                <div class="gjnr_body">
+                    <div class="gjnr_list">
+                        <i class="gjnr_i">1</i>
+                        <span class="gjnr_span">告警内容</span>
+                        <u class="gjnr_u">200</u>
+                    </div>
+
+                    <div class="gjnr_list">
+                        <i class="gjnr_i">2</i>
+                        <span class="gjnr_span">告警内容</span>
+                        <u class="gjnr_u">200</u>
+                    </div>
+
+                    <div class="gjnr_list">
+                        <i class="gjnr_i">3</i>
+                        <span class="gjnr_span">告警内容</span>
+                        <u class="gjnr_u">200</u>
+                    </div>
+
+                    <div class="gjnr_list">
+                        <i class="gjnr_i">4</i>
+                        <span class="gjnr_span">告警内容</span>
+                        <u class="gjnr_u">200</u>
+                    </div>
+
+                    <div class="gjnr_list">
+                        <i class="gjnr_i">5</i>
+                        <span class="gjnr_span">告警内容</span>
+                        <u class="gjnr_u">200</u>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 亦庄系统得分滚动图 -->
+        <div id="yz_xitongdefen">
+            <h2 class="third_h2">亦庄系统得分滚动图</h2>
+            <div id="yz_xtdf_main">
+                
+            </div>
+        </div>
+        <!-- 系统名称 -->
+        <div id="xitongmingcheng">
+            <h2 id="xtmc_h2">系统名称</h2>
+            <div id="xtmc_main">
+                <!-- 中心球图 -->
+                <div id="center-wave" class="mask">
+                    <div id="wave_water"></div>
+                    <div id="wave_water2"></div>
+                    <div id="score">90</div>
+                    <div id="zhdf">综合得分</div>
+                </div>
+                <div id="center-border"></div>
+
+                <!-- 轻微 -->
+                <div id="qingwei">
+                    <span>200</span>
+                </div>
+                <!-- 信息 -->
+                <div id="xinxi">
+                    <span>2000</span>
+                </div>
+                <!-- 重要 -->
+                <div id="zhongyao">
+                    <span>120</span>
+                </div>
+                <!-- 紧急 -->
+                <div id="jinji">
+                    <span>350</span>
+                </div>
+                <!-- 一般 -->
+                <div id="yiban">
+                    <span>56</span>
+                </div>
+            </div>
+        </div>
+        <!-- 系统列表 -->
+        <div id="xitongliebiao">
+            系统列表
+            <div id="jiantou"></div>
+        </div>
+        <!-- 24小时健康走势图 -->
+        <div id="jiankangzoushitu">
+            <h2 class="third_h2">24小时健康走势图</h2>
+        </div>
+        <!-- 24小时各级别告警走势图 -->
+        <div id="gaojingzoushitu">
+            <h2 class="third_h2">24小时各级别告警走势图</h2>
+            <div class="unit_infor">
+                <span class="_infor active">信息</span>
+                <span class="_slight">轻微</span>
+                <span class="_normal">一般</span>
+                <span class="_important">重要</span>
+                <span class="_urgent">紧急</span>
+            </div>
+        </div>
+        <!-- 廊坊系统得分滚动图 -->
+        <div id="lf_xitongdefen">
+            <h2 class="third_h2">廊坊系统得分滚动图</h2>
+            <div id="lf_xtdf_main"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/third.js"></script>
+</body>
+
+</html>

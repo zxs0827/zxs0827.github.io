@@ -1,0 +1,353 @@
+.fl {
+    float: left;
+}
+
+.ma {
+    margin: 40px 0 0 40px;
+}
+
+dl,
+dt,
+dd,
+h3 {
+    margin: 0;
+}
+
+
+.zuo-one {
+    background: url(../img/left1.png) no-repeat;
+    height: 310px;
+    width: 510px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.con-one {
+    background: url(../img/con1.png) no-repeat;
+    height: 310px;
+    width: 823px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.right-one {
+    background: url(../img/right1.png) no-repeat;
+    height: 310px;
+    width: 510px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.zuo-tow {
+    background: url(../img/left2.png) no-repeat;
+    height: 320px;
+    width: 510px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.con-tow {
+    background: url(../img/con2.png) no-repeat;
+    height: 320px;
+    width: 823px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.right-tow {
+    background: url(../img/right2.png) no-repeat;
+    height: 320px;
+    width: 510px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.zuo-three {
+    background: url(../img/left3.png) no-repeat;
+    height: 310px;
+    width: 510px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.con-three {
+    background: url(../img/con3.png) no-repeat;
+    height: 310px;
+    width: 823px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.right-three {
+    background: url(../img/right3.png) no-repeat;
+    height: 310px;
+    width: 510px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+h3 {
+    font-size: 14px;
+    color: #71f3ff;
+    font-weight: normal;
+}
+
+h3:after {
+    left: 20px;
+    top: 4px;
+}
+
+.zuo dt {
+    margin-left: 10px;
+}
+
+.zuo span {
+    width: 6px;
+
+    height: 6px;
+
+    background-color: #135ce9;
+
+    display: block;
+
+    float: left;
+
+    margin: 8px;
+}
+
+
+/* 告警总数走势折线图*/
+
+#secondsdzst {
+    width: 450px;
+    height: 253px;
+    position: absolute;
+    top: 24px;
+    left: 12px;
+}
+
+#secondsdzst #secondsdzst-echarts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 12px;
+    left: 20px;
+    bottom: 0;
+    right: 20px;
+}
+
+
+/**/
+
+#sygjfb {
+    position: absolute;
+    width: 220px;
+    height: 310px;
+    /* outline: 2px solid red;*/
+    top: 20px;
+}
+
+#sygjfb h2 {
+    text-indent: 36px;
+}
+
+#sygjfb h2:after {
+    left: 20px;
+}
+
+#sygjfb #sygjfb-echarts {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+
+
+._left_pointer {
+	width: 6px;
+	height: 6px;
+	background-color: rgb(19, 92, 233);
+	display: block;
+	float: left;
+	margin: 8px;
+}
+
+h3#_h3_c_1 {
+	position: absolute;
+	left: 35px;
+	top: 23px;
+} 
+
+._box2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.circle_percent {
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/circle_2.png");
+	top: 69px;
+    left: 40px;
+    position: absolute;
+
+    /*animation: anim-c 3s linear;*/
+}
+
+@keyframes  anim-c {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+#percent {
+	font-size: 44px;
+	color: #ff998d;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	line-height: 200px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px #ff998d;
+}
+
+#percent + i {
+	color: rgb(83, 206, 237);
+	font-style: normal;
+	font-size: 14px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 120px;
+}
+
+._shanduanshu {
+	width: 290px;
+	height: 170px;
+	background-image: url("../img/box2.png");
+	position: absolute;
+	left: 192px;
+	top: 76px;
+}
+
+._shebeizongshu {
+	width: 290px;
+	height: 170px;
+	background-image: url("../img/box3.png");
+	position: absolute;
+	left: 477px;
+	top: 76px;
+}
+
+._title2 {
+	font-size: 18px;
+	color: rgb(52, 202, 236);
+	position: absolute;
+	left: 152px;
+	top: 25px;
+}
+
+._num2 {
+	color: #FFF;
+	font-size: 30px;
+	text-shadow: 0px 0px 3px #FFF;
+}
+
+#shanduanshu {
+	position: absolute;
+	top: 70px;
+	left: 167px;
+}
+
+#shebeizongshu {
+	position: absolute;
+	top: 70px;
+	left: 166px;
+}
+
+#img_sds {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 63px;
+	left: 110px;
+
+	
+}
+
+
+
+#img_sbzs {
+	width: 45px;
+	height: 40px;
+	background-image: url("../img/img2.png");
+	position: absolute;
+	top: 71px;
+	left: 108px;
+}
+
+#sds1 {
+	background-image: url("../img/link1.png");
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	animation: anim-sds1 1s linear;
+}
+
+@keyframes anim-sds1 {
+	0% {
+		right: 0;
+		top: 0;
+	}
+
+	100% {
+		right: -2px;
+		top: -2px;
+	}
+}
+
+#sds2 {
+	background-image: url("../img/link2.png");
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	animation: anim-sds2 1s linear;
+}
+
+@keyframes anim-sds2 {
+	0% {
+		bottom: 0;
+		left: 0;
+	}
+
+	100% {
+		bottom: -2px;
+		left: -2px;
+	}
+}
+
+#sds3 {
+	background-image: url("../img/link3.png");
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

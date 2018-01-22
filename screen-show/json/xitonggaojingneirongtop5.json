@@ -1,0 +1,22 @@
+{
+	"code": 0,
+	"name": "系统告警内容top5",
+	"count": 10,
+	"data": [{
+		"cons": 215,
+		"description": "YARN_NodeManager进程失联/端口号8040/8041/8042/13562/23344！"
+	}, {
+		"cons": 82,
+		"description": "网卡总流量超过100MB/s"
+	}, {
+		"cons": 43,
+		"description": "YARN_NodeManager进程失联/端口号13562！"
+	}, {
+		"cons": 42,
+		"description": "Hbase_Region进程失联/端口号60025!"
+	}, {
+		"cons": 31,
+		"description": "YARN_NodeManager进程失联/端口号23344！"
+	}],
+	"info": "查询成功!"
+}

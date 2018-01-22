@@ -1,0 +1,22 @@
+{
+	"code": 0,
+	"name": "5种级别告警数量",
+	"count": 10,
+	"data": [{
+		"cons": 280,
+		"priority": 1
+	}, {
+		"cons": 562,
+		"priority": 2
+	}, {
+		"cons": 7,
+		"priority": 3
+	}, {
+		"cons": 1,
+		"priority": 4
+	}, {
+		"cons": 22,
+		"priority": 5
+	}],
+	"info": "查询成功!"
+}
