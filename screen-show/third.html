@@ -30,7 +30,6 @@
                 <span class="_important">重要</span>
                 <span class="_urgent">紧急</span>
             </div>
-
             <div id="gjnr_table">
                 <div class="gjnr_head">
                     <span class="h_0"></span>
@@ -38,36 +37,32 @@
                     <span class="h_2">次数</span>
                 </div>
                 <div class="gjnr_body">
+                    <!-- 静态页面模板数据
                     <div class="gjnr_list">
                         <i class="gjnr_i">1</i>
                         <span class="gjnr_span">告警内容</span>
                         <u class="gjnr_u">200</u>
                     </div>
-
                     <div class="gjnr_list">
                         <i class="gjnr_i">2</i>
                         <span class="gjnr_span">告警内容</span>
                         <u class="gjnr_u">200</u>
                     </div>
-
                     <div class="gjnr_list">
                         <i class="gjnr_i">3</i>
                         <span class="gjnr_span">告警内容</span>
                         <u class="gjnr_u">200</u>
                     </div>
-
                     <div class="gjnr_list">
                         <i class="gjnr_i">4</i>
                         <span class="gjnr_span">告警内容</span>
                         <u class="gjnr_u">200</u>
                     </div>
-
                     <div class="gjnr_list">
                         <i class="gjnr_i">5</i>
                         <span class="gjnr_span">告警内容</span>
                         <u class="gjnr_u">200</u>
-                    </div>
-
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -75,7 +70,11 @@
         <div id="yz_xitongdefen">
             <h2 class="third_h2">亦庄系统得分滚动图</h2>
             <div id="yz_xtdf_main">
-                
+                <div id="yz_swiper" class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <!--  -->
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- 系统名称 -->
@@ -90,33 +89,41 @@
                     <div id="zhdf">综合得分</div>
                 </div>
                 <div id="center-border"></div>
-
                 <!-- 轻微 -->
                 <div id="qingwei">
-                    <span>200</span>
+                    <span>0</span>
                 </div>
                 <!-- 信息 -->
                 <div id="xinxi">
-                    <span>2000</span>
+                    <span>0</span>
                 </div>
                 <!-- 重要 -->
                 <div id="zhongyao">
-                    <span>120</span>
+                    <span>0</span>
                 </div>
                 <!-- 紧急 -->
                 <div id="jinji">
-                    <span>350</span>
+                    <span>0</span>
                 </div>
                 <!-- 一般 -->
                 <div id="yiban">
-                    <span>56</span>
+                    <span>0</span>
                 </div>
             </div>
         </div>
         <!-- 系统列表 -->
         <div id="xitongliebiao">
-            系统列表
             <div id="jiantou"></div>
+
+            <div id="xtlb_title">
+                <span id="xtlb_yz" class="active">亦庄</span>
+                <span id="xtlb_lf">廊坊</span>
+            </div>
+    
+            <div class="xtlb_list">
+                <div class="xtlb_item">大ERP统一工作平台</div>
+            </div>
+            
         </div>
         <!-- 24小时健康走势图 -->
         <div id="jiankangzoushitu">
@@ -139,7 +146,7 @@
             <div id="lf_xtdf_main"></div>
         </div>
     </div>
-
+    <script type="text/javascript" src="js/swiper.min.js"></script>
     <script type="text/javascript" src="js/third.js"></script>
 </body>
 
