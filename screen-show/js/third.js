@@ -35,12 +35,12 @@ function defengundongtuFn() {
                 var yz_context = YZDATA[i % yzLength].sys_name;
                 // 廊坊 填充文字
                 var lf_context = LFDATA[i % lfLength].sys_name;
-                
+
                 // 亦庄 状态圆形显示颜色
                 var yz_status = YZDATA[i % yzLength].priority;
                 // 廊坊 状态圆形显示颜色
                 var lf_status = LFDATA[i % lfLength].priority;
-                
+
                 // 亦庄 数字
                 var yz_num = YZDATA[i % yzLength].za_system_id;
                 // 廊坊 数字
@@ -48,8 +48,8 @@ function defengundongtuFn() {
 
 
 
-                var yz_html = '<div class="left-data"><span class="infor-' + yz_status + '"></span><span class="swiper-context">' + yz_context +'</span>' + '<span class="swipter-number">'+ yz_num +'</span>' + '</div>';
-                var lf_html = '<div class="right-data"><span class="infor-' + lf_status + '"></span><span class="swiper-context">' + lf_context +'</span>' + '<span class="swipter-number">'+ lf_num +'</span>' + '</div>';
+                var yz_html = '<div class="left-data"><span class="infor-' + yz_status + '"></span><span class="swiper-context">' + yz_context + '</span>' + '<span class="swipter-number">' + yz_num + '</span>' + '</div>';
+                var lf_html = '<div class="right-data"><span class="infor-' + lf_status + '"></span><span class="swiper-context">' + lf_context + '</span>' + '<span class="swipter-number">' + lf_num + '</span>' + '</div>';
                 var html = yz_html + lf_html;
                 $("<li />", {
                     html: html,
@@ -253,50 +253,126 @@ gaojingzhanbi();
 //----------------------------------------------------------------------------------
 // 5.各级别告警占比 
 //----------------------------------------------------------------------------------
-
-$.ajax({
-    url: 'https://zxs0827.github.io/screen-show/json/biaoge.json',
-    type: 'GET',
-    dataType: 'json',
-})
-.done(function(datajson) {
-    console.log("success");
-    console.log(datajson);
-    var n = 42; // 每页显示的数据条数
-    var lf_length = datajson.data.lf.length; // 廊坊数据长度
-
-    var lf_parent = 'xtlb_lf_';
-
-    var pageNum = (function(){
-        if ((lf_length / n) > Math.floor(lf_length / n)) {
-            for(var i = 0 ; i <= Math.floor(lf_length / n); i++ ){
-                    var add_lf_parent = lf_parent + i;
-                    $('<div id = "' + add_lf_parent +'" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+function lfDataInit() {
+    $.ajax({
+            url: 'https://zxs0827.github.io/screen-show/json/biaoge.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+            var n = 42; // 每页显示的数据条数
+            var lf_length = datajson.data.lf.length; // 廊坊数据长度
+            var lf_parent = 'xtlb_lf_';
+            (function addParent() {
+                if ((lf_length / n) > Math.floor(lf_length / n)) {
+                    for (var i = 0; i <= Math.floor(lf_length / n); i++) {
+                        var add_lf_parent = lf_parent + i;
+                        $('<div id = "' + add_lf_parent + '" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+                    }
+                } else if ((lf_length / n) == Math.floor(lf_length / n)) {
+                    for (var i = 0; i < Math.floor(lf_length); i++) {
+                        $('<div id = "' + add_lf_parent + '" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+                    }
                 }
-        } else if((lf_length / n) == Math.floor(lf_length / n)) {
-            for(var i = 0 ; i < Math.floor(lf_length); i++ ){
-                $('<div id = "' + add_lf_parent +'" class="xtlb_list"/ >').appendTo("#xitongliebiao");
-            }
-        }
-    })();
+            })();
+            $.each(datajson.data.lf, function(index, val) {
+                var parent_name = "#" + lf_parent + Math.floor(index / n);
+                $('<div />', {
+                    html: val.sys_name,
+                    'class': 'xtlb_item',
+                }).appendTo(parent_name);
+            });
+
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+}
 
 
-    $.each(datajson.data.lf, function(index, val) {
-         /* iterate through array or object */
+function yzDataInit() {
+    $.ajax({
+            url: 'https://zxs0827.github.io/screen-show/json/biaoge.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+            var n = 42; // 每页显示的数据条数
+            var yz_length = datajson.data.yz.length; // 廊坊数据长度
+            var yz_parent = 'xtlb_yz_';
+            (function addParent() {
+                if ((yz_length / n) > Math.floor(yz_length / n)) {
+                    for (var i = 0; i <= Math.floor(yz_length / n); i++) {
+                        var add_yz_parent = yz_parent + i;
+                        $('<div id = "' + add_yz_parent + '" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+                    }
 
-         var parent_name ="#" + lf_parent + Math.floor(index / n);
-         // alert("NAME:" + parent_name);
+                } else if ((yz_length / n) == Math.floor(yz_length / n)) {
+                    for (var i = 0; i < Math.floor(yz_length); i++) {
+                        $('<div id = "' + add_yz_parent + '" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+                    }
+                }
+            })();
+            $.each(datajson.data.yz, function(index, val) {
+                var parent_name = "#" + yz_parent + Math.floor(index / n);
+                $('<div />', {
+                    html: val.sys_name,
+                    'class': 'xtlb_item',
+                }).appendTo(parent_name);
+            });
+            $("#xtlb_yz_0").css("display", "grid");
 
-         $('<div />', {
-            html: val.sys_name,
-            'class': 'xtlb_item',
-         }).appendTo(parent_name);
-    });
-})
-.fail(function() {
-    console.log("error");
-})
-.always(function() {
-    console.log("complete");
-});
+            addPageNumber("yz");
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+}
 
+
+// 添加页码
+function addPageNumber(name) {
+    $('#xtlb_page').html("");
+    var dom = "[id^='xtlb_" + name + "_']";
+    var pagenum = $(dom).length;
+    for (var i = 1; i <= pagenum; i++) {
+        $('<span>', {
+            'class': 'page_list',
+            'html': i
+        }).appendTo('#xtlb_page');
+
+        $(".page_list").eq(0).addClass("active");
+    }
+}
+
+
+function subPageClick() {
+    $("body").on("click",".page_list",function(){
+        var indexPageNum = $(this).index();
+        var idName = $("#xtlb_title > span.active").attr("id").replace("xtlb_","");
+        $(".xtlb_list").css("display","none");
+        $("#xtlb_"+ idName +"_" + indexPageNum).css("display","grid");
+    })
+}
+
+(function xtlbInit (){
+    lfDataInit();
+    yzDataInit();
+
+    $('#xtlb_title > span').click(function(){
+        $('#xtlb_title > span').removeClass("active");
+        $(this).addClass("active");
+        var idName = $(this).attr("id").replace("xtlb_","");
+        addPageNumber(idName);
+        $(".xtlb_list").css("display","none");
+        $("#xtlb_"+ idName +"_0").css("display","grid");
+
+    })
+    subPageClick();
+})();

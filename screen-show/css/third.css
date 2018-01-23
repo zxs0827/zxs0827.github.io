@@ -501,6 +501,7 @@ i {
     text-align: center;
     line-height: 30px;
     overflow: hidden;
+    display: none;
 }
 
 .xtlb_list>* {
@@ -529,5 +530,30 @@ i {
 
 #xitongliebiao {
 	z-index: 99;
-	background-color: green;
+}
+
+#xtlb_page {
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	display: flex;
+	flex-direction: row;
+	right: 18px;
+	top: 15px;
+	justify-content: end;
+}
+
+.page_list {
+	width: 30px;
+	height: 30px;
+	font-style: 18px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	/*! margin: auto; */
+}
+
+.page_list.active {
+	background-color: rgb(0, 165, 255);
 }
