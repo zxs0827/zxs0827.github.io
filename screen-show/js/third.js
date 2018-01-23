@@ -183,23 +183,18 @@ function gaojingzhanbi() {
                         switch (val.priority) {
                             case 1:
                                 // 信息
-                                // $("#xinxi span").text(val.count);
                                 return "信息: ";
                             case 2:
                                 // 轻微
-                                // $("#qingwei span").text(val.count);
                                 return "轻微: ";
                             case 3:
                                 // 一般
-                                // $("#yiban span").text(val.count);
                                 return "一般: ";
                             case 4:
                                 // 重要
-                                // $("#zhongyao span").text(val.count);
                                 return "重要: ";
                             case 5:
                                 // 紧急
-                                // $("#jinji span").text(val.count);
                                 return "紧急: ";
                             default:
                                 break;
@@ -207,8 +202,6 @@ function gaojingzhanbi() {
                     })(val.priority)
                 })
             });
-
-            console.log(dataArray);
 
             function echartsPieInit() {
                 var gaojingzhanbi_echarts = echarts.init($("#gaojingzhanbi-echarts")[0]);
@@ -255,3 +248,55 @@ function gaojingzhanbi() {
 }
 
 gaojingzhanbi();
+
+
+//----------------------------------------------------------------------------------
+// 5.各级别告警占比 
+//----------------------------------------------------------------------------------
+
+$.ajax({
+    url: 'https://zxs0827.github.io/screen-show/json/biaoge.json',
+    type: 'GET',
+    dataType: 'json',
+})
+.done(function(datajson) {
+    console.log("success");
+    console.log(datajson);
+    var n = 42; // 每页显示的数据条数
+    var lf_length = datajson.data.lf.length; // 廊坊数据长度
+
+    var lf_parent = 'xtlb_lf_';
+
+    var pageNum = (function(){
+        if ((lf_length / n) > Math.floor(lf_length / n)) {
+            for(var i = 0 ; i <= Math.floor(lf_length / n); i++ ){
+                    var add_lf_parent = lf_parent + i;
+                    $('<div id = "' + add_lf_parent +'" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+                }
+        } else if((lf_length / n) == Math.floor(lf_length / n)) {
+            for(var i = 0 ; i < Math.floor(lf_length); i++ ){
+                $('<div id = "' + add_lf_parent +'" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+            }
+        }
+    })();
+
+
+    $.each(datajson.data.lf, function(index, val) {
+         /* iterate through array or object */
+
+         var parent_name ="#" + lf_parent + Math.floor(index / n);
+         // alert("NAME:" + parent_name);
+
+         $('<div />', {
+            html: val.sys_name,
+            'class': 'xtlb_item',
+         }).appendTo(parent_name);
+    });
+})
+.fail(function() {
+    console.log("error");
+})
+.always(function() {
+    console.log("complete");
+});
+
