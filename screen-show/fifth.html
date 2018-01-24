@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bigdata.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fifth.css">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+    <title>FIFTH</title>
+</head>
+
+<body id="fifth">
+    <div id="title"></div>
+    <div id="_grid">
+        <!-- <h1 id="h1_3dzhanshi">3D机房展示图</h1> -->
+        <!-- 系统主机数分布饼图 -->
+        <div id="xtzjfbbt">
+            
+        </div>
+        <!-- 系统列表 -->
+        <div id="xtlb">
+            <div id="xtlb_head">
+                <span>系统名称</span>
+                <span>物理机</span>
+                <span>系统名称</span>
+                <span>系统名称</span>
+            </div>
+        </div>
+
+        <!-- 占位grid -->
+        <div id="empty-div">
+            
+        </div>
+        <!-- 机房整体资源使用率柱状图 -->
+        <div id="jfztzysylzzt">
+            <div id="syl-cpu">
+                <div class="syl_bar">
+                    <p class="syl_bar_bk"></p>
+                    <p class="syl_bar_color"></p>
+                </div>
+                <div class="syl_num">1</div>
+            </div>
+            <div id="syl-neicun">
+                <div class="syl_bar">
+                    <p class="syl_bar_bk"></p>
+                    <p class="syl_bar_color"></p>
+                </div>
+                <div class="syl_num">69</div>
+            </div>
+            <div id="syl-cipan">
+                <div class="syl_bar">
+                    <p class="syl_bar_bk"></p>
+                    <p class="syl_bar_color"></p>
+                </div>
+                <div class="syl_num">100</div>
+            </div>
+        </div>
+        <!-- 机房状态列表 -->
+        <div id="jfztlb">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>状态</th>
+                        <th>物理机</th>
+                        <th>虚拟机</th>
+                        <th>总计</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="jfztlb_zaixian">
+                        <td class="jfztlb_name">在线</td>
+                        <td class="jfztlb_img"><span></span></td>
+                        <td class="jfztlb_wlj">12</td>
+                        <td class="jfztlb_xnj">33</td>
+                        <td class="jfztlb_zj">1</td>
+                    </tr>
+                    <tr id="jfztlb_lixian">
+                        <td class="jfztlb_name">离线</td>
+                        <td class="jfztlb_img"><span></span></td>
+                        <td class="jfztlb_wlj">1120</td>
+                        <td class="jfztlb_xnj">34</td>
+                        <td class="jfztlb_zj">5</td>
+                    </tr>
+                    <tr id="jfztlb_weihu">
+                        <td class="jfztlb_name">维护</td>
+                        <td class="jfztlb_img"><span></span></td>
+                        <td class="jfztlb_wlj">3</td>
+                        <td class="jfztlb_xnj">44</td>
+                        <td class="jfztlb_zj">124</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- 机房CPU总数系统分布饼图 -->
+        <div id="jfcpuzsxtfbbt">
+            
+        </div>
+
+        <!-- 机房内存总数系统分布饼图 -->
+        <div id="jfnczsxtfbbt">
+            
+        </div>
+        <!-- 机房磁盘总数系统分布饼图 -->
+
+        <div id="jfcpzsxtfbbt">
+            
+        </div>
+
+    </div>
+    <script type="text/javascript" src="js/fifth.js"></script>
+</body>
+
+</html>

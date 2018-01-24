@@ -557,3 +557,7 @@ i {
 .page_list.active {
 	background-color: rgb(0, 165, 255);
 }
+
+#gjzszs-echarts{
+    height: 200px;
+}

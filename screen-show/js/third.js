@@ -376,3 +376,144 @@ function subPageClick() {
     })
     subPageClick();
 })();
+
+
+//----------------------------------------------------------------------------------
+// 6.24小时各级别告警走势图
+//----------------------------------------------------------------------------------
+
+/*function gjzszsInit(index) {
+    function echartsInit(data) {
+        var gjzszs_echarts = echarts.init(document.getElementById("gjzszs-echarts"));
+        var data1 = [];
+        var data2 = [];
+        var xData = [];
+        var yData = [];
+        var lineCount = 0;
+        var lineNum = 24;
+        $.each(data, function(index, val) {
+            // data1.push(val.clock);
+            data1.push(val.time.substring(11, 14));
+            data2.push(val.cons);
+        });
+        xData = data1.slice(lineCount, lineCount + lineNum);
+        // alert(xData);
+        console.log(xData);
+        yData = data2.slice(lineCount, lineCount + lineNum);
+        var maxNum = Math.max.apply({}, data2);
+        if (maxNum % 50 > 0) {
+            maxNum = Math.ceil(maxNum / 50) * 50;
+        }
+        var option = {
+            grid: {
+                width: '80%',
+            },
+            xAxis: [{
+                // name: '时间',
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    lineStyle: {
+                        color: "#fff"
+                    },
+                    show: true
+                },
+                axisLabel: {
+                    fontSize: 12,
+                    interval: 0,
+                    rotate: 45
+                },
+
+                data: xData
+            }],
+            yAxis: [{
+                type: 'value',
+                scale: true,
+                name: '     告警数量 / 时间',
+                max: maxNum,
+                min: 0,
+                axisLine: {
+                    lineStyle: {
+                        color: "#fff"
+                    },
+                    show: true
+                },
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: 'rgba(255,255,255,0.1)',
+                    }
+                },
+                boundaryGap: [0.2, 0.2]
+            }],
+            series: [{
+                type: 'line',
+                itemStyle: {
+                    normal: {
+                        color: 'rgba(255, 255, 255,0.6)',
+                        shadowBlur: 10,
+                        shadowColor: 'white'
+                    }
+                },
+                areaStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: 'rgba(107, 107, 255,0.4)'
+                        }, {
+                            offset: 0.8,
+                            color: 'rgba(0, 230, 255, 0.4)'
+                        }])
+                    }
+                },
+                symbolSize: 8,
+                data: yData
+            }]
+        };
+        gjzszs_echarts.setOption(option);
+
+        setInterval(function() {
+            gjzszs_echarts.clear();
+            gjzszs_echarts.setOption(option);
+        }, 20000);
+
+        // setInterval(function() {
+        //     lineCount++;
+        //     lineCount = lineCount % data.length;
+        //     var xAxis = option.xAxis[0].data;
+        //     var series = option.series[0].data;
+        //     xAxis.shift();
+        //     // xAxis.push(data1[lineCount + lineNum - 1] % data.length) ;
+        //     xAxis.push(data1[(lineCount + lineNum - 1) % data.length]);
+        //     series.shift();
+        //     // series.push(data2[lineCount + lineNum - 1]);
+        //     series.push(data2[(lineCount + lineNum - 1) % data.length]);
+        //     gjzszs_echarts.setOption(option);
+        // }, 60000);
+    }
+    $.ajax({
+            url: projectName + '/exhibitionXxThree/alarmSystemTwoFour',
+            data: {
+                priority: index
+            },
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+            echartsInit(datajson.data);
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+}
+gjzszsInit();
+
+$("#gaojingzoushitu .unit_infor>span").click(function() {
+    $("#gaojingzoushitu .unit_infor>span").removeClass("active");
+    $(this).addClass("active");
+    var index = $(this).index() + 1;
+    gjzszsInit(index);
+})*/

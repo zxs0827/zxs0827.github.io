@@ -1,0 +1,22 @@
+{
+	"code": 0,
+	"count": 10,
+	"data": [{
+		"engine_room": "亦庄301机房",
+		"host": "10.161.25.221",
+		"sys_name": "ODS"
+	}, {
+		"engine_room": "亦庄301机房",
+		"host": "10.161.24.243",
+		"sys_name": "OSS2.0"
+	}, {
+		"engine_room": "亦庄301机房",
+		"host": "10.161.21.51",
+		"sys_name": "上网记录查询及IP溯源系统"
+	}, {
+		"engine_room": "亦庄301机房",
+		"host": "10.161.26.44",
+		"sys_name": "大数据平台"
+	}],
+	"info": "查询成功!"
+}
