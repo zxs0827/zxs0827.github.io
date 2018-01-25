@@ -7,7 +7,6 @@ function xtlbInit() {
     var pageShowNumber = 0;
     var singleHeight = 30;
 
-
     $.ajax({
             url: 'https://zxs0827.github.io/screen-show/json/xtlb.json',
             type: 'GET',
@@ -112,41 +111,34 @@ function xtzjfbbtInit() {
         .done(function(datajson) {
             var array_data = [];
 
-            // $.each(datajson.data, function(index, val) {
-            //     array_data.push({
-            //         'name': val.attr_value,
-            //         'value': val.cons
-            //     })
+            $.each(datajson.data, function(index, val) {
+                array_data.push({
+                    'name': val.attr_value,
+                    'value': val.cons
+                })
 
-            // });
-
-            array_data = [{
-                'name' : '物理机',
-                'value' : '20'
-            }, {
-                'name' : '虚拟机',
-                'value' : '20'
-            }];
+            });
 
             // 主机数
-            function totalFn(){
+            function totalFn() {
                 var sum = 0;
-               $.each(array_data, function(index, val) {
-                 /* iterate through array or object */
+                $.each(array_data, function(index, val) {
+                    /* iterate through array or object */
                     sum += parseInt(val.value);
-                }); 
+                });
 
-
+                $('#xtzjfbbt_num').text(sum);
+                $('.xtzjfbbt_name').css('opacity','1');
             }
             totalFn();
-            
+
 
             var echarts_obj = echarts.init($("#xtzjfbbt-echarts")[0]);
             var option = {
                 color: ['rgb(0,90,254)', 'rgb(0,156,252)'],
                 series: [{
                     type: 'pie',
-                    radius: ['45%', '65%'],
+                    radius: ['40%', '60%'],
                     grid: {
                         width: '100%',
                         left: 0,
@@ -183,9 +175,195 @@ function xtzjfbbtInit() {
             console.log("complete");
         });
 
-
-
-
 }
 
 xtzjfbbtInit();
+
+//----------------------------------------------------------------------------------
+// 4. 机房状态列表
+//----------------------------------------------------------------------------------
+
+function jfztlbInit() {
+    $.ajax({
+            url: 'https://zxs0827.github.io/screen-show/json/jifangzhuangtialiebao.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+
+            var id_array = ['jfztlb_zaixian', 'jfztlb_lixian', 'jfztlb_weihu'];
+
+            $.each(datajson.data, function(index, val) {
+                /* iterate through array or object */
+                $("#" + id_array[index]).children('.jfztlb_wlj').text(val.cons);
+            });
+
+            // 总计
+            for (var i in id_array) {
+                $("#" + id_array[i]).children('.jfztlb_zj').text(function() {
+                    return parseInt($("#" + id_array[i]).children('.jfztlb_wlj').text()) + parseInt($("#" + id_array[i]).children('.jfztlb_xnj').text())
+                })
+            }
+
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+}
+
+jfztlbInit();
+
+
+//----------------------------------------------------------------------------------
+// 5.  机房CPU总数系统分布饼图 
+//----------------------------------------------------------------------------------
+
+function jfcpuzsxtfbbtInit() {
+    $.ajax({
+            url: 'https://zxs0827.github.io/screen-show/json/jfcpuzsxtfbbt.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+            var array_data = [];
+
+            $.each(datajson.data, function(index, val) {
+                array_data.push({
+                    'name': (function(s){
+                        return s.length > 10 ? s.slice(0,10) + '...' : s;
+                    })(val.system),
+                    'value': val.count
+                })
+
+            });
+
+            // 主机数
+            function totalFn() {
+                var sum = 0;
+                $.each(array_data, function(index, val) {
+                    sum += parseInt(val.value);
+                });
+
+                $('#jfcpuzsxtfbbt_num').text(sum);
+                $('.jfcpuzsxtfbbt_name').css('opacity','1');
+            }
+            totalFn();
+
+
+            var echarts_obj = echarts.init($("#jfcpuzsxtfbbt-echarts")[0]);
+            var option = {
+                color: ['rgb(255,255,255)','rgb(1,237,251)','rgb(0,156,252)','rgb(0,90,254)'],
+                series: [{
+                    type: 'pie',
+                    radius: ['40%', '60%'],
+                    label: { //饼图图形上的文本标签
+                        normal: {
+                            show: true,
+                            position: 'outer', //标签的位置
+                            textStyle: {
+                                fontWeight: 300,
+                                fontSize: 14 //文字的字体大小
+                            },
+                            formatter: '{b}\n' + ' ' + '{d}%'
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: true,
+                            length: 20,
+                            length2: 0
+                        }
+                    },
+                    data: array_data
+                }]
+            }
+            echarts_obj.setOption(option);
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+}
+
+jfcpuzsxtfbbtInit();
+
+
+//----------------------------------------------------------------------------------
+// 5.  机房CPU总数系统分布饼图 
+//----------------------------------------------------------------------------------
+
+function jfcpuzsxtfbbtInit() {
+    $.ajax({
+            url: 'https://zxs0827.github.io/screen-show/json/jfcpuzsxtfbbt.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+            var array_data = [];
+
+            $.each(datajson.data, function(index, val) {
+                array_data.push({
+                    'name': (function(s){
+                        return s.length > 10 ? s.slice(0,10) + '...' : s;
+                    })(val.system),
+                    'value': val.count
+                })
+
+            });
+
+            // 主机数
+            function totalFn() {
+                var sum = 0;
+                $.each(array_data, function(index, val) {
+                    sum += parseInt(val.value);
+                });
+
+                $('#jfcpuzsxtfbbt_num').text(sum);
+                $('.jfcpuzsxtfbbt_name').css('opacity','1');
+            }
+            totalFn();
+
+
+            var echarts_obj = echarts.init($("#jfcpuzsxtfbbt-echarts")[0]);
+            var option = {
+                color: ['rgb(255,255,255)','rgb(1,237,251)','rgb(0,156,252)','rgb(0,90,254)'],
+                series: [{
+                    type: 'pie',
+                    radius: ['40%', '60%'],
+                    label: { //饼图图形上的文本标签
+                        normal: {
+                            show: true,
+                            position: 'outer', //标签的位置
+                            textStyle: {
+                                fontWeight: 300,
+                                fontSize: 14 //文字的字体大小
+                            },
+                            formatter: '{b}\n' + ' ' + '{d}%'
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: true,
+                            length: 20,
+                            length2: 0
+                        }
+                    },
+                    data: array_data
+                }]
+            }
+            echarts_obj.setOption(option);
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+}
+
+jfcpuzsxtfbbtInit();
