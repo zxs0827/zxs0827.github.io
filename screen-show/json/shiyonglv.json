@@ -1,0 +1,15 @@
+{
+    "code": 0,
+    "count": 10,
+    "data": [
+    {
+        "CpuUsageRate": "13%"
+    },
+    {
+        "MemoryUsageRate": "22%"
+    },
+    {
+        "DiskUsageRate": "1%"
+    }],
+    "info": "查询成功!"
+}

@@ -296,13 +296,18 @@
 
 .xtlb_xtmc {
 	width: 126px;
+	max-width: 126px;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 5px;
+	text-overflow: ellipsis;
 }
 
 .xtlb_wlj , .xtlb_xnj , .xtlb_zj{
 	width: 60px;
 }
 
-#xtlb_body:before {
+/*#xtlb_body:before {
 	content: "";
 	position: absolute;
 	top: -3px;
@@ -311,6 +316,18 @@
 	height: 36px;
 	background-image: url("../img/fifth12.png");
 	background-position: left center;
+}*/
+
+#xtlb_waikuang {
+	position: absolute;
+	top: 107px;
+	left: 0px;
+	width: 332px;
+	height: 36px;
+	background-image: url("../img/fifth12.png");
+	background-position: left center;
+	z-index: 9;
+	left: 45px;
 }
 
 #xtlb_body:after {
@@ -320,7 +337,7 @@
 	left: 0px;
 	width: 306px;
 	height: 100%;
-	background-image: url("../img/line-group.png");
+	background-image: url("../img/fifth13.png");
 	background-position: center center;
 	background-size: 100% 100%;
 }

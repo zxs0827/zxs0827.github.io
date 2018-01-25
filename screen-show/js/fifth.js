@@ -14,17 +14,15 @@ function xtlbInit() {
             dataType: 'json',
         })
         .done(function(datajson) {
-            console.log("success");
-            console.log(datajson);
 
             var getNumber = datajson.data.length ;
-            alert(getNumber);
-
             if(maxLiNumber >= getNumber) {
             	$("#xtlb_body").css("height", getNumber*singleHeight);
+            	setContext(datajson.data);
             	swiperInit(getNumber);
             } else {
             	$("#xtlb_body").css("height", maxLiNumber*singleHeight);
+            	setContext(datajson.data);
             	swiperInit(maxLiNumber);
             }
         })
@@ -36,13 +34,14 @@ function xtlbInit() {
         });
 
     // 滚动内容
-    function setContext(data){
-    	$.each(data, function(index, val) {
+    function setContext(datajson){
+    	$.each(datajson, function(index, val) {
     		 /* iterate through array or object */
+    		 var htmlStr = '<span class="xtlb_xtmc">'+val.sys_name+'</span>' + '<span class="xtlb_wlj">' + val.physics +'</span>' + '<span class="xtlb_xnj">'+val.fictitious+'</span>' +'<span class="xtlb_zj">'+val.host+'</span>';
     		 $('<div />',{
     		 	'class' : 'xtlb_li swiper-slide',
-    		 	'html' : '',
-    		 }).appendTo('.swiper-wrapper')
+    		 	'html' : htmlStr,
+    		 }).appendTo('.swiper-wrapper');
     	});
     }
 
