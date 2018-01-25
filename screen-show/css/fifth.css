@@ -341,3 +341,38 @@
 	background-position: center center;
 	background-size: 100% 100%;
 }
+
+#xtzjfbbt-echarts {
+	width: 100%;
+	height: 200px;
+	top: 80px;
+	position: absolute;
+}
+
+.xtzjfbbt_name {
+	font-size: 18px;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	width: 134px;
+	top: 150px;
+	color: rgb(0,156,251);
+	font-weight: bold;
+}
+
+#xtzjfbbt_num {
+	font-size: 20px;
+	color: rgb(232,129,71);
+	font-style: normal;
+	font-weight: normal;
+}
+
+#xtzjfbbt_unit {
+	font-size: 12px;
+	font-style: normal;
+	color: rgb(232, 118, 41);
+	font-weight:  lighter;
+}
+

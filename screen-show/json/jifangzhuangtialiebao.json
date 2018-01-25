@@ -1,0 +1,16 @@
+{
+    "code": 0,
+    "count": 10,
+    "data": [
+    {
+        "attr_value": "物理机",
+        "cons": 1538,
+        "value": "1"
+    },
+    {
+        "attr_value": "物理机",
+        "cons": 85,
+        "value": "2"
+    }],
+    "info": "查询成功!"
+}
