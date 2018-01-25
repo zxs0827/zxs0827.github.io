@@ -375,7 +375,7 @@ jfnczsxtfbbtInit();
 
 function jfcpzsxtfbbtInit() {
     $.ajax({
-            url: 'https://zxs0827.github.io/screen-show/json/jifangneicunzongshu.json',
+            url: 'https://zxs0827.github.io/screen-show/json/jfcpzsxtfbbt.json',
             type: 'GET',
             dataType: 'json',
         })

@@ -9,7 +9,7 @@
 	left: 0;
 	right: 0;
 
-	background-color: rgba(255,0,0,0.5);
+	/*background-color: rgba(255,0,0,0.5);*/
 	display: -ms-grid;
 	display: grid;
 	grid-gap: 24px 26px;
@@ -23,7 +23,7 @@
 }
 
 #_grid > div {
-	background-color: rgba(0, 128, 0, 0.65);
+	/*background-color: rgba(0, 128, 0, 0.65);*/
 	position: relative;
 }
 
@@ -272,7 +272,7 @@
 #xtlb_body {
 	width: 306px;
 	height: 300px;
-	background-color: rgba(255, 0, 0, 0.44);
+	/*background-color: rgba(255, 0, 0, 0.44);*/
 	position: absolute;
 	top: 110px;
 	margin: auto;
@@ -486,7 +486,7 @@
 
 #jfcpzsxtfbbt_num {
     font-size: 18px;
-    color: rgb(0,255,27);
+    color: rgb(0,89,255);
     font-style: normal;
     font-weight: normal;
 }
