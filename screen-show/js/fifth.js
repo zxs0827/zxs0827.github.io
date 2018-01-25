@@ -233,7 +233,7 @@ function jfcpuzsxtfbbtInit() {
             $.each(datajson.data, function(index, val) {
                 array_data.push({
                     'name': (function(s){
-                        return s.length > 10 ? s.slice(0,10) + '...' : s;
+                        return s.length > 8 ? s.slice(0,8) + '...' : s;
                     })(val.system),
                     'value': val.count
                 })
@@ -294,12 +294,12 @@ jfcpuzsxtfbbtInit();
 
 
 //----------------------------------------------------------------------------------
-// 5.  机房CPU总数系统分布饼图 
+// 6.  机房内存总数系统分布饼图 
 //----------------------------------------------------------------------------------
 
-function jfcpuzsxtfbbtInit() {
+function jfnczsxtfbbtInit() {
     $.ajax({
-            url: 'https://zxs0827.github.io/screen-show/json/jfcpuzsxtfbbt.json',
+            url: 'https://zxs0827.github.io/screen-show/json/jifangneicunzongshu.json',
             type: 'GET',
             dataType: 'json',
         })
@@ -309,7 +309,7 @@ function jfcpuzsxtfbbtInit() {
             $.each(datajson.data, function(index, val) {
                 array_data.push({
                     'name': (function(s){
-                        return s.length > 10 ? s.slice(0,10) + '...' : s;
+                        return s.length > 8 ? s.slice(0,8) + '...' : s;
                     })(val.system),
                     'value': val.count
                 })
@@ -323,13 +323,13 @@ function jfcpuzsxtfbbtInit() {
                     sum += parseInt(val.value);
                 });
 
-                $('#jfcpuzsxtfbbt_num').text(sum);
-                $('.jfcpuzsxtfbbt_name').css('opacity','1');
+                $('#jfnczsxtfbbt_num').text(sum);
+                $('.jfnczsxtfbbt_name').css('opacity','1');
             }
             totalFn();
 
 
-            var echarts_obj = echarts.init($("#jfcpuzsxtfbbt-echarts")[0]);
+            var echarts_obj = echarts.init($("#jfnczsxtfbbt-echarts")[0]);
             var option = {
                 color: ['rgb(255,255,255)','rgb(1,237,251)','rgb(0,156,252)','rgb(0,90,254)'],
                 series: [{
@@ -366,4 +366,80 @@ function jfcpuzsxtfbbtInit() {
         });
 }
 
-jfcpuzsxtfbbtInit();
+jfnczsxtfbbtInit();
+
+//----------------------------------------------------------------------------------
+// 7.  机房磁盘总数系统分布饼图 
+//----------------------------------------------------------------------------------
+
+
+function jfcpzsxtfbbtInit() {
+    $.ajax({
+            url: 'https://zxs0827.github.io/screen-show/json/jifangneicunzongshu.json',
+            type: 'GET',
+            dataType: 'json',
+        })
+        .done(function(datajson) {
+            var array_data = [];
+
+            $.each(datajson.data, function(index, val) {
+                array_data.push({
+                    'name': (function(s){
+                        return s.length > 8 ? s.slice(0,8) + '...' : s;
+                    })(val.system),
+                    'value': val.count
+                })
+
+            });
+
+            // 主机数
+            function totalFn() {
+                var sum = 0;
+                $.each(array_data, function(index, val) {
+                    sum += parseInt(val.value);
+                });
+
+                $('#jfcpzsxtfbbt_num').text(sum);
+                $('.jfcpzsxtfbbt_name').css('opacity','1');
+            }
+            totalFn();
+
+
+            var echarts_obj = echarts.init($("#jfcpzsxtfbbt-echarts")[0]);
+            var option = {
+                color: ['rgb(255,255,255)','rgb(1,237,251)','rgb(0,156,252)','rgb(0,90,254)'],
+                series: [{
+                    type: 'pie',
+                    radius: ['40%', '60%'],
+                    label: { //饼图图形上的文本标签
+                        normal: {
+                            show: true,
+                            position: 'outer', //标签的位置
+                            textStyle: {
+                                fontWeight: 300,
+                                fontSize: 14 //文字的字体大小
+                            },
+                            formatter: '{b}\n' + ' ' + '{d}%'
+                        }
+                    },
+                    labelLine: {
+                        normal: {
+                            show: true,
+                            length: 20,
+                            length2: 0
+                        }
+                    },
+                    data: array_data
+                }]
+            }
+            echarts_obj.setOption(option);
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+}
+
+jfcpzsxtfbbtInit();

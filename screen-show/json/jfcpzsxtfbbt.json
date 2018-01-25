@@ -1,0 +1,22 @@
+{
+	"code": 0,
+	"count": 10,
+	"data": [{
+		"count": 1,
+		"percentage": "0%",
+		"system": "ODS"
+	}, {
+		"count": 0,
+		"percentage": "0%",
+		"system": "OSS2.0"
+	}, {
+		"count": 425,
+		"percentage": "66%",
+		"system": "上网记录查询及IP溯源系统"
+	}, {
+		"count": 214,
+		"percentage": "33%",
+		"system": "大数据平台"
+	}],
+	"info": "查询成功!"
+}
