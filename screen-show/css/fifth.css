@@ -249,15 +249,78 @@
 	width: 306PX;
 	height: 34px;
 	background-color: rgb(9,101,171);
-	font-size: 14px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	text-align: center;
+	font-size: 0px;
 	line-height: 34px;
 	position: absolute;
 	margin: auto;
 	left: 0;
 	right: 0;
 	top: 68px;
+}
+
+#xtlb_head > span {
+	width: 60px;
+	font-size: 14px;
+	display: inline-block;
+	text-align: center;
+}
+
+#xtlb_head > span:nth-child(1) {
+	width: 126px;
+}
+
+#xtlb_body {
+	width: 306px;
+	height: 300px;
+	background-color: rgba(255, 0, 0, 0.44);
+	position: absolute;
+	top: 110px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+.xtlb_li {
+	display: table;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	/*! background-color: rgba(0, 0, 0, 0.75); */
+}
+
+.xtlb_li > span {
+	font-size: 12px;
+	display: table-cell;
+}
+
+.xtlb_xtmc {
+	width: 126px;
+}
+
+.xtlb_wlj , .xtlb_xnj , .xtlb_zj{
+	width: 60px;
+}
+
+#xtlb_body:before {
+	content: "";
+	position: absolute;
+	top: -3px;
+	left: -4px;
+	width: 332px;
+	height: 36px;
+	background-image: url("../img/fifth12.png");
+	background-position: left center;
+}
+
+#xtlb_body:after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 306px;
+	height: 100%;
+	background-image: url("../img/line-group.png");
+	background-position: center center;
+	background-size: 100% 100%;
 }
