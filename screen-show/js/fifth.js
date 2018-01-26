@@ -54,6 +54,14 @@ function xtlbInit() {
             autoplay: {
                 delay: 1000,
                 disableOnInteraction: false,
+            },
+            on: {
+                slideChangeTransitionStart: function(){
+                    /*console.log(xtzjfbbtInit_echarts);
+                    xtzjfbbtInit_echarts.clear();
+                    xtzjfbbtInit();
+                    console.log(this.activeIndex);*/
+                }
             }
         });
     }
@@ -101,7 +109,6 @@ jfztzysylzztInit();
 //----------------------------------------------------------------------------------
 // 3. 系统主机数分布饼图
 //----------------------------------------------------------------------------------
-
 function xtzjfbbtInit() {
     $.ajax({
             url: 'https://zxs0827.github.io/screen-show/json/xtzjsfbbt.json',
@@ -133,7 +140,7 @@ function xtzjfbbtInit() {
             totalFn();
 
 
-            var echarts_obj = echarts.init($("#xtzjfbbt-echarts")[0]);
+            xtzjfbbtInit_echarts = echarts.init($("#xtzjfbbt-echarts")[0]);
             var option = {
                 color: ['rgb(0,90,254)', 'rgb(0,156,252)'],
                 series: [{
@@ -166,7 +173,7 @@ function xtzjfbbtInit() {
                     data: array_data
                 }]
             }
-            echarts_obj.setOption(option);
+            xtzjfbbtInit_echarts.setOption(option);
         })
         .fail(function() {
             console.log("error");
