@@ -52,15 +52,16 @@ function xtlbInit() {
             slidesPerView: number, //每页显示条数
             simulateTouch: false, //鼠标拖动事件
             autoplay: {
-                delay: 1000,
+                delay: 5000,
                 disableOnInteraction: false,
             },
             on: {
                 slideChangeTransitionStart: function(){
-                    /*console.log(xtzjfbbtInit_echarts);
-                    xtzjfbbtInit_echarts.clear();
-                    xtzjfbbtInit();
-                    console.log(this.activeIndex);*/
+                    
+                    console.log(this.activeIndex);
+
+                    var xtmc = $(".swiper-slide").eq(this.activeIndex).children('.xtlb_xtmc').text();
+                    console.log(xtmc)
                 }
             }
         });

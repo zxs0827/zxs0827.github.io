@@ -520,6 +520,12 @@ i {
     cursor: pointer;
 }
 
+.xtlb_item.active {
+     background-color: rgba(235, 126, 67, 0.2);
+     border-color: rgb(235, 126, 67);
+     box-shadow: 0px 0px 5px rgb(235, 126, 67);
+}
+
 .left-data {}
 
 .right-data {

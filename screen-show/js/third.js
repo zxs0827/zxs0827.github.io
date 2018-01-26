@@ -251,7 +251,7 @@ gaojingzhanbi();
 
 
 //----------------------------------------------------------------------------------
-// 5.各级别告警占比 
+// 5. 亦庄廊坊 系统列表 
 //----------------------------------------------------------------------------------
 function lfDataInit() {
     $.ajax({
@@ -268,6 +268,7 @@ function lfDataInit() {
                     for (var i = 0; i <= Math.floor(lf_length / n); i++) {
                         var add_lf_parent = lf_parent + i;
                         $('<div id = "' + add_lf_parent + '" class="xtlb_list"/ >').appendTo("#xitongliebiao");
+
                     }
                 } else if ((lf_length / n) == Math.floor(lf_length / n)) {
                     for (var i = 0; i < Math.floor(lf_length); i++) {
@@ -324,6 +325,7 @@ function yzDataInit() {
                 }).appendTo(parent_name);
             });
             $("#xtlb_yz_0").css("display", "grid");
+            $("#xtlb_yz_0").children(".xtlb_item").eq(0).addClass("active");
 
             addPageNumber("yz");
         })
@@ -335,6 +337,9 @@ function yzDataInit() {
         });
 }
 
+var hStrName ;
+
+var xtmcName ;
 
 // 添加页码
 function addPageNumber(name) {
@@ -348,6 +353,13 @@ function addPageNumber(name) {
         }).appendTo('#xtlb_page');
 
         $(".page_list").eq(0).addClass("active");
+
+        hStrName = $(".xtlb_item.active").text();
+        console.log(hStrName);
+        setXtmc(hStrName);
+        xtmcName = $("#xtlb_title").children(".active").text();
+        console.log(xtmcName);
+
     }
 }
 
@@ -355,9 +367,13 @@ function addPageNumber(name) {
 function subPageClick() {
     $("body").on("click",".page_list",function(){
         var indexPageNum = $(this).index();
+        $(".page_list").removeClass("active");
+        $(this).addClass("active");
         var idName = $("#xtlb_title > span.active").attr("id").replace("xtlb_","");
         $(".xtlb_list").css("display","none");
         $("#xtlb_"+ idName +"_" + indexPageNum).css("display","grid");
+        // $(".xtlb_item").removeClass("active");
+        // $("#xtlb_"+ idName +"_" + indexPageNum).children(".xtlb_item").eq(0).addClass("active");
     })
 }
 
@@ -372,12 +388,28 @@ function subPageClick() {
         addPageNumber(idName);
         $(".xtlb_list").css("display","none");
         $("#xtlb_"+ idName +"_0").css("display","grid");
+        // $(".xtlb_item").removeClass("active");
+        // $("#xtlb_"+ idName +"_0").children(".xtlb_item").eq(0).addClass("active");
 
     })
     subPageClick();
 })();
 
 
+$("body").on("click",".xtlb_item",function(){
+    $(".xtlb_item").removeClass("active");
+    $(this).addClass("active");
+    hStrName = $(".xtlb_item.active").text();
+    console.log(hStrName);
+    setXtmc(hStrName);
+    xtmcName = $("#xtlb_title").children(".active").text();
+    console.log(xtmcName);
+
+})
+
+function setXtmc(name) {
+    $("#xtmc_h2").text(name);
+}
 //----------------------------------------------------------------------------------
 // 6.24小时各级别告警走势图
 //----------------------------------------------------------------------------------
