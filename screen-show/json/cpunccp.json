@@ -1,0 +1,4348 @@
+{
+	"code": 0,
+	"count": 10,
+	"data": {
+		"lfcp": [{
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.64"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.18"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.24"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "56.87"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "56.79"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.09"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.26"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "56.22"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "58.14"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.41"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "58.22"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.42"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.16"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "56.56"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "58.10"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "56.88"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "58.28"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.18"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.87"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "56.78"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.93"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "58.18"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.93"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "57.59"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.33"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.37"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.41"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.46"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.49"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "66.09"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.56"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.61"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.66"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.70"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.73"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "66.29"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.77"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "59.04"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.79"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "66.33"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.40"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.38"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.40"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "58.65"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "66.18"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "58.66"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "62.44"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.40"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.53"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.49"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.67"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.45"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.66"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.64"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.50"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.78"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.66"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.75"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.66"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.64"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.90"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.58"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.82"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.59"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.55"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.68"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.77"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "41.92"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.49"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.64"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"sys_name": "大数据平台",
+			"value_avg": "42.27"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.25"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.25"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.25"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.86"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.30"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.86"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.25"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.88"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.93"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.90"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.85"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.99"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.97"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.14"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.90"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.26"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.90"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.25"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.43"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "28.10"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "30.02"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "28.92"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "29.51"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"sys_name": "大数据对内应用坏账管理系统",
+			"value_avg": "28.82"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "24.03"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "25.11"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "26.24"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "24.07"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "25.11"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "28.91"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "24.25"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "26.29"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "30.71"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "24.18"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "25.31"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "26.34"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "24.35"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "25.34"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "26.31"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "24.38"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "25.08"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "32.41"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "20.27"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "26.01"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "30.73"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "28.57"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "28.14"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"sys_name": "DMZ区机器",
+			"value_avg": "29.35"
+		}],
+		"lfcpu": [{
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "22.85",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "26.73",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "31.15",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "29.46",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "27.28",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "30.75",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "33.26",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "29.51",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "32.18",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "33.94",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "32.04",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "36.61",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "36.84",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "40.48",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "32.28",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "21.35",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "11.95",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "19.75",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "20.17",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "13.18",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "12.67",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "10.89",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "11.72",
+				"za_system_id": "20"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "联通防诈骗公益服务平台",
+				"value_avg": "16.28",
+				"za_system_id": "20"
+			}],
+			"shujuk": "2",
+			"sys_name": "联通防诈骗公益服务平台",
+			"value_avg": "25.33",
+			"za_system_id": "20"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "21.26",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "23.28",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "23.30",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "23.77",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "23.16",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "24.92",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "25.01",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "24.00",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "22.00",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "22.96",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "25.32",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "24.26",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "23.41",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "24.62",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "23.65",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "26.75",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "32.95",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "29.50",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "26.61",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "24.17",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "21.40",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "24.85",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "21.09",
+				"za_system_id": "19"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "移动用户上网记录集中查询与分析系统",
+				"value_avg": "21.97",
+				"za_system_id": "19"
+			}],
+			"shujuk": "2",
+			"sys_name": "移动用户上网记录集中查询与分析系统",
+			"value_avg": "24.54",
+			"za_system_id": "19"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "14.75",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.99",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "19.96",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "20.34",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.51",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.77",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.02",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "16.75",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "16.67",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "15.53",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "15.89",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "14.91",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "14.56",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "15.88",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "14.06",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "16.26",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.51",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "21.64",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "22.47",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "22.27",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "21.51",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "22.79",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.72",
+				"za_system_id": "22"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "15.64",
+				"za_system_id": "22"
+			}],
+			"shujuk": "2",
+			"sys_name": "大数据平台",
+			"value_avg": "17.96",
+			"za_system_id": "22"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "8.79",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "12.10",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "20.89",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "23.32",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "25.98",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "22.16",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "21.79",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "20.78",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "21.30",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "24.27",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "20.64",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "19.32",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "20.14",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "14.94",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "11.42",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "6.90",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "1.59",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "1.50",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "1.52",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "1.42",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "1.07",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "1.23",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "1.41",
+				"za_system_id": "21"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+				"value_avg": "2.26",
+				"za_system_id": "21"
+			}],
+			"shujuk": "2",
+			"sys_name": "2015-2016年中国联通总部智能语音分析系统应用软件升级改造工程（二期）",
+			"value_avg": "14.44",
+			"za_system_id": "21"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "9.48",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "8.99",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "8.89",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "8.89",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "9.30",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "9.12",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "9.00",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "9.62",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "15.11",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "13.20",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "13.71",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "13.71",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "13.86",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "14.56",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "14.94",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "17.86",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "17.30",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "18.76",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "20.76",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "14.44",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "8.46",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "9.73",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "8.61",
+				"za_system_id": "60"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "IT承载网网管系统",
+				"value_avg": "8.62",
+				"za_system_id": "60"
+			}],
+			"shujuk": "2",
+			"sys_name": "IT承载网网管系统",
+			"value_avg": "12.23",
+			"za_system_id": "60"
+		}],
+		"lfnc": [{
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.50",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.63",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.92",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "57.01",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "57.02",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "57.04",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.82",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "51.67",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.90",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.90",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "69.60",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.90",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.90",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "69.60",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.91",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.91",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "51.28",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.90",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.91",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.91",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "69.61",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.90",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "51.28",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "测试管理平台",
+				"value_avg": "56.90",
+				"za_system_id": "61"
+			}],
+			"shujuk": "1",
+			"sys_name": "测试管理平台",
+			"value_avg": "56.88",
+			"za_system_id": "61"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "36.93",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.85",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "36.57",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.86",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.86",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "51.02",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "51.03",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.86",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.86",
+				"za_system_id": "63"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "集团CMDB平台",
+				"value_avg": "45.86",
+				"za_system_id": "63"
+			}],
+			"shujuk": "1",
+			"sys_name": "集团CMDB平台",
+			"value_avg": "45.85",
+			"za_system_id": "63"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "36.21",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "36.21",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "36.55",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.02",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.02",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.02",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.26",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "27.19",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.44",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.46",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.47",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.47",
+				"za_system_id": "33"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "系统集成公司ITSM系统",
+				"value_avg": "37.47",
+				"za_system_id": "33"
+			}],
+			"shujuk": "1",
+			"sys_name": "系统集成公司ITSM系统",
+			"value_avg": "37.24",
+			"za_system_id": "33"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "65.40",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.79",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "2.18",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "2.18",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "65.41",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "平台监控告警系统",
+				"value_avg": "33.80",
+				"za_system_id": "29"
+			}],
+			"shujuk": "1",
+			"sys_name": "平台监控告警系统",
+			"value_avg": "33.79",
+			"za_system_id": "29"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.80",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.80",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "32.40",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.20",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.81",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.21",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "30.78",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.16",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "29.09",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "29.61",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "27.98",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.82",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.17",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "29.75",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.15",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "28.97",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "29.64",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "28.94",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "31.35",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "27.88",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "29.87",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "35.57",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "32.03",
+				"za_system_id": "37"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "随沃行(移动信息化开放平台)",
+				"value_avg": "30.71",
+				"za_system_id": "37"
+			}],
+			"shujuk": "1",
+			"sys_name": "随沃行(移动信息化开放平台)",
+			"value_avg": "31.22",
+			"za_system_id": "37"
+		}],
+		"yzcp": [{
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.13"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.19"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.06"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.34"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.19"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.06"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.19"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.31"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.36"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.33"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.19"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.25"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.12"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.17"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.11"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "31.88"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.06"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "31.90"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "31.98"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.11"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.13"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.08"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "32.19"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "大数据平台",
+			"value_avg": "31.93"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "16.87"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "18.69"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.50"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "16.87"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "16.97"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.23"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "企业级GIS平台",
+			"value_avg": "17.15"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.54"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.54"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.54"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.54"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "云门户",
+			"value_avg": "19.53"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.94"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.88"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.63"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.12"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.67"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.83"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.70"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.87"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.07"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.12"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.26"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.79"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.77"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.00"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.81"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.27"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.92"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.80"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "58.93"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.05"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.02"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.34"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.39"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "59.31"
+		}, {
+			"clock": "2018-01-30 09:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.06"
+		}, {
+			"clock": "2018-01-30 10:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.95"
+		}, {
+			"clock": "2018-01-30 11:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.12"
+		}, {
+			"clock": "2018-01-30 12:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.67"
+		}, {
+			"clock": "2018-01-30 13:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.78"
+		}, {
+			"clock": "2018-01-30 14:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.89"
+		}, {
+			"clock": "2018-01-30 15:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.76"
+		}, {
+			"clock": "2018-01-30 16:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "75.35"
+		}, {
+			"clock": "2018-01-30 17:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.85"
+		}, {
+			"clock": "2018-01-30 18:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.61"
+		}, {
+			"clock": "2018-01-30 19:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.77"
+		}, {
+			"clock": "2018-01-30 20:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.78"
+		}, {
+			"clock": "2018-01-30 21:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.78"
+		}, {
+			"clock": "2018-01-30 22:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.76"
+		}, {
+			"clock": "2018-01-30 23:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.74"
+		}, {
+			"clock": "2018-01-31 00:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.84"
+		}, {
+			"clock": "2018-01-31 01:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.51"
+		}, {
+			"clock": "2018-01-31 02:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.72"
+		}, {
+			"clock": "2018-01-31 03:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "73.82"
+		}, {
+			"clock": "2018-01-31 04:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.47"
+		}, {
+			"clock": "2018-01-31 05:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.50"
+		}, {
+			"clock": "2018-01-31 06:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.36"
+		}, {
+			"clock": "2018-01-31 07:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.43"
+		}, {
+			"clock": "2018-01-31 08:00:00",
+			"count": 10,
+			"data": [],
+			"sys_name": "统一数据分析",
+			"value_avg": "74.53"
+		}],
+		"yzcpu": [{
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "76.20",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "77.95",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "82.04",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "74.06",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "36.97",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "20.16",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "90.46",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "71.30",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "19.10",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "17.01",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "20.89",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "11.81",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "4.79",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "3.08",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "2.04",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "16.39",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "10.50",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "49.03",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "76.64",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "82.19",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "73.75",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "21.26",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "8.37",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "17.97",
+				"za_system_id": "83"
+			}],
+			"shujuk": "1",
+			"sys_name": "统一数据分析",
+			"value_avg": "39.73",
+			"za_system_id": "83"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.53",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.53",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.12",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "14.30",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.52",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "12.53",
+				"za_system_id": "67"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "联通服务云门户",
+				"value_avg": "0.06",
+				"za_system_id": "67"
+			}],
+			"shujuk": "1",
+			"sys_name": "联通服务云门户",
+			"value_avg": "12.53",
+			"za_system_id": "67"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "22.59",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "24.65",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "9.45",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "13.83",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "8.24",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "8.43",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "13.28",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "18.95",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "12.97",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "14.82",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "12.12",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "8.02",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "5.86",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "6.79",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "5.37",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "6.54",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "10.26",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "12.22",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "9.08",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "6.23",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "10.79",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "10.75",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "13.15",
+				"za_system_id": "82"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "上网记录查询及IP溯源系统",
+				"value_avg": "9.73",
+				"za_system_id": "82"
+			}],
+			"shujuk": "1",
+			"sys_name": "上网记录查询及IP溯源系统",
+			"value_avg": "11.39",
+			"za_system_id": "82"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "14.05",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "8.83",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "11.69",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "11.68",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "14.02",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "11.68",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "11.67",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "14.04",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "14.01",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "14.01",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "2.23",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.37",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.40",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.59",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.41",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.42",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.38",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.40",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.40",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.38",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.37",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.43",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.37",
+				"za_system_id": "61"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "安全服务管理",
+				"value_avg": "0.37",
+				"za_system_id": "61"
+			}],
+			"shujuk": "1",
+			"sys_name": "安全服务管理",
+			"value_avg": "5.98",
+			"za_system_id": "61"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.04",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.05",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.59",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "1.12",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "1.02",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.10",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.48",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.49",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.15",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "4.51",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "2.32",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.07",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.23",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "3.20",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "12.59",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "48.72",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "37.94",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "8.47",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.64",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.06",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.02",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.06",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.11",
+				"za_system_id": "84"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "ODS",
+				"value_avg": "0.02",
+				"za_system_id": "84"
+			}],
+			"shujuk": "1",
+			"sys_name": "ODS",
+			"value_avg": "5.20",
+			"za_system_id": "84"
+		}],
+		"yznc": [{
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.37",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "30.55",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "30.55",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.37",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.37",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.37",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.37",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "30.55",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "30.55",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "28.26",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "30.55",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "26.38",
+				"za_system_id": "65"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "集中账号权限管理与审计系统",
+				"value_avg": "24.83",
+				"za_system_id": "65"
+			}],
+			"shujuk": "1",
+			"sys_name": "集中账号权限管理与审计系统",
+			"value_avg": "26.38",
+			"za_system_id": "65"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.98",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "25.99",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "29.82",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.00",
+				"za_system_id": "86"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "私有云监控平台",
+				"value_avg": "26.01",
+				"za_system_id": "86"
+			}],
+			"shujuk": "1",
+			"sys_name": "私有云监控平台",
+			"value_avg": "26.00",
+			"za_system_id": "86"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "19.35",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.97",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.12",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.99",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.58",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.52",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.72",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.89",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.77",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.15",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.19",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.57",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.39",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.65",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.42",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "17.74",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.23",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.43",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.08",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.21",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.56",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.33",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.89",
+				"za_system_id": "64"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "大数据平台",
+				"value_avg": "18.53",
+				"za_system_id": "64"
+			}],
+			"shujuk": "1",
+			"sys_name": "大数据平台",
+			"value_avg": "18.11",
+			"za_system_id": "64"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "35.57",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "32.58",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "32.80",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "28.74",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "13.68",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "13.43",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "41.87",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "30.57",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "10.92",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "10.24",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "10.48",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "8.74",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "8.01",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "7.58",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "7.62",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "8.51",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "8.63",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "18.61",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "25.82",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "25.63",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "20.89",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "11.96",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "9.78",
+				"za_system_id": "83"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "统一数据分析",
+				"value_avg": "11.44",
+				"za_system_id": "83"
+			}],
+			"shujuk": "1",
+			"sys_name": "统一数据分析",
+			"value_avg": "17.97",
+			"za_system_id": "83"
+		}, {
+			"count": 10,
+			"data": [{
+				"clock": "2018-01-30 09:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.12",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 10:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.74",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 11:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.40",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 12:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.49",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 13:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.98",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 14:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.01",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 15:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.07",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 16:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.93",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 17:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.01",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 18:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.95",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 19:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.04",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 20:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.96",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 21:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.76",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 22:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.01",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-30 23:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.91",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 00:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.12",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 01:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.89",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 02:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.42",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 03:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.07",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 04:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.96",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 05:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.96",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 06:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "15.80",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 07:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.00",
+				"za_system_id": "59"
+			}, {
+				"clock": "2018-01-31 08:00:00",
+				"count": 10,
+				"sys_name": "OSS2.0",
+				"value_avg": "16.06",
+				"za_system_id": "59"
+			}],
+			"shujuk": "1",
+			"sys_name": "OSS2.0",
+			"value_avg": "15.93",
+			"za_system_id": "59"
+		}]
+	},
+	"info": "查询成功!"
+}
