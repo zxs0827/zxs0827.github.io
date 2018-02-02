@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CPU / 磁盘 / 内存</title>
+</head>
+
+<body>
+	
+
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/echarts.min.js"></script>
+	<script type="text/javascript">
+
+		function Echarts(obj){
+			this.url = obj.url;
+
+		}
+
+		Echarts.prototype.getTop5Data = function(){
+			var self = this;
+			$.ajax({
+				url: this.url,
+				type: 'GET',
+				dataType: 'json',
+			})
+			.done(function(datajson) {
+
+				var nameArray = [];
+				/*$.each(datajson.data, function(index, val) {
+					var time = 0; // 这里定义 time 是因为存在数据不都是24个的原因，就目前的数据来说，会出现23个的数据
+					var name_array = [];
+					for (var i = 0; i < val.length ;i ++){
+						var obj = {};
+
+						if (val[i].sys_name == (val[i+1] || val[length]).sys_name) {
+							time++;
+						} else {
+							time = 0;
+							name_array.push(val[i].sys_name);
+
+							obj = {
+								"title_name" : index,
+								"list_name" : name_array
+							}
+						}
+					}
+
+					nameArray.push(obj);
+				});*/
+
+				$.each(datajson.data, function(index, val) {
+					var time = 0; // 这里定义 time 是因为存在数据不都是24个的原因，就目前的数据来说，会出现23个的数据
+					var name_array = [];
+					for (var i = 0; i < val.length ;i ++){
+						// var obj = {};
+
+						if (val[i].sys_name == (val[i+1] || val[length]).sys_name) {
+							time++;
+						} else {
+							time = 0;
+							name_array.push(val[i].sys_name);
+
+							var obj = index;
+
+							obj = {
+								"title_name" : index,
+								"list_name" : name_array
+							}
+						}
+					}
+
+					nameArray.push(obj);
+				});
+
+				console.log(nameArray);
+
+				$.each(nameArray, function(index, val) {
+					console.log(val.title_name);
+				});
+
+			})
+			.fail(function() {
+				console.log("error");
+			})
+			.always(function() {
+				console.log("complete");
+			});
+		}
+
+		var cpu_obj = {
+			url : 'https://zxs0827.github.io/screen-show/json/cpunccp.json'
+		}
+
+		Echarts.prototype.init = function (){
+			this.getTop5Data();
+		}
+
+		var echarts_cpu = new Echarts(cpu_obj);
+
+		echarts_cpu.init();
+		// echarts_cpu.getTop5();
+
+	</script>
+</body>
+
+</html>

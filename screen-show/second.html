@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <!-- 联通监控系统大屏展示 顶部图片 -->
+    <!-- 联通监控系统大屏展示 顶部图片 --> 
     <div id="title"></div>
     <div class="ma">
         <!-- 联通监控系统大屏展示 左一 -->
@@ -177,10 +177,38 @@
             };
             secondsdzst_echarts.setOption(option);
 
+
+            var color_array = ['rgb(192, 194, 48)','rgb(83, 206, 237)','rgb(45, 109, 232)','rgb(235, 126, 67)','rgb(255, 100, 218)']
+
             setInterval(function() {
                 secondsdzst_echarts.clear();
                 secondsdzst_echarts.setOption(option);
-            }, 20000);
+                
+                secondsdzst_echarts.setOption({
+                    color: 'red',
+                    series: [{
+                        itemStyle: {
+                            normal: {
+                                color: 'rgba(192, 194, 48, 0.5)',
+                                shadowBlur: 10,
+                                shadowColor: 'rgba(192, 194, 48, 0.5)'
+                            }
+                        },
+                        areaStyle: {
+                            normal: {
+                                color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                                    offset: 0,
+                                    color: 'rgba(192, 194, 48, 0.5)'
+                                }, {
+                                    offset: 1,
+                                    color: 'rgba(0, 0, 0, 0.1)'
+                                }])
+                            }
+                        }
+                    }]
+                });
+
+            }, 1000);
         }
         $.ajax({
                 url: 'https://zxs0827.github.io/web-back/JSON/alertcount.json',
