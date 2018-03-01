@@ -1,0 +1,110 @@
+{
+    "code": 0,
+    "count": 10,
+    "data": [
+    {
+        "count": 10,
+        "gJneirong": "/ 目录使用率超过95%",
+        "gJtime": "2018-03-01 00:35:29",
+        "hostname": "ResourcePool-0502",
+        "sysname": "大数据平台",
+        "timeDifference": "901"
+    },
+    {
+        "count": 10,
+        "gJneirong": "/ 目录使用率超过95%",
+        "gJtime": "2018-03-01 00:55:30",
+        "hostname": "ResourcePool-0502",
+        "sysname": "大数据平台",
+        "timeDifference": "899"
+    },
+    {
+        "count": 10,
+        "gJneirong": "ssh连通性异常",
+        "gJtime": "2018-03-01 00:12:53",
+        "hostname": "OSS-CJZL-38",
+        "sysname": "OSS2.0",
+        "timeDifference": "15346"
+    },
+    {
+        "count": 10,
+        "gJneirong": "主机失联",
+        "gJtime": "2018-03-01 00:03:25",
+        "hostname": "OSS-CJZL-38",
+        "sysname": "OSS2.0",
+        "timeDifference": "301"
+    },
+    {
+        "count": 10,
+        "gJneirong": "主机失联",
+        "gJtime": "2018-03-01 00:13:25",
+        "hostname": "OSS-CJZL-38",
+        "sysname": "OSS2.0",
+        "timeDifference": "960"
+    },
+    {
+        "count": 10,
+        "gJneirong": "主机失联",
+        "gJtime": "2018-03-01 00:35:25",
+        "hostname": "OSS-CJZL-38",
+        "sysname": "OSS2.0",
+        "timeDifference": "1740"
+    },
+    {
+        "count": 10,
+        "gJneirong": "主机失联",
+        "gJtime": "2018-03-01 00:56:27",
+        "hostname": "DSJ-XL12",
+        "sysname": "大数据平台",
+        "timeDifference": "120"
+    },
+    {
+        "count": 10,
+        "gJneirong": "Zabbix agent on {HOST.NAME} is unreachable for 5 minutes",
+        "gJtime": "2018-03-01 00:04:30",
+        "hostname": "OSS-WOGZ-12",
+        "sysname": "OSS2.0",
+        "timeDifference": "-247"
+    },
+    {
+        "count": 10,
+        "gJneirong": "Zabbix agent on {HOST.NAME} is unreachable for 5 minutes",
+        "gJtime": "2018-03-01 00:04:30",
+        "hostname": "OSS-WOGZ-30",
+        "sysname": "OSS2.0",
+        "timeDifference": "-241"
+    },
+    {
+        "count": 10,
+        "gJneirong": "无法访问Zabbix代理服务器已超过5分钟",
+        "gJtime": "2018-03-01 00:04:30",
+        "hostname": "WOMOA-lf-yh19",
+        "sysname": "随沃行(移动信息化开放平台)",
+        "timeDifference": "-247"
+    },
+    {
+        "count": 10,
+        "gJneirong": "无法访问Zabbix代理服务器已超过5分钟",
+        "gJtime": "2018-03-01 00:04:30",
+        "hostname": "WOMOA-lf-yh20",
+        "sysname": "随沃行(移动信息化开放平台)",
+        "timeDifference": "-246"
+    },
+    {
+        "count": 10,
+        "gJneirong": "无法访问Zabbix代理服务器已超过5分钟",
+        "gJtime": "2018-03-01 00:04:30",
+        "hostname": "WOMOA-lf-yh25",
+        "sysname": "随沃行(移动信息化开放平台)",
+        "timeDifference": "-241"
+    },
+    {
+        "count": 10,
+        "gJneirong": "无法访问Zabbix代理服务器已超过5分钟",
+        "gJtime": "2018-03-01 00:04:30",
+        "hostname": "DSJ-NLKF-win02",
+        "sysname": "大数据平台",
+        "timeDifference": "-247"
+    }],
+    "info": "查询成功!"
+}
