@@ -45,6 +45,9 @@
 		
 		* [shebeidata.json](https://zxs0827.github.io/web-back/JSON/shebeidata.json)
 		* [getyzlf.json](https://zxs0827.github.io/web-back/JSON/getyzlf.json)
+
+		* [getGJCount.json](https://zxs0827.github.io/web-back/JSON/getGJCount.json)
+
 		
 
 		
