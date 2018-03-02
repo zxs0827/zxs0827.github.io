@@ -51,7 +51,10 @@
 		* [getGJCount.json](https://zxs0827.github.io/web-back/JSON/getGJCount.json)
 		* [getGJlist.json](https://zxs0827.github.io/web-back/JSON/getGJlist.json)
 
-		getGJlist.json
+		* [2.json](https://zxs0827.github.io/web-back/JSON/2.json)
+		* [3.json](https://zxs0827.github.io/web-back/JSON/3.json)
+
+
 
 		
 
