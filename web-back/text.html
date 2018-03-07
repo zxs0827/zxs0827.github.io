@@ -31,6 +31,29 @@
             <th data-field="price" data-sortable="true">Item Price</th>
         </tr>
         </thead>
+
+        <div style="height: 200px;background-color: red;"></div>
+
+        <table id="table2"
+           data-toggle="table"
+           data-height="460"
+           data-url="https://zxs0827.github.io/web-back/JSON/six.json"
+           data-pagination="true"
+           data-page-size="5"
+           data-page-list="[5,8,10]"
+           data-pagination-first-text="First"
+           data-pagination-pre-text="Previous"
+           data-pagination-next-text="Next"
+           data-sort-name="name"
+           data-sort-order="desc"
+           data-pagination-last-text="Last">
+        <thead>
+        <tr>
+            <th data-field="id" data-sortable="true">Item ID</th>
+            <th data-field="name" data-sortable="true">Item Name</th>
+            <th data-field="price" data-sortable="true">Item Price</th>
+        </tr>
+        </thead>
 </table>
 
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
