@@ -1,0 +1,366 @@
+{
+    "code": 0,
+    "count": 10,
+    "data": [
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "4462",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-12 09:25:22.0",
+        "hostname": "PhoneShop-06",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "4548",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-12 09:23:56.0",
+        "hostname": "PhoneShop-05",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "5018",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-12 09:16:06.0",
+        "hostname": "PhoneShop-10",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "37951",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-12 00:07:13.0",
+        "hostname": "PhoneShop-01",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/data/hdfsdsk05 分区读写状态异常",
+        "alarm_time_length": "184455",
+        "count": 10,
+        "engine_room": "亦庄4M1-A",
+        "event_time": "2018-03-10 07:25:29.0",
+        "hostname": "hadoop090",
+        "priority": "3",
+        "sys_name": "统一数据分析"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "244398",
+        "count": 10,
+        "engine_room": "亦庄402机房",
+        "event_time": "2018-03-09 14:46:26.0",
+        "hostname": "OSS-22",
+        "priority": "2",
+        "sys_name": "OSS2.0"
+    },
+    {
+        "alarm_content": "/mnt/sd05 分区读写状态异常",
+        "alarm_time_length": "285035",
+        "count": 10,
+        "engine_room": "亦庄301机房",
+        "event_time": "2018-03-09 03:29:09.0",
+        "hostname": "iptrace0606",
+        "priority": "3",
+        "sys_name": "上网记录查询及IP溯源系统"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "406291",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-07 17:48:13.0",
+        "hostname": "PhoneShop-01",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "448075",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-07 06:11:49.0",
+        "hostname": "PhoneShop-07",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "449489",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-07 05:48:15.0",
+        "hostname": "PhoneShop-08",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "478933",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-06 21:37:31.0",
+        "hostname": "PhoneShop-04",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "479019",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-06 21:36:05.0",
+        "hostname": "PhoneShop-03",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "479103",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-06 21:34:41.0",
+        "hostname": "PhoneShop-09",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "479105",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-06 21:34:39.0",
+        "hostname": "PhoneShop-02",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717706",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:17:58.0",
+        "hostname": "PhoneShop-05",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717721",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:17:43.0",
+        "hostname": "PhoneShop-08",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717738",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:17:26.0",
+        "hostname": "PhoneShop-06",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717807",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:16:17.0",
+        "hostname": "PhoneShop-04",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717810",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:16:14.0",
+        "hostname": "PhoneShop-07",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717842",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:15:42.0",
+        "hostname": "PhoneShop-03",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717902",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:14:42.0",
+        "hostname": "PhoneShop-09",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "717946",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-04 03:13:58.0",
+        "hostname": "PhoneShop-02",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 分区inodes使用率100%",
+        "alarm_time_length": "745821",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-03-03 19:29:23.0",
+        "hostname": "PhoneShop-10",
+        "priority": "2",
+        "sys_name": "联通商城"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "1118720",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-02-27 11:54:24.0",
+        "hostname": "OSS-148",
+        "priority": "2",
+        "sys_name": "OSS2.0"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "2918756",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-02-06 15:53:48.0",
+        "hostname": "YWXQGL-30",
+        "priority": "2",
+        "sys_name": "业务运营与需求管理平台"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "2985276",
+        "count": 10,
+        "engine_room": "亦庄402机房",
+        "event_time": "2018-02-05 21:25:08.0",
+        "hostname": "DSJ-4G-26",
+        "priority": "2",
+        "sys_name": "大数据平台"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "3212502",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-02-03 06:18:02.0",
+        "hostname": "YWXQGL-19",
+        "priority": "2",
+        "sys_name": "业务运营与需求管理平台"
+    },
+    {
+        "alarm_content": "Free disk space is less than 20% on volume C:",
+        "alarm_time_length": "3354496",
+        "count": 10,
+        "engine_room": "亦庄402机房",
+        "event_time": "2018-02-01 14:51:28.0",
+        "hostname": "WOMOA-22",
+        "priority": "2",
+        "sys_name": "随沃行(移动信息化开放平台)"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "4502566",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-01-19 07:56:58.0",
+        "hostname": "YWXQGL-39",
+        "priority": "2",
+        "sys_name": "业务运营与需求管理平台"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "5047347",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2018-01-13 00:37:17.0",
+        "hostname": "OSS-131",
+        "priority": "2",
+        "sys_name": "OSS2.0"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "6510198",
+        "count": 10,
+        "engine_room": "亦庄301机房",
+        "event_time": "2017-12-27 02:16:26.0",
+        "hostname": "OSS-zjk-03",
+        "priority": "2",
+        "sys_name": "OSS2.0"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "7602348",
+        "count": 10,
+        "engine_room": "亦庄302机房",
+        "event_time": "2017-12-14 10:53:56.0",
+        "hostname": "ZhiNengYuYin-02",
+        "priority": "2",
+        "sys_name": "大数据平台"
+    },
+    {
+        "alarm_content": "Free disk space is less than 20% on volume C:",
+        "alarm_time_length": "8055566",
+        "count": 10,
+        "engine_room": "亦庄402机房",
+        "event_time": "2017-12-09 05:00:18.0",
+        "hostname": "WOMOA-23",
+        "priority": "2",
+        "sys_name": "随沃行(移动信息化开放平台)"
+    },
+    {
+        "alarm_content": "/ 目录使用率超过95%",
+        "alarm_time_length": "8624779",
+        "count": 10,
+        "engine_room": "亦庄402机房",
+        "event_time": "2017-12-02 14:53:25.0",
+        "hostname": "OSS-252",
+        "priority": "2",
+        "sys_name": "OSS2.0"
+    },
+    {
+        "alarm_content": "Free disk space is less than 20% on volume E:",
+        "alarm_time_length": "9575765",
+        "count": 10,
+        "engine_room": "亦庄402机房",
+        "event_time": "2017-11-21 14:43:39.0",
+        "hostname": "WOMOA-22",
+        "priority": "2",
+        "sys_name": "随沃行(移动信息化开放平台)"
+    },
+    {
+        "alarm_content": "Free disk space is less than 20% on volume C:",
+        "alarm_time_length": "9653064",
+        "count": 10,
+        "engine_room": "亦庄402机房",
+        "event_time": "2017-11-20 17:15:20.0",
+        "hostname": "MIP-YZ02",
+        "priority": "2",
+        "sys_name": "大ERP统一工作平台"
+    }],
+    "info": "查询成功!"
+}
