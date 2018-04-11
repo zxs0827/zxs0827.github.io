@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="联通资源池监控平台首页- 2.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bigdata.css">
+    <title>大屏展示 2.0</title>
+</head>
+
+<body>
+    <!-- 各级别告警数量统计 -->
+    <div id="a_yz_sltj">
+        <h2 class="h2">各级别告警数量统计</h2>
+        <h2 class="_h2">总告警次数</h2>
+        <div class="a_main">
+            <b class="a_bigfont">0</b>
+            <i class="a_unit">个</i>
+        </div>
+        <div class="a_infor">
+            <div id="a_jinji">
+                <h3>紧急</h3>
+                <b class="a_smallfont _urgent">0</b>
+                <i>个</i>
+            </div>
+            <div id="a_zhongyao">
+                <h3>严重</h3>
+                <b class="a_smallfont _important">0</b>
+                <i>个</i>
+            </div>
+            <div id="a_yiban">
+                <h3>一般</h3>
+                <b class="a_smallfont _normal">0</b>
+                <i>个</i>
+            </div>
+        </div>
+    </div>
+    <!-- 告警总数走势折线图 -->
+    <div id="gjzszs">
+        <h2 class="h2">24小时内告警总数走势图</h2>
+        <div id="gjzszs-echarts"></div>
+    </div>
+    <!-- 告警对象/主机TOP5 -->
+    <div id="gjdxzjtop5">
+        <h2 class="h2">告警对象/主机TOP5</h2>
+        <div id="gjdxzjtop5-list">
+            <span class="active">主机</span>
+            <span>对象</span>
+        </div>
+        <div id="gjdxzjtop5-items">
+            <ul>
+                <li class="gjdxzjtop5-li-1">
+                    <i class="gjdxzjtop5-index">1</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-2">
+                    <i class="gjdxzjtop5-index">2</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-3">
+                    <i class="gjdxzjtop5-index">3</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-4">
+                    <i class="gjdxzjtop5-index">4</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-5">
+                    <i class="gjdxzjtop5-index">5</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+            </ul>
+        </div>
+        <div id="gjdxzjtop5-items-obj">
+            <ul>
+                <li class="gjdxzjtop5-li-1">
+                    <i class="gjdxzjtop5-index">1</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-2">
+                    <i class="gjdxzjtop5-index">2</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-3">
+                    <i class="gjdxzjtop5-index">3</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-4">
+                    <i class="gjdxzjtop5-index">4</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+                <li class="gjdxzjtop5-li-5">
+                    <i class="gjdxzjtop5-index">5</i>
+                    <span class="gjdxzjtop5-name">...</span>
+                    <span class="gjdxzjtop5-bar">
+                    <i></i>
+                </span>
+                    <span class="gjdxzjtop5-persent">0</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 各级别告警分布图 -->
+    <div id="gjbgjfbt">
+        <h2 class="h2">各级别告警分布图</h2>
+        <div id="gjbgjfbt-navigation">
+            <ul id="li">
+                <li class="active">全部
+                    <input type="hidden" id="pri" name="pri">
+                </li>
+                <li>紧急</li>
+                <li>严重</li>
+                <li>一般</li>
+            </ul>
+        </div>
+        <div id="gjbgjfbt-data"></div>
+    </div>
+    <!-- 当日告警列表 -->
+    <div id="drgjlb">
+        <h2 class="h2">近期告警列表</h2>
+        <div id="drgjlb-navigation">
+            <ul>
+                <li id="drgjlb-qb">全部(<span>0</span>)</li>
+                <li id="drgjlb-wcl">未受理(<span>0</span>)</li>
+                <li id="drgjlb-ycl">已受理(<span>0</span>)</li>
+            </ul>
+        </div>
+        <div id="drgjlb-box" class="swiper-container">
+            <ul id="drgjlb-ul" class="swiper-wrapper"></ul>
+        </div>
+    </div>
+    <!-- 当前未确认告警 -->
+    <div id="dqwqrgj">
+        <h2 class="h2">当前未受理告警</h2>
+        <div style="position: absolute;right: 48px;top: 24px;">
+            <ul class="pagination"></ul>
+        </div>
+        <table id="sys_list_one_yz">
+            <thead>
+                <tr>
+                    <th>系统名称</th>
+                    <th>主机IP</th>
+                    <th>负责人</th>
+                    <th>告警描述</th>
+                    <th>发生时间</th>
+                    <th>告警时长</th>
+                    <th>地区</th>
+                </tr>
+            </thead>
+            <tbody class="list">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!-- 资源统计 -->
+    <div id="zytongji" class="zytongji">
+        <h2 class="h2">资源统计</h2>
+        <div id="zytongji-qb-name">全部</div>
+        <div id="zytongji-qb">
+            <div class="zytongji-qb-item" id="zytongji-sbsyl">
+                <i class="zytongji-qb-img"></i>
+                <div class="zytongji-box">
+                    <span>设备使用率</span>
+                    <u>0%</u>
+                </div>
+            </div>
+            <div class="zytongji-qb-item" id="zytongji-cpusyl">
+                <i class="zytongji-qb-img"></i>
+                <div class="zytongji-box">
+                    <span>CPU使用率</span>
+                    <u>0%</u>
+                </div>
+            </div>
+            <div class="zytongji-qb-item" id="zytongji-ncsyl">
+                <i class="zytongji-qb-img"></i>
+                <div class="zytongji-box">
+                    <span>内存使用率</span>
+                    <u>0%</u>
+                </div>
+            </div>
+            <div class="zytongji-qb-item" id="zytongji-cpsyl">
+                <i class="zytongji-qb-img"></i>
+                <div class="zytongji-box">
+                    <span>磁盘使用率</span>
+                    <u>0%</u>
+                </div>
+            </div>
+        </div>
+        <div id="zytongji-main">
+            <div id="zytongji-left-btn" class="change_page"></div>
+            <div id="zytongji-yz" class="zytongji-div" style="z-index: 99;">
+                <h5 class="zytongji-h5">亦庄数据中心</h5>
+                <div class="zytongji-data1">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">设备使用率</div>
+                    <div class="zytongji-percent color1"><span>0</span>%</div>
+                </div>
+                <div class="zytongji-data2">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">CPU使用率</div>
+                    <div class="zytongji-percent color2"><span>0</span>%</div>
+                </div>
+                <div class="zytongji-data3">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">内存使用率</div>
+                    <div class="zytongji-percent color3"><span>0</span>%</div>
+                </div>
+                <div class="zytongji-data4">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">磁盘使用率</div>
+                    <div class="zytongji-percent color4"><span>0</span>%</div>
+                </div>
+            </div>
+            <div id="zytongji-lf" class="zytongji-div" style="z-index: 1;">
+                <h5 class="zytongji-h5">廊坊数据中心</h5>
+                <div class="zytongji-data1">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">设备使用率</div>
+                    <div class="zytongji-percent color1"><span>0</span>%</div>
+                </div>
+                <div class="zytongji-data2">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">CPU使用率</div>
+                    <div class="zytongji-percent color2"><span>0</span>%</div>
+                </div>
+                <div class="zytongji-data3">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">内存使用率</div>
+                    <div class="zytongji-percent color3"><span>0</span>%</div>
+                </div>
+                <div class="zytongji-data4">
+                    <div class="zytongji-bar">
+                        <div class="bar-color"></div>
+                        <div class="bar-img"></div>
+                    </div>
+                    <div class="zytongji-name">磁盘使用率</div>
+                    <div class="zytongji-percent color4"><span>0</span>%</div>
+                </div>
+            </div>
+            <div id="zytongji-right-btn" class="change_page"></div>
+        </div>
+    </div>
+    <!-- CPU/内存/磁盘使用系统Top5 -->
+    <div id="cpu">
+        <h2 class="h2">CPU/内存/磁盘使用系统Top5</h2>
+        <div class="_absolute1">
+            <div class="_absolute2">
+                <div id="cp-lf" class="anim-change"></div>
+                <div id="cpu-lf" class="anim-change"></div>
+                <div id="nc-lf" class="anim-change"></div>
+                <div id="cp-yz" class="anim-change"></div>
+                <div id="cpu-yz" class="anim-change"></div>
+                <div id="nc-yz" class="anim-change"></div>
+            </div>
+            <div id="sys"></div>
+        </div>
+    </div>
+    <!-- cpu/内存折线图 -->
+    <div id="cpu-left">
+        <div id="cpu-echars"></div>
+    </div>
+    <!-- 各机房资源系统分布图 -->
+    <div id="gjfzytjfbt">
+        <h2 class="h2">各机房资源系统分布图</h2>
+        <div id="jfName">云平台数据</div>
+        <div id="gjfzytjfbt-eachtrs-box">
+            <h2 class="jfcpuzsxtfbbt_name">CPU总数<br> <i id="jfcpuzsxtfbbt_num">0</i></h2>
+            <div id="jfcpuzsxtfbbt-echarts" style="opacity: 1"></div>
+        </div>
+    </div>
+    <!-- 主机状态 -->
+    <div id="zjzt">
+        <h2 class="h2">主机状态</h2>
+        <div class="_yx-status">
+            <h3 id="yz-t">亦庄</h3>
+            <a class="click_pop_zxy yz-zx _status-item green">
+                <p class="font14">在线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </a>
+            <a class="click_pop_lxy yz-lx _status-item red">
+                <p class="font14">离线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </a>
+            <a class="click_pop_why yz-whz _status-item gray">
+                <p class="font14">维护中</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </a>
+        </div>
+        <div class="_lf-status">
+            <h3 id="lf-t1">廊坊</h3>
+            <a class="click_pop_zxl lf-zx _status-item green">
+                <p class="font14">在线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </a>
+            <a class="click_pop_lxl lf-lx _status-item red">
+                <p class="font14">离线</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </a>
+            <a class="click_pop_whl lf-whz _status-item gray">
+                <p class="font14">维护中</p>
+                <div class="_b1-line">
+                    <div class="_b-solid"></div>
+                </div>
+                <div class="status-num"></div>
+            </a>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/list.js"></script>
+    <script type="text/javascript" src="js/bigdata.js"></script>
+</body>
+
+</html>
