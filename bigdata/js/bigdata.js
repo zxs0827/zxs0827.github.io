@@ -904,7 +904,7 @@ function jfcpuzsxtfbbtInit(host) {
 //----------------------------------------------------------------------------------
 function zjztInit() {
     $.ajax({
-        type: "post",
+        type: "GET",
         url: "json/getHost.json",
         dataType: "json",
         success: function(datajson){
