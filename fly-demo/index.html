@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css" media="screen">
+    .CustomCards__DemonWrapper {
+        position: absolute;
+        transform: scale(.7);
+        /*left: -69px;*/
+        /*bottom: -110px;*/
+    }
+
+    .CustomCards__DemonWrapper .Demon {
+        position: relative;
+        z-index: 2
+    }
+
+    .CustomCards__DemonWrapper .DemonWing {
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+
+    .CustomCards__DemonWrapper .DemonWing-Left {
+        left: -50px;
+        top: 0;
+        transform-origin: right bottom;
+        animation: Wingleft 0.5s alternate infinite
+    }
+
+    .CustomCards__DemonWrapper .DemonWing-Right {
+        left: 220px;
+        top: 30px;
+        transform-origin: left bottom;
+        animation: Wingright 0.5s alternate infinite
+    }
+
+    .CustomCards__DemonWrapper .DemonTail {
+        position: absolute;
+        top: 150px;
+        left: 0;
+        transform-origin: right center;
+        animation: tail 2s alternate infinite
+    }
+
+    @keyframes Wingleft {
+        0% {
+            transform: matrix3d(.999024, -.0441705, 0, 0, .0441705, .999024, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+        }
+
+        100% {
+            transform: matrix3d(.999194, .0401455, 0, 0, -.0401455, .999194, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+        }
+    }
+
+    @keyframes Wingright {
+        0% {
+            transform: matrix3d(.999024, .0441705, 0, 0, -.0441705, .999024, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+        }
+
+        100% {
+            transform: matrix3d(.999194, -.0401455, 0, 0, .0401455, .999194, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+        }
+    }
+
+    @keyframes tail {
+        0% {
+            transform: matrix3d(.990943, .134283, 0, 0, -.134283, .990943, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+        }
+
+        100% {
+            transform: matrix3d(.996596, -.0824464, 0, 0, .0824464, .996596, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+        }
+    }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <div class="CustomCards__DemonWrapper">
+        <div class="Eyes" style="opacity: 0;"></div>
+        <img class="Demon" src="body.png" alt="Flying Demon">
+        <img class="DemonWing DemonWing-Left" src="leftWing.png" alt="Flying Demon">
+        <img class="DemonWing DemonWing-Right" src="rightWing.png" alt="Flying Demon">
+        <img class="DemonTail" src="tail.png" alt="Flying Demon">
+    </div>
+</body>
+
+</html>
